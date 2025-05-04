@@ -55,26 +55,19 @@ public class FixMessageParserTest {
         assertNull(map.get(8)); // No fields
     }
 
-    @Test
+    @Test(expected = NumberFormatException.class)
     public void testMalformedTagsShouldThrowExceptionIfTagIsMissing() {
         byte[] fixMsg = toFixBytes("=BAD|35=D|XYZ=123");
+        FixMessageParser.FixMap map = FixMessageParser.parseMessage(fixMsg);
         
-        try{
-        	FixMessageParser.FixMap map = FixMessageParser.parseMessage(fixMsg);
-        } catch (Exception e) {
-            assertTrue(e.getClass() == NumberFormatException.class);
-        }
    }
 
-    @Test
+    @Test(expected = NumberFormatException.class)
     public void testMalformedTagsShouldThrowExceptionIfTagIsNonNumeric() {
         byte[] fixMsg = toFixBytes("AV=BAD|35=D|XYZ=123");
-        
-        try{
-        	FixMessageParser.FixMap map = FixMessageParser.parseMessage(fixMsg);
-        } catch (Exception e) {
-            assertTrue(e.getClass() == NumberFormatException.class);
-        }
+
+        FixMessageParser.FixMap map = FixMessageParser.parseMessage(fixMsg);
+
    }
     @Test
     public void testFixMapShouldReturnCorrectStringValue() {
