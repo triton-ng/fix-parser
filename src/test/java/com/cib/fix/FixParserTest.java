@@ -11,9 +11,6 @@ import org.junit.Test;
  */
 public class FixParserTest {
 
-    /**
-     * Rigorous Test :-)
-     */
     @Test
     public void shouldAnswerWithTrue() {
         assertTrue(true);
