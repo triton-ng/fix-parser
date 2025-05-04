@@ -56,7 +56,7 @@ public class FixMessageParserTest {
     }
 
     @Test
-    public void testMalformedTagsShowThrowExceptionIfTagIsMissing() {
+    public void testMalformedTagsShouldThrowExceptionIfTagIsMissing() {
         byte[] fixMsg = toFixBytes("=BAD|35=D|XYZ=123");
         
         try{
@@ -67,7 +67,7 @@ public class FixMessageParserTest {
    }
 
     @Test
-    public void testMalformedTagsShowThrowExceptionIfTagIsNonNumeric() {
+    public void testMalformedTagsShouldThrowExceptionIfTagIsNonNumeric() {
         byte[] fixMsg = toFixBytes("AV=BAD|35=D|XYZ=123");
         
         try{

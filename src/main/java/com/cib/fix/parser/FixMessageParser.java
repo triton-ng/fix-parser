@@ -10,16 +10,15 @@ public final class FixMessageParser {
 
 	// static method guarantee thread safety by
 	/*
-	 * 1. No shared mutable state: All variables are stack-allocated 2. No
-	 * instance fields: Nothing persists between method calls 3. Input message
-	 * array isn't modified during parsing
+	 * 1. No shared mutable state: All variables are stack-allocated 
+	 * 2. No instance fields: Nothing persists between method calls 
+	 * 3. Input message array isn't modified during parsing
 	 */
 	public static void parse(byte[] message, FieldHandler handler) {
 		int fieldStart = 0;
 		int currentTag = 0;
 		boolean parsingTag = true;
-		// Iterate through the message instead of using String.split to avoid
-		// string object creation
+		// Iterate through the message instead of using String.split to avoid string object creation
 		for (int i = 0; i < message.length; i++) {
 			byte b = message[i];
 
@@ -41,7 +40,7 @@ public final class FixMessageParser {
 		}
 	}
 
-	// Customer Integer Parser to avoid creation of Integer Object
+	// Custom Integer Parser to avoid creation of Integer Object
 	private static int parseIntTag(byte[] bytes, int start, int end) {
 		int result = 0;
 		for (int i = start; i < end; i++) {
