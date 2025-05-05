@@ -3,9 +3,11 @@ package com.cib.fix.benchmarks;
 import org.openjdk.jmh.annotations.*;
 import org.openjdk.jmh.infra.Blackhole;
 
+import com.cib.fix.parser.FixMessageBenchMarkParser;
 import com.cib.fix.parser.FixMessageParser;
 
 import java.io.IOException;
+import java.util.Map;
 import java.util.concurrent.TimeUnit;
 
 @State(Scope.Thread)
@@ -22,6 +24,7 @@ public class FixParserBenchMark {
         byte[] largeFixMsg;    // 50 fields
         byte[] hugeFixMsg;     // 200 fields
 
+        String mediumFixMsgStr; 
         @Setup
         public void setup() {
             // Small message (typical order)
@@ -32,6 +35,9 @@ public class FixParserBenchMark {
                           "56=SELLSIDE\u000152=20200101-10:00:00\u000155=IBM\u0001" +
                           "54=1\u000138=1000\u000140=2\u000144=150.25\u000159=0\u000110=222\u0001").getBytes();
 
+            mediumFixMsgStr = "8=FIX.4.4|9=122|35=X|34=8|49=BUYSIDE|" +
+                    "56=SELLSIDE|52=20200101-10:00:00|55=IBM|" +
+                    "54=1|38=1000|40=2|44=150.25|59=0|10=222|";
             // Large message (complex order)
             StringBuilder large = new StringBuilder();
             for (int i = 1; i <= 50; i++) {
@@ -69,7 +75,7 @@ public class FixParserBenchMark {
             bh.consume(end);
         });
     }
-
+    
     @Benchmark
     public void parseLargeMessage(BenchmarkState state, Blackhole bh) {
     	FixMessageParser.parse(state.largeFixMsg, (tag, msg, start, end) -> {
@@ -79,7 +85,7 @@ public class FixParserBenchMark {
             bh.consume(end);
         });
     }
-
+    
     // Memory Allocation Tests
     @Benchmark
     @Measurement(iterations = 10, time = 1)
@@ -91,6 +97,25 @@ public class FixParserBenchMark {
         });
     }
 
+    @Benchmark
+    @Measurement(iterations = 10, time = 1)
+    @Fork(value = 1, jvmArgs = {"-Xmx256m", "-XX:+PrintGCDetails"})
+    public void allocationTestMediumMessage(BenchmarkState state) {
+    	FixMessageParser.parse(state.mediumFixMsg, (tag, msg, start, end) -> {
+            // Intentional allocation
+            String value = new String(msg, start, end - start);
+        });
+    }
+    
+    // Memory Allocation Tests
+    @Benchmark
+    @Measurement(iterations = 10, time = 1)
+    @Fork(value = 1, jvmArgs = {"-Xmx256m", "-XX:+PrintGCDetails"})
+    public void benchMarkParserAllocationTestMediumMessage(BenchmarkState state) {
+    	FixMessageBenchMarkParser.parse(state.mediumFixMsgStr.getBytes());
+        
+    }
+    
     @Benchmark
     @Measurement(iterations = 10, time = 1)
     @Fork(value = 1, jvmArgs = {"-Xmx256m", "-XX:+PrintGCDetails"})
@@ -111,7 +136,16 @@ public class FixParserBenchMark {
         if (value.length != 3) throw new AssertionError();
     }
 
-
+    // Memory Efficiency Tests
+    @Benchmark
+    @Fork(value = 1, jvmArgs = {"-Xmx256m", "-XX:+UnlockDiagnosticVMOptions", 
+                                "-XX:+PrintCompilation", "-XX:+PrintAssembly"})
+    public void benchMarkParserMemoryEfficiencyTest(BenchmarkState state) {
+    	Map<Integer,String> map =FixMessageBenchMarkParser.parse(state.mediumFixMsgStr.getBytes());
+        String value = map.get(55); // IBM
+        if (!value.equalsIgnoreCase("IBM")) throw new AssertionError();
+    }
+    
     // Throughput vs. Memory Tradeoff
     @Benchmark
     @Fork(value = 1, jvmArgs = {"-Xmx256m", "-XX:+UseSerialGC"})
@@ -122,5 +156,14 @@ public class FixParserBenchMark {
                 String symbol = new String(msg, start, end - start);
             }
         });
+    }
+
+    // Throughput vs. Memory Tradeoff
+    @Benchmark
+    @Fork(value = 1, jvmArgs = {"-Xmx256m", "-XX:+UseSerialGC"})
+    public void benchMarkParserThroughputMemoryTradeoff(BenchmarkState state) {
+    	Map<Integer,String> map =FixMessageBenchMarkParser.parse(state.mediumFixMsgStr.getBytes());
+        String value = map.get(55); // IBM
+        if (!value.equalsIgnoreCase("IBM")) throw new AssertionError();
     }
 }

@@ -1,5 +1,9 @@
 package com.cib.fix;
 
+import java.util.HashMap;
+import java.util.Map;
+
+import com.cib.fix.parser.FixMessageBenchMarkParser;
 import com.cib.fix.parser.FixMessageParser;
 
 
@@ -14,6 +18,12 @@ public class FixParser {
 
     	System.out.println("Parsed Message:" + map.toString());
 		System.out.println("Value of Tag 8 :" + map.getValueAsString(8)); //return FIX.4.2
+		
+		
+		Map<Integer, String> benmarkParser = FixMessageBenchMarkParser.parse(fixMessage.getBytes());
+
+    	System.out.println("Parsed Message:" + benmarkParser.toString());
+		System.out.println("Value of Tag 8 :" + benmarkParser.get(8)); //return FIX.4.2
         
     }
     

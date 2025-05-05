@@ -12,148 +12,385 @@ C:\Users\Triton\Documents\workspace\fix-parser>java -jar target/benchmarks.jar >
 # Benchmark mode: Throughput, ops/time
 # Benchmark: com.cib.fix.benchmarks.FixParserBenchMark.allocationTestHugeMessage
 
-# Run progress: 0.00% complete, ETA 00:02:42
+# Run progress: 0.00% complete, ETA 00:03:24
 # Fork: 1 of 1
-# Warmup Iteration   1: [GC (Allocation Failure) [PSYoungGen: 32768K->2273K(37888K)] 32768K->2281K(123904K), 0.0026143 secs] [Times: user=0.00 sys=0.00, real=0.00 secs] 
-[GC (Allocation Failure) [PSYoungGen: 35041K->1616K(37888K)] 35049K->1632K(123904K), 0.0017666 secs] [Times: user=0.00 sys=0.00, real=0.00 secs] 
-[GC (Allocation Failure) [PSYoungGen: 34384K->1632K(37888K)] 34400K->1656K(123904K), 0.0020765 secs] [Times: user=0.00 sys=0.00, real=0.00 secs] 
-[GC (Allocation Failure) [PSYoungGen: 34400K->1648K(70656K)] 34424K->1680K(156672K), 0.0018414 secs] [Times: user=0.06 sys=0.01, real=0.01 secs] 
-[GC (Allocation Failure) [PSYoungGen: 67184K->1648K(70656K)] 67216K->1680K(156672K), 0.0018155 secs] [Times: user=0.00 sys=0.00, real=0.00 secs] 
-[GC (Allocation Failure) [PSYoungGen: 67184K->1648K(79360K)] 67216K->1688K(165376K), 0.0021554 secs] [Times: user=0.01 sys=0.00, real=0.00 secs] 
-47.190 ops/ms
-# Warmup Iteration   2: [GC (Allocation Failure) [PSYoungGen: 78448K->288K(79360K)] 78488K->1872K(165376K), 0.0031341 secs] [Times: user=0.00 sys=0.00, real=0.00 secs] 
-[GC (Allocation Failure) [PSYoungGen: 77088K->256K(74752K)] 78672K->1840K(160768K), 0.0006490 secs] [Times: user=0.00 sys=0.00, real=0.00 secs] 
-[GC (Allocation Failure) [PSYoungGen: 74496K->256K(74752K)] 76080K->1840K(160768K), 0.0005567 secs] [Times: user=0.00 sys=0.00, real=0.01 secs] 
-[GC (Allocation Failure) [PSYoungGen: 71936K->0K(70144K)] 73520K->1664K(156160K), 0.0007091 secs] [Times: user=0.00 sys=0.00, real=0.00 secs] 
-44.854 ops/ms
-# Warmup Iteration   3: [GC (Allocation Failure) [PSYoungGen: 69632K->128K(70656K)] 71296K->1792K(156672K), 0.0009382 secs] [Times: user=0.00 sys=0.00, real=0.00 secs] 
-[GC (Allocation Failure) [PSYoungGen: 67712K->32K(66048K)] 69376K->1728K(152064K), 0.0006341 secs] [Times: user=0.00 sys=0.00, real=0.00 secs] 
-[GC (Allocation Failure) [PSYoungGen: 65568K->0K(66560K)] 67264K->1704K(152576K), 0.0007124 secs] [Times: user=0.00 sys=0.00, real=0.00 secs] 
-[GC (Allocation Failure) [PSYoungGen: 63488K->0K(61952K)] 65192K->1704K(147968K), 0.0005918 secs] [Times: user=0.00 sys=0.00, real=0.00 secs] 
-45.629 ops/ms
-Iteration   1: [GC (Allocation Failure) [PSYoungGen: 61440K->192K(62976K)] 63144K->1896K(148992K), 0.0007949 secs] [Times: user=0.00 sys=0.00, real=0.00 secs] 
-[GC (Allocation Failure) [PSYoungGen: 60096K->0K(58880K)] 61800K->1744K(144896K), 0.0006782 secs] [Times: user=0.00 sys=0.00, real=0.00 secs] 
-[GC (Allocation Failure) [PSYoungGen: 58368K->0K(59392K)] 60112K->1744K(145408K), 0.0006674 secs] [Times: user=0.02 sys=0.00, real=0.01 secs] 
-[GC (Allocation Failure) [PSYoungGen: 56832K->0K(55808K)] 58576K->1744K(141824K), 0.0008936 secs] [Times: user=0.05 sys=0.02, real=0.01 secs] 
-[GC (Allocation Failure) [PSYoungGen: 55296K->0K(56320K)] 57040K->1744K(142336K), 0.0008962 secs] [Times: user=0.00 sys=0.00, real=0.00 secs] 
-42.695 ops/ms
-Iteration   2: [GC (Allocation Failure) [PSYoungGen: 53760K->192K(52736K)] 55504K->1936K(138752K), 0.0007160 secs] [Times: user=0.00 sys=0.00, real=0.01 secs] 
-[GC (Allocation Failure) [PSYoungGen: 52416K->0K(53248K)] 54160K->1768K(139264K), 0.0006903 secs] [Times: user=0.00 sys=0.00, real=0.00 secs] 
-[GC (Allocation Failure) [PSYoungGen: 50688K->0K(49664K)] 52456K->1768K(135680K), 0.0008740 secs] [Times: user=0.00 sys=0.00, real=0.01 secs] 
-[GC (Allocation Failure) [PSYoungGen: 49152K->0K(50176K)] 50920K->1768K(136192K), 0.0006116 secs] [Times: user=0.00 sys=0.02, real=0.00 secs] 
-[GC (Allocation Failure) [PSYoungGen: 48128K->0K(47616K)] 49896K->1768K(133632K), 0.0008446 secs] [Times: user=0.00 sys=0.00, real=0.00 secs] 
-[GC (Allocation Failure) [PSYoungGen: 47104K->0K(48128K)] 48872K->1768K(134144K), 0.0005172 secs] [Times: user=0.00 sys=0.00, real=0.00 secs] 
-[GC (Allocation Failure) [PSYoungGen: 46080K->0K(45568K)] 47848K->1768K(131584K), 0.0009342 secs] [Times: user=0.00 sys=0.00, real=0.01 secs] 
-51.975 ops/ms
-Iteration   3: [GC (Allocation Failure) [PSYoungGen: 45056K->160K(46080K)] 46824K->1928K(132096K), 0.0006153 secs] [Times: user=0.00 sys=0.00, real=0.00 secs] 
-[GC (Allocation Failure) [PSYoungGen: 44192K->0K(43520K)] 45960K->1808K(129536K), 0.0006543 secs] [Times: user=0.00 sys=0.00, real=0.00 secs] 
-[GC (Allocation Failure) [PSYoungGen: 43008K->0K(43520K)] 44816K->1808K(129536K), 0.0005402 secs] [Times: user=0.00 sys=0.00, real=0.00 secs] 
-[GC (Allocation Failure) [PSYoungGen: 41984K->0K(41472K)] 43792K->1808K(127488K), 0.0007556 secs] [Times: user=0.00 sys=0.00, real=0.00 secs] 
-[GC (Allocation Failure) [PSYoungGen: 40960K->0K(41472K)] 42768K->1808K(127488K), 0.0006978 secs] [Times: user=0.00 sys=0.00, real=0.01 secs] 
-[GC (Allocation Failure) [PSYoungGen: 39936K->0K(39424K)] 41744K->1808K(125440K), 0.0008305 secs] [Times: user=0.00 sys=0.00, real=0.00 secs] 
-[GC (Allocation Failure) [PSYoungGen: 38912K->0K(39424K)] 40720K->1808K(125440K), 0.0004946 secs] [Times: user=0.00 sys=0.00, real=0.00 secs] 
-47.158 ops/ms
-Iteration   4: [GC (Allocation Failure) [PSYoungGen: 37888K->128K(37888K)] 39696K->1936K(123904K), 0.0006563 secs] [Times: user=0.00 sys=0.00, real=0.00 secs] 
-[GC (Allocation Failure) [PSYoungGen: 37504K->0K(37888K)] 39312K->1848K(123904K), 0.0008367 secs] [Times: user=0.00 sys=0.00, real=0.00 secs] 
-[GC (Allocation Failure) [PSYoungGen: 36864K->0K(36864K)] 38712K->1848K(122880K), 0.0006022 secs] [Times: user=0.00 sys=0.00, real=0.00 secs] 
-[GC (Allocation Failure) [PSYoungGen: 36352K->0K(36864K)] 38200K->1848K(122880K), 0.0009950 secs] [Times: user=0.00 sys=0.00, real=0.00 secs] 
-[GC (Allocation Failure) [PSYoungGen: 35840K->0K(35840K)] 37688K->1848K(121856K), 0.0006669 secs] [Times: user=0.00 sys=0.00, real=0.00 secs] 
-[GC (Allocation Failure) [PSYoungGen: 35328K->0K(35840K)] 37176K->1848K(121856K), 0.0007825 secs] [Times: user=0.02 sys=0.00, real=0.01 secs] 
-[GC (Allocation Failure) [PSYoungGen: 34816K->0K(34816K)] 36664K->1848K(120832K), 0.0013796 secs] [Times: user=0.00 sys=0.00, real=0.00 secs] 
-39.945 ops/ms
-Iteration   5: [GC (Allocation Failure) [PSYoungGen: 34304K->96K(34816K)] 36152K->1944K(120832K), 0.0006580 secs] [Times: user=0.02 sys=0.00, real=0.01 secs] 
-[GC (Allocation Failure) [PSYoungGen: 33888K->0K(33792K)] 35736K->1872K(119808K), 0.0008507 secs] [Times: user=0.00 sys=0.00, real=0.00 secs] 
-[GC (Allocation Failure) [PSYoungGen: 33280K->0K(33280K)] 35152K->1872K(119296K), 0.0004372 secs] [Times: user=0.00 sys=0.00, real=0.00 secs] 
-[GC (Allocation Failure) [PSYoungGen: 32768K->0K(32768K)] 34640K->1872K(118784K), 0.0004580 secs] [Times: user=0.00 sys=0.00, real=0.00 secs] 
-[GC (Allocation Failure) [PSYoungGen: 32256K->0K(32256K)] 34128K->1872K(118272K), 0.0006041 secs] [Times: user=0.00 sys=0.03, real=0.00 secs] 
-[GC (Allocation Failure) [PSYoungGen: 31744K->0K(31744K)] 33616K->1872K(117760K), 0.0008433 secs] [Times: user=0.00 sys=0.00, real=0.00 secs] 
-[GC (Allocation Failure) [PSYoungGen: 31232K->0K(31232K)] 33104K->1872K(117248K), 0.0006320 secs] [Times: user=0.00 sys=0.00, real=0.00 secs] 
-[GC (Allocation Failure) [PSYoungGen: 30720K->0K(30720K)] 32592K->1872K(116736K), 0.0004601 secs] [Times: user=0.00 sys=0.00, real=0.00 secs] 
-[GC (Allocation Failure) [PSYoungGen: 30208K->0K(30208K)] 32080K->1872K(116224K), 0.0010379 secs] [Times: user=0.03 sys=0.01, real=0.01 secs] 
-[GC (Allocation Failure) [PSYoungGen: 29696K->0K(29696K)] 31568K->1872K(115712K), 0.0006253 secs] [Times: user=0.00 sys=0.00, real=0.00 secs] 
-49.883 ops/ms
-Iteration   6: [GC (Allocation Failure) [PSYoungGen: 29184K->96K(29184K)] 31056K->1968K(115200K), 0.0006718 secs] [Times: user=0.00 sys=0.00, real=0.01 secs] 
-[GC (Allocation Failure) [PSYoungGen: 28768K->0K(28672K)] 30640K->1888K(114688K), 0.0006328 secs] [Times: user=0.00 sys=0.00, real=0.00 secs] 
-[GC (Allocation Failure) [PSYoungGen: 28160K->0K(28160K)] 30048K->1888K(114176K), 0.0007459 secs] [Times: user=0.00 sys=0.00, real=0.00 secs] 
-[GC (Allocation Failure) [PSYoungGen: 27648K->0K(27648K)] 29536K->1888K(113664K), 0.0006297 secs] [Times: user=0.00 sys=0.00, real=0.00 secs] 
-[GC (Allocation Failure) [PSYoungGen: 27136K->0K(27136K)] 29024K->1888K(113152K), 0.0005928 secs] [Times: user=0.00 sys=0.00, real=0.01 secs] 
-[GC (Allocation Failure) [PSYoungGen: 26624K->0K(26624K)] 28512K->1888K(112640K), 0.0006692 secs] [Times: user=0.03 sys=0.02, real=0.01 secs] 
-[GC (Allocation Failure) [PSYoungGen: 26112K->0K(26112K)] 28000K->1888K(112128K), 0.0007931 secs] [Times: user=0.00 sys=0.00, real=0.00 secs] 
-[GC (Allocation Failure) [PSYoungGen: 25600K->0K(25600K)] 27488K->1888K(111616K), 0.0010820 secs] [Times: user=0.00 sys=0.00, real=0.00 secs] 
-[GC (Allocation Failure) [PSYoungGen: 25088K->0K(25088K)] 26976K->1888K(111104K), 0.0006114 secs] [Times: user=0.00 sys=0.00, real=0.00 secs] 
-[GC (Allocation Failure) [PSYoungGen: 24576K->0K(24576K)] 26464K->1888K(110592K), 0.0003769 secs] [Times: user=0.00 sys=0.00, real=0.00 secs] 
-[GC (Allocation Failure) [PSYoungGen: 24064K->0K(24576K)] 25952K->1888K(110592K), 0.0005861 secs] [Times: user=0.00 sys=0.00, real=0.00 secs] 
-[GC (Allocation Failure) [PSYoungGen: 24064K->0K(24576K)] 25952K->1888K(110592K), 0.0007510 secs] [Times: user=0.00 sys=0.00, real=0.00 secs] 
-51.197 ops/ms
-Iteration   7: [GC (Allocation Failure) [PSYoungGen: 24064K->160K(24576K)] 25952K->2048K(110592K), 0.0010261 secs] [Times: user=0.00 sys=0.00, real=0.00 secs] 
-[GC (Allocation Failure) [PSYoungGen: 24224K->0K(24576K)] 26112K->1912K(110592K), 0.0008033 secs] [Times: user=0.00 sys=0.00, real=0.01 secs] 
-[GC (Allocation Failure) [PSYoungGen: 24064K->0K(24576K)] 25976K->1912K(110592K), 0.0005715 secs] [Times: user=0.00 sys=0.00, real=0.00 secs] 
-[GC (Allocation Failure) [PSYoungGen: 24064K->0K(24576K)] 25976K->1912K(110592K), 0.0006460 secs] [Times: user=0.02 sys=0.00, real=0.01 secs] 
-[GC (Allocation Failure) [PSYoungGen: 24064K->0K(24576K)] 25976K->1912K(110592K), 0.0006825 secs] [Times: user=0.00 sys=0.00, real=0.00 secs] 
-[GC (Allocation Failure) [PSYoungGen: 24064K->0K(24576K)] 25976K->1912K(110592K), 0.0005887 secs] [Times: user=0.00 sys=0.00, real=0.00 secs] 
-[GC (Allocation Failure) [PSYoungGen: 24064K->0K(24576K)] 25976K->1912K(110592K), 0.0005092 secs] [Times: user=0.00 sys=0.00, real=0.00 secs] 
-[GC (Allocation Failure) [PSYoungGen: 24064K->0K(24576K)] 25976K->1912K(110592K), 0.0004229 secs] [Times: user=0.00 sys=0.00, real=0.00 secs] 
-[GC (Allocation Failure) [PSYoungGen: 24064K->0K(24576K)] 25976K->1912K(110592K), 0.0003906 secs] [Times: user=0.00 sys=0.00, real=0.00 secs] 
-[GC (Allocation Failure) [PSYoungGen: 24064K->0K(24576K)] 25976K->1912K(110592K), 0.0005452 secs] [Times: user=0.00 sys=0.00, real=0.00 secs] 
-[GC (Allocation Failure) [PSYoungGen: 24064K->0K(24576K)] 25976K->1912K(110592K), 0.0004327 secs] [Times: user=0.00 sys=0.00, real=0.00 secs] 
-[GC (Allocation Failure) [PSYoungGen: 24064K->0K(24576K)] 25976K->1912K(110592K), 0.0006324 secs] [Times: user=0.00 sys=0.00, real=0.00 secs] 
-[GC (Allocation Failure) [PSYoungGen: 24064K->0K(24576K)] 25976K->1912K(110592K), 0.0006507 secs] [Times: user=0.00 sys=0.00, real=0.00 secs] 
-[GC (Allocation Failure) [PSYoungGen: 24064K->0K(24576K)] 25976K->1912K(110592K), 0.0004772 secs] [Times: user=0.05 sys=0.00, real=0.00 secs] 
-55.284 ops/ms
-Iteration   8: [GC (Allocation Failure) [PSYoungGen: 24064K->96K(24576K)] 25976K->2008K(110592K), 0.0005631 secs] [Times: user=0.00 sys=0.00, real=0.00 secs] 
-[GC (Allocation Failure) [PSYoungGen: 24160K->0K(24576K)] 26072K->1944K(110592K), 0.0004937 secs] [Times: user=0.00 sys=0.00, real=0.00 secs] 
-[GC (Allocation Failure) [PSYoungGen: 24064K->0K(24576K)] 26008K->1944K(110592K), 0.0005330 secs] [Times: user=0.00 sys=0.00, real=0.00 secs] 
-[GC (Allocation Failure) [PSYoungGen: 24064K->0K(24576K)] 26008K->1944K(110592K), 0.0006629 secs] [Times: user=0.00 sys=0.00, real=0.00 secs] 
-[GC (Allocation Failure) [PSYoungGen: 24064K->0K(24576K)] 26008K->1944K(110592K), 0.0006009 secs] [Times: user=0.00 sys=0.00, real=0.00 secs] 
-[GC (Allocation Failure) [PSYoungGen: 24064K->0K(24576K)] 26008K->1944K(110592K), 0.0007614 secs] [Times: user=0.00 sys=0.00, real=0.00 secs] 
-[GC (Allocation Failure) [PSYoungGen: 24064K->0K(24576K)] 26008K->1944K(110592K), 0.0004340 secs] [Times: user=0.00 sys=0.00, real=0.01 secs] 
-[GC (Allocation Failure) [PSYoungGen: 24064K->0K(24576K)] 26008K->1944K(110592K), 0.0009292 secs] [Times: user=0.00 sys=0.00, real=0.00 secs] 
-[GC (Allocation Failure) [PSYoungGen: 24064K->0K(24576K)] 26008K->1944K(110592K), 0.0008158 secs] [Times: user=0.00 sys=0.00, real=0.00 secs] 
-[GC (Allocation Failure) [PSYoungGen: 24064K->0K(24576K)] 26008K->1944K(110592K), 0.0008926 secs] [Times: user=0.00 sys=0.00, real=0.01 secs] 
-[GC (Allocation Failure) [PSYoungGen: 24064K->0K(24576K)] 26008K->1944K(110592K), 0.0007332 secs] [Times: user=0.00 sys=0.00, real=0.00 secs] 
-[GC (Allocation Failure) [PSYoungGen: 24064K->0K(24576K)] 26008K->1944K(110592K), 0.0010014 secs] [Times: user=0.00 sys=0.00, real=0.00 secs] 
-46.932 ops/ms
-Iteration   9: [GC (Allocation Failure) [PSYoungGen: 24064K->96K(24576K)] 26008K->2040K(110592K), 0.0007680 secs] [Times: user=0.00 sys=0.00, real=0.00 secs] 
-[GC (Allocation Failure) [PSYoungGen: 24160K->0K(24576K)] 26104K->1976K(110592K), 0.0008230 secs] [Times: user=0.00 sys=0.00, real=0.00 secs] 
-[GC (Allocation Failure) [PSYoungGen: 24064K->0K(24576K)] 26040K->1976K(110592K), 0.0010318 secs] [Times: user=0.05 sys=0.00, real=0.00 secs] 
-[GC (Allocation Failure) [PSYoungGen: 24064K->0K(24576K)] 26040K->1976K(110592K), 0.0005259 secs] [Times: user=0.00 sys=0.00, real=0.00 secs] 
-[GC (Allocation Failure) [PSYoungGen: 24064K->0K(24576K)] 26040K->1976K(110592K), 0.0004307 secs] [Times: user=0.00 sys=0.00, real=0.00 secs] 
-[GC (Allocation Failure) [PSYoungGen: 24064K->0K(24576K)] 26040K->1976K(110592K), 0.0006916 secs] [Times: user=0.00 sys=0.00, real=0.00 secs] 
-[GC (Allocation Failure) [PSYoungGen: 24064K->0K(24576K)] 26040K->1976K(110592K), 0.0007912 secs] [Times: user=0.00 sys=0.00, real=0.00 secs] 
-[GC (Allocation Failure) [PSYoungGen: 24064K->0K(24576K)] 26040K->1976K(110592K), 0.0008268 secs] [Times: user=0.00 sys=0.00, real=0.01 secs] 
-[GC (Allocation Failure) [PSYoungGen: 24064K->0K(24576K)] 26040K->1976K(110592K), 0.0009334 secs] [Times: user=0.00 sys=0.00, real=0.01 secs] 
-[GC (Allocation Failure) [PSYoungGen: 24064K->0K(24576K)] 26040K->1976K(110592K), 0.0009836 secs] [Times: user=0.00 sys=0.00, real=0.00 secs] 
-[GC (Allocation Failure) [PSYoungGen: 24064K->0K(24576K)] 26040K->1976K(110592K), 0.0010422 secs] [Times: user=0.00 sys=0.00, real=0.01 secs] 
-41.662 ops/ms
-Iteration  10: [GC (Allocation Failure) [PSYoungGen: 24064K->96K(24576K)] 26040K->2072K(110592K), 0.0005126 secs] [Times: user=0.00 sys=0.00, real=0.00 secs] 
-[GC (Allocation Failure) [PSYoungGen: 24160K->0K(24576K)] 26136K->2000K(110592K), 0.0006890 secs] [Times: user=0.00 sys=0.00, real=0.01 secs] 
-[GC (Allocation Failure) [PSYoungGen: 24064K->0K(24576K)] 26064K->2000K(110592K), 0.0004677 secs] [Times: user=0.00 sys=0.00, real=0.00 secs] 
-[GC (Allocation Failure) [PSYoungGen: 24064K->0K(24576K)] 26064K->2000K(110592K), 0.0007215 secs] [Times: user=0.00 sys=0.00, real=0.00 secs] 
-[GC (Allocation Failure) [PSYoungGen: 24064K->0K(24576K)] 26064K->2000K(110592K), 0.0005719 secs] [Times: user=0.00 sys=0.00, real=0.00 secs] 
-[GC (Allocation Failure) [PSYoungGen: 24064K->0K(24576K)] 26064K->2000K(110592K), 0.0005586 secs] [Times: user=0.00 sys=0.00, real=0.00 secs] 
-[GC (Allocation Failure) [PSYoungGen: 24064K->0K(24576K)] 26064K->2000K(110592K), 0.0008234 secs] [Times: user=0.00 sys=0.00, real=0.00 secs] 
-[GC (Allocation Failure) [PSYoungGen: 24064K->0K(24576K)] 26064K->2000K(110592K), 0.0005444 secs] [Times: user=0.00 sys=0.00, real=0.00 secs] 
-[GC (Allocation Failure) [PSYoungGen: 24064K->0K(24576K)] 26064K->2000K(110592K), 0.0004698 secs] [Times: user=0.00 sys=0.00, real=0.00 secs] 
-[GC (Allocation Failure) [PSYoungGen: 24064K->0K(24576K)] 26064K->2000K(110592K), 0.0005184 secs] [Times: user=0.00 sys=0.00, real=0.00 secs] 
-[GC (Allocation Failure) [PSYoungGen: 24064K->0K(24576K)] 26064K->2000K(110592K), 0.0004031 secs] [Times: user=0.00 sys=0.00, real=0.00 secs] 
-[GC (Allocation Failure) [PSYoungGen: 24064K->0K(29696K)] 26064K->2000K(115712K), 0.0046426 secs] [Times: user=0.01 sys=0.00, real=0.01 secs] 
-[GC (Allocation Failure) [PSYoungGen: 29184K->0K(35840K)] 31184K->2000K(121856K), 0.0006031 secs] [Times: user=0.00 sys=0.00, real=0.00 secs] 
-49.263 ops/ms
+# Warmup Iteration   1: [GC (Allocation Failure) [PSYoungGen: 32768K->2315K(37888K)] 32768K->2323K(123904K), 0.0022191 secs] [Times: user=0.00 sys=0.00, real=0.00 secs] 
+[GC (Allocation Failure) [PSYoungGen: 35083K->1648K(37888K)] 35091K->1664K(123904K), 0.0017314 secs] [Times: user=0.00 sys=0.00, real=0.00 secs] 
+[GC (Allocation Failure) [PSYoungGen: 34416K->1616K(37888K)] 34432K->1640K(123904K), 0.0024964 secs] [Times: user=0.00 sys=0.00, real=0.01 secs] 
+[GC (Allocation Failure) [PSYoungGen: 34384K->1664K(70656K)] 34408K->1688K(156672K), 0.0018619 secs] [Times: user=0.05 sys=0.00, real=0.02 secs] 
+[GC (Allocation Failure) [PSYoungGen: 67200K->1648K(70656K)] 67224K->1680K(156672K), 0.0050516 secs] [Times: user=0.00 sys=0.00, real=0.01 secs] 
+[GC (Allocation Failure) [PSYoungGen: 67184K->1568K(79360K)] 67216K->1608K(165376K), 0.0019662 secs] [Times: user=0.00 sys=0.01, real=0.01 secs] 
+[GC (Allocation Failure) [PSYoungGen: 78368K->0K(79360K)] 78408K->1584K(165376K), 0.0015615 secs] [Times: user=0.00 sys=0.00, real=0.00 secs] 
+62.260 ops/ms
+# Warmup Iteration   2: [GC (Allocation Failure) [PSYoungGen: 76800K->288K(83968K)] 78384K->1872K(169984K), 0.0007249 secs] [Times: user=0.00 sys=0.00, real=0.00 secs] 
+[GC (Allocation Failure) [PSYoungGen: 81184K->192K(83968K)] 82768K->1776K(169984K), 0.0007244 secs] [Times: user=0.00 sys=0.00, real=0.01 secs] 
+[GC (Allocation Failure) [PSYoungGen: 81088K->0K(78848K)] 82672K->1672K(164864K), 0.0009886 secs] [Times: user=0.00 sys=0.00, real=0.00 secs] 
+[GC (Allocation Failure) [PSYoungGen: 78336K->32K(78848K)] 80008K->1704K(164864K), 0.0005556 secs] [Times: user=0.00 sys=0.00, real=0.00 secs] 
+[GC (Allocation Failure) [PSYoungGen: 75808K->0K(73728K)] 77480K->1680K(159744K), 0.0005094 secs] [Times: user=0.00 sys=0.00, real=0.01 secs] 
+[GC (Allocation Failure) [PSYoungGen: 73216K->0K(74240K)] 74896K->1680K(160256K), 0.0006209 secs] [Times: user=0.00 sys=0.00, real=0.00 secs] 
+70.667 ops/ms
+# Warmup Iteration   3: [GC (Allocation Failure) [PSYoungGen: 71168K->128K(69632K)] 72848K->1808K(155648K), 0.0006277 secs] [Times: user=0.09 sys=0.00, real=0.02 secs] 
+[GC (Allocation Failure) [PSYoungGen: 69248K->0K(70144K)] 70928K->1704K(156160K), 0.0004377 secs] [Times: user=0.00 sys=0.00, real=0.02 secs] 
+[GC (Allocation Failure) [PSYoungGen: 67072K->0K(65536K)] 68776K->1704K(151552K), 0.0010091 secs] [Times: user=0.05 sys=0.02, real=0.01 secs] 
+[GC (Allocation Failure) [PSYoungGen: 65024K->0K(65536K)] 66728K->1704K(151552K), 0.0005198 secs] [Times: user=0.00 sys=0.00, real=0.01 secs] 
+[GC (Allocation Failure) [PSYoungGen: 62976K->0K(61440K)] 64680K->1704K(147456K), 0.0008451 secs] [Times: user=0.00 sys=0.01, real=0.01 secs] 
+[GC (Allocation Failure) [PSYoungGen: 60928K->0K(61952K)] 62632K->1704K(147968K), 0.0005670 secs] [Times: user=0.00 sys=0.00, real=0.01 secs] 
+[GC (Allocation Failure) [PSYoungGen: 59392K->0K(58368K)] 61096K->1704K(144384K), 0.0009036 secs] [Times: user=0.00 sys=0.00, real=0.00 secs] 
+70.113 ops/ms
+Iteration   1: [GC (Allocation Failure) [PSYoungGen: 57856K->160K(58880K)] 59560K->1864K(144896K), 0.0004978 secs] [Times: user=0.00 sys=0.00, real=0.01 secs] 
+[GC (Allocation Failure) [PSYoungGen: 56480K->0K(55296K)] 58184K->1728K(141312K), 0.0008297 secs] [Times: user=0.00 sys=0.00, real=0.00 secs] 
+[GC (Allocation Failure) [PSYoungGen: 54784K->0K(55296K)] 56512K->1728K(141312K), 0.0005263 secs] [Times: user=0.00 sys=0.00, real=0.00 secs] 
+[GC (Allocation Failure) [PSYoungGen: 53248K->0K(52224K)] 54976K->1728K(138240K), 0.0010959 secs] [Times: user=0.00 sys=0.00, real=0.01 secs] 
+[GC (Allocation Failure) [PSYoungGen: 51712K->0K(52224K)] 53440K->1728K(138240K), 0.0004820 secs] [Times: user=0.00 sys=0.02, real=0.01 secs] 
+[GC (Allocation Failure) [PSYoungGen: 50176K->0K(49664K)] 51904K->1728K(135680K), 0.0006359 secs] [Times: user=0.00 sys=0.00, real=0.00 secs] 
+[GC (Allocation Failure) [PSYoungGen: 49152K->0K(49664K)] 50880K->1728K(135680K), 0.0005548 secs] [Times: user=0.00 sys=0.02, real=0.01 secs] 
+[GC (Allocation Failure) [PSYoungGen: 48128K->0K(47616K)] 49856K->1728K(133632K), 0.0007867 secs] [Times: user=0.00 sys=0.00, real=0.00 secs] 
+[GC (Allocation Failure) [PSYoungGen: 47104K->0K(47616K)] 48832K->1728K(133632K), 0.0005622 secs] [Times: user=0.00 sys=0.00, real=0.00 secs] 
+73.262 ops/ms
+Iteration   2: [GC (Allocation Failure) [PSYoungGen: 46080K->192K(45568K)] 47808K->1920K(131584K), 0.0005347 secs] [Times: user=0.06 sys=0.00, real=0.01 secs] 
+[GC (Allocation Failure) [PSYoungGen: 45248K->0K(45568K)] 46976K->1752K(131584K), 0.0009740 secs] [Times: user=0.00 sys=0.00, real=0.01 secs] 
+[GC (Allocation Failure) [PSYoungGen: 44032K->0K(43520K)] 45784K->1752K(129536K), 0.0008036 secs] [Times: user=0.00 sys=0.02, real=0.01 secs] 
+[GC (Allocation Failure) [PSYoungGen: 43008K->0K(43008K)] 44760K->1752K(129024K), 0.0006546 secs] [Times: user=0.00 sys=0.00, real=0.01 secs] 
+[GC (Allocation Failure) [PSYoungGen: 41984K->0K(41472K)] 43736K->1752K(127488K), 0.0007126 secs] [Times: user=0.00 sys=0.00, real=0.01 secs] 
+[GC (Allocation Failure) [PSYoungGen: 40960K->0K(40960K)] 42712K->1752K(126976K), 0.0005904 secs] [Times: user=0.05 sys=0.00, real=0.01 secs] 
+[GC (Allocation Failure) [PSYoungGen: 39936K->0K(39424K)] 41688K->1752K(125440K), 0.0006028 secs] [Times: user=0.02 sys=0.00, real=0.01 secs] 
+[GC (Allocation Failure) [PSYoungGen: 38912K->0K(38912K)] 40664K->1752K(124928K), 0.0007875 secs] [Times: user=0.03 sys=0.02, real=0.01 secs] 
+[GC (Allocation Failure) [PSYoungGen: 37888K->0K(37888K)] 39640K->1752K(123904K), 0.0006623 secs] [Times: user=0.03 sys=0.02, real=0.01 secs] 
+[GC (Allocation Failure) [PSYoungGen: 37376K->0K(37888K)] 39128K->1752K(123904K), 0.0005145 secs] [Times: user=0.00 sys=0.01, real=0.01 secs] 
+[GC (Allocation Failure) [PSYoungGen: 36864K->0K(36864K)] 38616K->1752K(122880K), 0.0005963 secs] [Times: user=0.00 sys=0.02, real=0.01 secs] 
+70.341 ops/ms
+Iteration   3: [GC (Allocation Failure) [PSYoungGen: 36352K->96K(36864K)] 38104K->1848K(122880K), 0.0013243 secs] [Times: user=0.00 sys=0.00, real=0.01 secs] 
+[GC (Allocation Failure) [PSYoungGen: 35936K->0K(35840K)] 37688K->1768K(121856K), 0.0009190 secs] [Times: user=0.00 sys=0.01, real=0.01 secs] 
+[GC (Allocation Failure) [PSYoungGen: 35328K->0K(35328K)] 37096K->1768K(121344K), 0.0004939 secs] [Times: user=0.03 sys=0.00, real=0.01 secs] 
+[GC (Allocation Failure) [PSYoungGen: 34816K->0K(34816K)] 36584K->1768K(120832K), 0.0004690 secs] [Times: user=0.02 sys=0.02, real=0.01 secs] 
+[GC (Allocation Failure) [PSYoungGen: 34304K->0K(34304K)] 36072K->1768K(120320K), 0.0004645 secs] [Times: user=0.00 sys=0.02, real=0.02 secs] 
+[GC (Allocation Failure) [PSYoungGen: 33792K->0K(33792K)] 35560K->1768K(119808K), 0.0006522 secs] [Times: user=0.00 sys=0.00, real=0.01 secs] 
+[GC (Allocation Failure) [PSYoungGen: 33280K->0K(33280K)] 35048K->1768K(119296K), 0.0009487 secs] [Times: user=0.00 sys=0.02, real=0.01 secs] 
+[GC (Allocation Failure) [PSYoungGen: 32768K->0K(32768K)] 34536K->1768K(118784K), 0.0008790 secs] [Times: user=0.00 sys=0.00, real=0.01 secs] 
+[GC (Allocation Failure) [PSYoungGen: 32256K->0K(32256K)] 34024K->1768K(118272K), 0.0007960 secs] [Times: user=0.03 sys=0.02, real=0.01 secs] 
+[GC (Allocation Failure) [PSYoungGen: 31744K->0K(31744K)] 33512K->1768K(117760K), 0.0005368 secs] [Times: user=0.06 sys=0.02, real=0.01 secs] 
+[GC (Allocation Failure) [PSYoungGen: 31232K->0K(31232K)] 33000K->1768K(117248K), 0.0004854 secs] [Times: user=0.00 sys=0.00, real=0.00 secs] 
+[GC (Allocation Failure) [PSYoungGen: 30720K->0K(30720K)] 32488K->1768K(116736K), 0.0006160 secs] [Times: user=0.00 sys=0.00, real=0.00 secs] 
+[GC (Allocation Failure) [PSYoungGen: 30208K->0K(30208K)] 31976K->1768K(116224K), 0.0006015 secs] [Times: user=0.00 sys=0.00, real=0.00 secs] 
+67.950 ops/ms
+Iteration   4: [GC (Allocation Failure) [PSYoungGen: 29696K->96K(29696K)] 31464K->1864K(115712K), 0.0005811 secs] [Times: user=0.00 sys=0.01, real=0.02 secs] 
+[GC (Allocation Failure) [PSYoungGen: 29280K->0K(29184K)] 31048K->1792K(115200K), 0.0004858 secs] [Times: user=0.00 sys=0.02, real=0.01 secs] 
+[GC (Allocation Failure) [PSYoungGen: 28672K->0K(28672K)] 30464K->1792K(114688K), 0.0008379 secs] [Times: user=0.00 sys=0.00, real=0.01 secs] 
+[GC (Allocation Failure) [PSYoungGen: 28160K->0K(28160K)] 29952K->1792K(114176K), 0.0006960 secs] [Times: user=0.00 sys=0.00, real=0.00 secs] 
+[GC (Allocation Failure) [PSYoungGen: 27648K->0K(27648K)] 29440K->1792K(113664K), 0.0007658 secs] [Times: user=0.00 sys=0.01, real=0.01 secs] 
+[GC (Allocation Failure) [PSYoungGen: 27136K->0K(27136K)] 28928K->1792K(113152K), 0.0005481 secs] [Times: user=0.00 sys=0.00, real=0.02 secs] 
+[GC (Allocation Failure) [PSYoungGen: 26624K->0K(26624K)] 28416K->1792K(112640K), 0.0006371 secs] [Times: user=0.00 sys=0.00, real=0.00 secs] 
+[GC (Allocation Failure) [PSYoungGen: 26112K->0K(32256K)] 27904K->1792K(118272K), 0.0009785 secs] [Times: user=0.00 sys=0.00, real=0.00 secs] 
+[GC (Allocation Failure) [PSYoungGen: 31744K->0K(38912K)] 33536K->1792K(124928K), 0.0009410 secs] [Times: user=0.05 sys=0.00, real=0.01 secs] 
+[GC (Allocation Failure) [PSYoungGen: 38400K->0K(46592K)] 40192K->1792K(132608K), 0.0006610 secs] [Times: user=0.00 sys=0.00, real=0.01 secs] 
+[GC (Allocation Failure) [PSYoungGen: 46080K->0K(45568K)] 47872K->1792K(131584K), 0.0004412 secs] [Times: user=0.00 sys=0.00, real=0.00 secs] 
+[GC (Allocation Failure) [PSYoungGen: 45056K->0K(44544K)] 46848K->1792K(130560K), 0.0007065 secs] [Times: user=0.00 sys=0.00, real=0.01 secs] 
+[GC (Allocation Failure) [PSYoungGen: 44032K->0K(43520K)] 45824K->1792K(129536K), 0.0006694 secs] [Times: user=0.00 sys=0.02, real=0.01 secs] 
+68.024 ops/ms
+Iteration   5: [GC (Allocation Failure) [PSYoungGen: 43008K->32K(42496K)] 44800K->1824K(128512K), 0.0007286 secs] [Times: user=0.03 sys=0.00, real=0.01 secs] 
+[GC (Allocation Failure) [PSYoungGen: 42016K->0K(41472K)] 43808K->1832K(127488K), 0.0005923 secs] [Times: user=0.02 sys=0.00, real=0.01 secs] 
+[GC (Allocation Failure) [PSYoungGen: 40960K->0K(40448K)] 42792K->1832K(126464K), 0.0007236 secs] [Times: user=0.02 sys=0.00, real=0.02 secs] 
+[GC (Allocation Failure) [PSYoungGen: 39936K->0K(39424K)] 41768K->1832K(125440K), 0.0007837 secs] [Times: user=0.00 sys=0.00, real=0.01 secs] 
+[GC (Allocation Failure) [PSYoungGen: 38912K->0K(38400K)] 40744K->1832K(124416K), 0.0006398 secs] [Times: user=0.00 sys=0.02, real=0.01 secs] 
+[GC (Allocation Failure) [PSYoungGen: 37888K->0K(37888K)] 39720K->1832K(123904K), 0.0006367 secs] [Times: user=0.00 sys=0.00, real=0.00 secs] 
+[GC (Allocation Failure) [PSYoungGen: 37376K->0K(37376K)] 39208K->1832K(123392K), 0.0006456 secs] [Times: user=0.00 sys=0.00, real=0.00 secs] 
+[GC (Allocation Failure) [PSYoungGen: 36864K->0K(36864K)] 38696K->1832K(122880K), 0.0005884 secs] [Times: user=0.00 sys=0.02, real=0.02 secs] 
+[GC (Allocation Failure) [PSYoungGen: 36352K->0K(36352K)] 38184K->1832K(122368K), 0.0008336 secs] [Times: user=0.00 sys=0.00, real=0.01 secs] 
+[GC (Allocation Failure) [PSYoungGen: 35840K->0K(35840K)] 37672K->1832K(121856K), 0.0007318 secs] [Times: user=0.00 sys=0.00, real=0.01 secs] 
+[GC (Allocation Failure) [PSYoungGen: 35328K->0K(35328K)] 37160K->1832K(121344K), 0.0004048 secs] [Times: user=0.00 sys=0.00, real=0.01 secs] 
+68.562 ops/ms
+Iteration   6: [GC (Allocation Failure) [PSYoungGen: 34816K->96K(34816K)] 36648K->1928K(120832K), 0.0006127 secs] [Times: user=0.00 sys=0.00, real=0.01 secs] 
+[GC (Allocation Failure) [PSYoungGen: 34400K->0K(34304K)] 36232K->1856K(120320K), 0.0005218 secs] [Times: user=0.00 sys=0.00, real=0.00 secs] 
+[GC (Allocation Failure) [PSYoungGen: 33792K->0K(33792K)] 35648K->1856K(119808K), 0.0004672 secs] [Times: user=0.00 sys=0.00, real=0.01 secs] 
+[GC (Allocation Failure) [PSYoungGen: 33280K->0K(33280K)] 35136K->1856K(119296K), 0.0006236 secs] [Times: user=0.00 sys=0.00, real=0.00 secs] 
+[GC (Allocation Failure) [PSYoungGen: 32768K->0K(32768K)] 34624K->1856K(118784K), 0.0008385 secs] [Times: user=0.02 sys=0.00, real=0.01 secs] 
+[GC (Allocation Failure) [PSYoungGen: 32256K->0K(32256K)] 34112K->1856K(118272K), 0.0006751 secs] [Times: user=0.02 sys=0.00, real=0.00 secs] 
+[GC (Allocation Failure) [PSYoungGen: 31744K->0K(31744K)] 33600K->1856K(117760K), 0.0006024 secs] [Times: user=0.00 sys=0.00, real=0.00 secs] 
+[GC (Allocation Failure) [PSYoungGen: 31232K->0K(31232K)] 33088K->1856K(117248K), 0.0007871 secs] [Times: user=0.00 sys=0.00, real=0.00 secs] 
+[GC (Allocation Failure) [PSYoungGen: 30720K->0K(30720K)] 32576K->1856K(116736K), 0.0006319 secs] [Times: user=0.00 sys=0.00, real=0.01 secs] 
+[GC (Allocation Failure) [PSYoungGen: 30208K->0K(30208K)] 32064K->1856K(116224K), 0.0005875 secs] [Times: user=0.00 sys=0.00, real=0.00 secs] 
+[GC (Allocation Failure) [PSYoungGen: 29696K->0K(29696K)] 31552K->1856K(115712K), 0.0006346 secs] [Times: user=0.00 sys=0.00, real=0.00 secs] 
+[GC (Allocation Failure) [PSYoungGen: 29184K->0K(29184K)] 31040K->1856K(115200K), 0.0005043 secs] [Times: user=0.00 sys=0.00, real=0.00 secs] 
+[GC (Allocation Failure) [PSYoungGen: 28672K->0K(28672K)] 30528K->1856K(114688K), 0.0005225 secs] [Times: user=0.00 sys=0.00, real=0.01 secs] 
+[GC (Allocation Failure) [PSYoungGen: 28160K->0K(28160K)] 30016K->1856K(114176K), 0.0004410 secs] [Times: user=0.00 sys=0.00, real=0.01 secs] 
+69.449 ops/ms
+Iteration   7: [GC (Allocation Failure) [PSYoungGen: 27648K->128K(27648K)] 29504K->1984K(113664K), 0.0006301 secs] [Times: user=0.00 sys=0.00, real=0.01 secs] 
+[GC (Allocation Failure) [PSYoungGen: 27264K->0K(27136K)] 29120K->1880K(113152K), 0.0007436 secs] [Times: user=0.00 sys=0.00, real=0.01 secs] 
+[GC (Allocation Failure) [PSYoungGen: 26624K->0K(26624K)] 28504K->1880K(112640K), 0.0005244 secs] [Times: user=0.00 sys=0.00, real=0.01 secs] 
+[GC (Allocation Failure) [PSYoungGen: 26112K->0K(26112K)] 27992K->1880K(112128K), 0.0009315 secs] [Times: user=0.00 sys=0.00, real=0.00 secs] 
+[GC (Allocation Failure) [PSYoungGen: 25600K->0K(25600K)] 27480K->1880K(111616K), 0.0005862 secs] [Times: user=0.00 sys=0.00, real=0.00 secs] 
+[GC (Allocation Failure) [PSYoungGen: 25088K->0K(25088K)] 26968K->1880K(111104K), 0.0004923 secs] [Times: user=0.00 sys=0.00, real=0.01 secs] 
+[GC (Allocation Failure) [PSYoungGen: 24576K->0K(24576K)] 26456K->1880K(110592K), 0.0004288 secs] [Times: user=0.00 sys=0.00, real=0.00 secs] 
+[GC (Allocation Failure) [PSYoungGen: 24064K->0K(24576K)] 25944K->1880K(110592K), 0.0006821 secs] [Times: user=0.00 sys=0.00, real=0.01 secs] 
+[GC (Allocation Failure) [PSYoungGen: 24064K->0K(29696K)] 25944K->1880K(115712K), 0.0009297 secs] [Times: user=0.00 sys=0.00, real=0.00 secs] 
+[GC (Allocation Failure) [PSYoungGen: 29184K->0K(29184K)] 31064K->1880K(115200K), 0.0003745 secs] [Times: user=0.00 sys=0.00, real=0.00 secs] 
+[GC (Allocation Failure) [PSYoungGen: 28672K->0K(28672K)] 30552K->1880K(114688K), 0.0004225 secs] [Times: user=0.02 sys=0.00, real=0.00 secs] 
+[GC (Allocation Failure) [PSYoungGen: 28160K->0K(28160K)] 30040K->1880K(114176K), 0.0004574 secs] [Times: user=0.00 sys=0.00, real=0.00 secs] 
+[GC (Allocation Failure) [PSYoungGen: 27648K->0K(27648K)] 29528K->1880K(113664K), 0.0005771 secs] [Times: user=0.00 sys=0.02, real=0.01 secs] 
+[GC (Allocation Failure) [PSYoungGen: 27136K->0K(27136K)] 29016K->1880K(113152K), 0.0006293 secs] [Times: user=0.00 sys=0.00, real=0.01 secs] 
+[GC (Allocation Failure) [PSYoungGen: 26624K->0K(26624K)] 28504K->1880K(112640K), 0.0004451 secs] [Times: user=0.00 sys=0.00, real=0.00 secs] 
+[GC (Allocation Failure) [PSYoungGen: 26112K->0K(26112K)] 27992K->1880K(112128K), 0.0007144 secs] [Times: user=0.00 sys=0.00, real=0.01 secs] 
+66.677 ops/ms
+Iteration   8: [GC (Allocation Failure) [PSYoungGen: 25600K->32K(25600K)] 27480K->1912K(111616K), 0.0006655 secs] [Times: user=0.00 sys=0.00, real=0.00 secs] 
+[GC (Allocation Failure) [PSYoungGen: 25120K->0K(25088K)] 27000K->1904K(111104K), 0.0005024 secs] [Times: user=0.00 sys=0.00, real=0.01 secs] 
+[GC (Allocation Failure) [PSYoungGen: 24576K->0K(24576K)] 26480K->1904K(110592K), 0.0008148 secs] [Times: user=0.00 sys=0.00, real=0.00 secs] 
+[GC (Allocation Failure) [PSYoungGen: 24064K->0K(24576K)] 25968K->1904K(110592K), 0.0013606 secs] [Times: user=0.05 sys=0.00, real=0.02 secs] 
+[GC (Allocation Failure) [PSYoungGen: 24064K->0K(24576K)] 25968K->1904K(110592K), 0.0005111 secs] [Times: user=0.00 sys=0.00, real=0.00 secs] 
+[GC (Allocation Failure) [PSYoungGen: 24064K->0K(24576K)] 25968K->1904K(110592K), 0.0005788 secs] [Times: user=0.00 sys=0.02, real=0.02 secs] 
+[GC (Allocation Failure) [PSYoungGen: 24064K->0K(24576K)] 25968K->1904K(110592K), 0.0006066 secs] [Times: user=0.00 sys=0.00, real=0.01 secs] 
+[GC (Allocation Failure) [PSYoungGen: 24064K->0K(29696K)] 25968K->1904K(115712K), 0.0010222 secs] [Times: user=0.00 sys=0.00, real=0.00 secs] 
+[GC (Allocation Failure) [PSYoungGen: 29184K->0K(35840K)] 31088K->1904K(121856K), 0.0009996 secs] [Times: user=0.02 sys=0.00, real=0.00 secs] 
+[GC (Allocation Failure) [PSYoungGen: 35328K->0K(43008K)] 37232K->1904K(129024K), 0.0004787 secs] [Times: user=0.00 sys=0.00, real=0.00 secs] 
+[GC (Allocation Failure) [PSYoungGen: 42496K->0K(41984K)] 44400K->1904K(128000K), 0.0006257 secs] [Times: user=0.08 sys=0.00, real=0.01 secs] 
+[GC (Allocation Failure) [PSYoungGen: 41472K->0K(40960K)] 43376K->1904K(126976K), 0.0006246 secs] [Times: user=0.00 sys=0.00, real=0.00 secs] 
+[GC (Allocation Failure) [PSYoungGen: 40448K->0K(39936K)] 42352K->1904K(125952K), 0.0004424 secs] [Times: user=0.00 sys=0.00, real=0.00 secs] 
+61.505 ops/ms
+Iteration   9: [GC (Allocation Failure) [PSYoungGen: 39424K->64K(38912K)] 41328K->1968K(124928K), 0.0007499 secs] [Times: user=0.00 sys=0.00, real=0.01 secs] 
+[GC (Allocation Failure) [PSYoungGen: 38464K->0K(37888K)] 40368K->1944K(123904K), 0.0005344 secs] [Times: user=0.00 sys=0.00, real=0.00 secs] 
+[GC (Allocation Failure) [PSYoungGen: 37376K->0K(37376K)] 39320K->1944K(123392K), 0.0004326 secs] [Times: user=0.00 sys=0.00, real=0.00 secs] 
+[GC (Allocation Failure) [PSYoungGen: 36864K->0K(36864K)] 38808K->1944K(122880K), 0.0005555 secs] [Times: user=0.00 sys=0.00, real=0.01 secs] 
+[GC (Allocation Failure) [PSYoungGen: 36352K->0K(36352K)] 38296K->1944K(122368K), 0.0006818 secs] [Times: user=0.00 sys=0.01, real=0.01 secs] 
+[GC (Allocation Failure) [PSYoungGen: 35840K->0K(35840K)] 37784K->1944K(121856K), 0.0011320 secs] [Times: user=0.02 sys=0.00, real=0.01 secs] 
+[GC (Allocation Failure) [PSYoungGen: 35328K->0K(35328K)] 37272K->1944K(121344K), 0.0005239 secs] [Times: user=0.02 sys=0.00, real=0.01 secs] 
+[GC (Allocation Failure) [PSYoungGen: 34816K->0K(34816K)] 36760K->1944K(120832K), 0.0005832 secs] [Times: user=0.00 sys=0.00, real=0.01 secs] 
+[GC (Allocation Failure) [PSYoungGen: 34304K->0K(34304K)] 36248K->1944K(120320K), 0.0004298 secs] [Times: user=0.00 sys=0.00, real=0.00 secs] 
+[GC (Allocation Failure) [PSYoungGen: 33792K->0K(33792K)] 35736K->1944K(119808K), 0.0006273 secs] [Times: user=0.05 sys=0.00, real=0.01 secs] 
+[GC (Allocation Failure) [PSYoungGen: 33280K->0K(33280K)] 35224K->1944K(119296K), 0.0004102 secs] [Times: user=0.00 sys=0.00, real=0.00 secs] 
+63.255 ops/ms
+Iteration  10: [GC (Allocation Failure) [PSYoungGen: 32768K->160K(32768K)] 34712K->2104K(118784K), 0.0003823 secs] [Times: user=0.00 sys=0.00, real=0.00 secs] 
+[GC (Allocation Failure) [PSYoungGen: 32416K->0K(32256K)] 34360K->1976K(118272K), 0.0003873 secs] [Times: user=0.00 sys=0.00, real=0.00 secs] 
+[GC (Allocation Failure) [PSYoungGen: 31744K->0K(31744K)] 33720K->1976K(117760K), 0.0004904 secs] [Times: user=0.00 sys=0.00, real=0.01 secs] 
+[GC (Allocation Failure) [PSYoungGen: 31232K->0K(31232K)] 33208K->1976K(117248K), 0.0005698 secs] [Times: user=0.00 sys=0.00, real=0.00 secs] 
+[GC (Allocation Failure) [PSYoungGen: 30720K->0K(30720K)] 32696K->1976K(116736K), 0.0006199 secs] [Times: user=0.00 sys=0.02, real=0.01 secs] 
+[GC (Allocation Failure) [PSYoungGen: 30208K->0K(30208K)] 32184K->1976K(116224K), 0.0008350 secs] [Times: user=0.00 sys=0.00, real=0.01 secs] 
+[GC (Allocation Failure) [PSYoungGen: 29696K->0K(29696K)] 31672K->1976K(115712K), 0.0006721 secs] [Times: user=0.00 sys=0.00, real=0.00 secs] 
+[GC (Allocation Failure) [PSYoungGen: 29184K->0K(29184K)] 31160K->1976K(115200K), 0.0004978 secs] [Times: user=0.00 sys=0.00, real=0.00 secs] 
+[GC (Allocation Failure) [PSYoungGen: 28672K->0K(28672K)] 30648K->1976K(114688K), 0.0005093 secs] [Times: user=0.03 sys=0.00, real=0.01 secs] 
+[GC (Allocation Failure) [PSYoungGen: 28160K->0K(34304K)] 30136K->1976K(120320K), 0.0044465 secs] [Times: user=0.00 sys=0.00, real=0.01 secs] 
+[GC (Allocation Failure) [PSYoungGen: 33792K->0K(41472K)] 35768K->1976K(127488K), 0.0006943 secs] [Times: user=0.01 sys=0.00, real=0.01 secs] 
+[GC (Allocation Failure) [PSYoungGen: 40960K->0K(49664K)] 42936K->1976K(135680K), 0.0004687 secs] [Times: user=0.00 sys=0.00, real=0.01 secs] 
+[GC (Allocation Failure) [PSYoungGen: 49152K->0K(59904K)] 51128K->1976K(145920K), 0.0008036 secs] [Times: user=0.00 sys=0.00, real=0.00 secs] 
+67.235 ops/ms
 Heap
- PSYoungGen      total 35840K, used 11031K [0x00000000fab00000, 0x00000000fe600000, 0x0000000100000000)
-  eden space 35328K, 31% used [0x00000000fab00000,0x00000000fb5c5d50,0x00000000fcd80000)
-  from space 512K, 0% used [0x00000000fe580000,0x00000000fe580000,0x00000000fe600000)
-  to   space 512K, 0% used [0x00000000fe500000,0x00000000fe500000,0x00000000fe580000)
- ParOldGen       total 86016K, used 2000K [0x00000000f0000000, 0x00000000f5400000, 0x00000000fab00000)
-  object space 86016K, 2% used [0x00000000f0000000,0x00000000f01f40b0,0x00000000f5400000)
- Metaspace       used 6371K, capacity 6598K, committed 6784K, reserved 1056768K
+ PSYoungGen      total 59904K, used 10175K [0x00000000fab00000, 0x00000000fe800000, 0x0000000100000000)
+  eden space 59392K, 17% used [0x00000000fab00000,0x00000000fb4efc98,0x00000000fe500000)
+  from space 512K, 0% used [0x00000000fe780000,0x00000000fe780000,0x00000000fe800000)
+  to   space 512K, 0% used [0x00000000fe700000,0x00000000fe700000,0x00000000fe780000)
+ ParOldGen       total 86016K, used 1976K [0x00000000f0000000, 0x00000000f5400000, 0x00000000fab00000)
+  object space 86016K, 2% used [0x00000000f0000000,0x00000000f01ee090,0x00000000f5400000)
+ Metaspace       used 6377K, capacity 6594K, committed 6784K, reserved 1056768K
   class space    used 752K, capacity 839K, committed 896K, reserved 1048576K
 
 
 Result "com.cib.fix.benchmarks.FixParserBenchMark.allocationTestHugeMessage":
-  47.599 ±(99.9%) 7.435 ops/ms [Average]
-  (min, avg, max) = (39.945, 47.599, 55.284), stdev = 4.918
-  CI (99.9%): [40.164, 55.035] (assumes normal distribution)
+  67.626 ±(99.9%) 5.070 ops/ms [Average]
+  (min, avg, max) = (61.505, 67.626, 73.262), stdev = 3.354
+  CI (99.9%): [62.556, 72.696] (assumes normal distribution)
+
+
+# JMH version: 1.21
+# VM version: JDK 1.8.0_441, Java HotSpot(TM) 64-Bit Server VM, 25.441-b07
+# VM invoker: C:\Program Files\Java\jre1.8.0_441\bin\java.exe
+# VM options: -Xmx256m -XX:+PrintGCDetails
+# Warmup: 3 iterations, 1 s each
+# Measurement: 10 iterations, 1 s each
+# Timeout: 10 min per iteration
+# Threads: 1 thread, will synchronize iterations
+# Benchmark mode: Throughput, ops/time
+# Benchmark: com.cib.fix.benchmarks.FixParserBenchMark.allocationTestMediumMessage
+
+# Run progress: 6.37% complete, ETA 00:03:19
+# Fork: 1 of 1
+# Warmup Iteration   1: [GC (Allocation Failure) [PSYoungGen: 32768K->2283K(37888K)] 32768K->2291K(123904K), 0.0021513 secs] [Times: user=0.00 sys=0.00, real=0.00 secs] 
+[GC (Allocation Failure) [PSYoungGen: 35051K->1680K(37888K)] 35059K->1696K(123904K), 0.0018719 secs] [Times: user=0.08 sys=0.05, real=0.02 secs] 
+[GC (Allocation Failure) [PSYoungGen: 34448K->1632K(37888K)] 34464K->1648K(123904K), 0.0014656 secs] [Times: user=0.05 sys=0.02, real=0.00 secs] 
+[GC (Allocation Failure) [PSYoungGen: 34400K->1664K(70656K)] 34416K->1680K(156672K), 0.0016752 secs] [Times: user=0.00 sys=0.00, real=0.00 secs] 
+[GC (Allocation Failure) [PSYoungGen: 67200K->1568K(70656K)] 67216K->1584K(156672K), 0.0014579 secs] [Times: user=0.00 sys=0.00, real=0.00 secs] 
+[GC (Allocation Failure) [PSYoungGen: 67104K->1616K(79360K)] 67120K->1640K(165376K), 0.0014964 secs] [Times: user=0.00 sys=0.02, real=0.01 secs] 
+[GC (Allocation Failure) [PSYoungGen: 78416K->0K(79360K)] 78440K->1564K(165376K), 0.0020616 secs] [Times: user=0.05 sys=0.03, real=0.00 secs] 
+[GC (Allocation Failure) [PSYoungGen: 76800K->0K(83968K)] 78364K->1564K(169984K), 0.0004693 secs] [Times: user=0.00 sys=0.00, real=0.01 secs] 
+1134.603 ops/ms
+# Warmup Iteration   2: [GC (Allocation Failure) [PSYoungGen: 80896K->288K(78848K)] 82460K->1852K(164864K), 0.0006967 secs] [Times: user=0.00 sys=0.00, real=0.01 secs] 
+[GC (Allocation Failure) [PSYoungGen: 78624K->256K(76288K)] 80188K->1820K(162304K), 0.0008649 secs] [Times: user=0.01 sys=0.03, real=0.01 secs] 
+[GC (Allocation Failure) [PSYoungGen: 76032K->0K(76288K)] 77596K->1644K(162304K), 0.0004594 secs] [Times: user=0.00 sys=0.00, real=0.01 secs] 
+[GC (Allocation Failure) [PSYoungGen: 73216K->0K(71680K)] 74860K->1644K(157696K), 0.0006286 secs] [Times: user=0.00 sys=0.00, real=0.00 secs] 
+[GC (Allocation Failure) [PSYoungGen: 71168K->0K(72192K)] 72812K->1644K(158208K), 0.0005880 secs] [Times: user=0.00 sys=0.00, real=0.00 secs] 
+[GC (Allocation Failure) [PSYoungGen: 69120K->0K(67584K)] 70764K->1644K(153600K), 0.0009098 secs] [Times: user=0.02 sys=0.00, real=0.02 secs] 
+1155.257 ops/ms
+# Warmup Iteration   3: [GC (Allocation Failure) [PSYoungGen: 67072K->64K(68096K)] 68716K->1708K(154112K), 0.0007253 secs] [Times: user=0.00 sys=0.01, real=0.01 secs] 
+[GC (Allocation Failure) [PSYoungGen: 65088K->0K(63488K)] 66732K->1668K(149504K), 0.0005229 secs] [Times: user=0.00 sys=0.00, real=0.00 secs] 
+[GC (Allocation Failure) [PSYoungGen: 62976K->0K(63488K)] 64644K->1668K(149504K), 0.0005354 secs] [Times: user=0.00 sys=0.00, real=0.00 secs] 
+[GC (Allocation Failure) [PSYoungGen: 60928K->0K(59904K)] 62596K->1668K(145920K), 0.0006835 secs] [Times: user=0.00 sys=0.00, real=0.00 secs] 
+[GC (Allocation Failure) [PSYoungGen: 59392K->0K(60416K)] 61060K->1668K(146432K), 0.0006508 secs] [Times: user=0.00 sys=0.00, real=0.00 secs] 
+[GC (Allocation Failure) [PSYoungGen: 57856K->0K(56832K)] 59524K->1668K(142848K), 0.0007258 secs] [Times: user=0.00 sys=0.00, real=0.00 secs] 
+[GC (Allocation Failure) [PSYoungGen: 56320K->0K(57344K)] 57988K->1668K(143360K), 0.0009150 secs] [Times: user=0.00 sys=0.00, real=0.00 secs] 
+[GC (Allocation Failure) [PSYoungGen: 54784K->0K(53760K)] 56452K->1668K(139776K), 0.0009848 secs] [Times: user=0.00 sys=0.00, real=0.00 secs] 
+[GC (Allocation Failure) [PSYoungGen: 53248K->0K(53760K)] 54916K->1668K(139776K), 0.0007119 secs] [Times: user=0.00 sys=0.00, real=0.01 secs] 
+1231.360 ops/ms
+Iteration   1: [GC (Allocation Failure) [PSYoungGen: 51712K->64K(50688K)] 53380K->1732K(136704K), 0.0006189 secs] [Times: user=0.00 sys=0.02, real=0.01 secs] 
+[GC (Allocation Failure) [PSYoungGen: 50240K->0K(51200K)] 51908K->1684K(137216K), 0.0009296 secs] [Times: user=0.00 sys=0.02, real=0.01 secs] 
+[GC (Allocation Failure) [PSYoungGen: 49152K->0K(48640K)] 50836K->1684K(134656K), 0.0006556 secs] [Times: user=0.00 sys=0.00, real=0.00 secs] 
+[GC (Allocation Failure) [PSYoungGen: 48128K->0K(48640K)] 49812K->1684K(134656K), 0.0004505 secs] [Times: user=0.08 sys=0.02, real=0.01 secs] 
+[GC (Allocation Failure) [PSYoungGen: 47104K->0K(46592K)] 48788K->1684K(132608K), 0.0006783 secs] [Times: user=0.00 sys=0.00, real=0.00 secs] 
+[GC (Allocation Failure) [PSYoungGen: 46080K->0K(46592K)] 47764K->1684K(132608K), 0.0005911 secs] [Times: user=0.00 sys=0.00, real=0.00 secs] 
+[GC (Allocation Failure) [PSYoungGen: 45056K->0K(44544K)] 46740K->1684K(130560K), 0.0009112 secs] [Times: user=0.00 sys=0.00, real=0.00 secs] 
+[GC (Allocation Failure) [PSYoungGen: 44032K->0K(44544K)] 45716K->1684K(130560K), 0.0007574 secs] [Times: user=0.03 sys=0.00, real=0.01 secs] 
+[GC (Allocation Failure) [PSYoungGen: 43008K->0K(42496K)] 44692K->1684K(128512K), 0.0006864 secs] [Times: user=0.00 sys=0.02, real=0.01 secs] 
+[GC (Allocation Failure) [PSYoungGen: 41984K->0K(41984K)] 43668K->1684K(128000K), 0.0007512 secs] [Times: user=0.00 sys=0.00, real=0.00 secs] 
+1201.898 ops/ms
+Iteration   2: [GC (Allocation Failure) [PSYoungGen: 40960K->128K(40448K)] 42644K->1812K(126464K), 0.0007178 secs] [Times: user=0.00 sys=0.00, real=0.00 secs] 
+[GC (Allocation Failure) [PSYoungGen: 40064K->0K(39936K)] 41748K->1708K(125952K), 0.0005890 secs] [Times: user=0.00 sys=0.00, real=0.00 secs] 
+[GC (Allocation Failure) [PSYoungGen: 38912K->0K(38400K)] 40620K->1708K(124416K), 0.0005415 secs] [Times: user=0.00 sys=0.00, real=0.01 secs] 
+[GC (Allocation Failure) [PSYoungGen: 37888K->0K(38400K)] 39596K->1708K(124416K), 0.0004795 secs] [Times: user=0.00 sys=0.00, real=0.00 secs] 
+[GC (Allocation Failure) [PSYoungGen: 37376K->0K(37376K)] 39084K->1708K(123392K), 0.0006635 secs] [Times: user=0.00 sys=0.00, real=0.01 secs] 
+[GC (Allocation Failure) [PSYoungGen: 36864K->0K(37376K)] 38572K->1708K(123392K), 0.0005120 secs] [Times: user=0.00 sys=0.00, real=0.01 secs] 
+[GC (Allocation Failure) [PSYoungGen: 36352K->0K(36352K)] 38060K->1708K(122368K), 0.0008702 secs] [Times: user=0.02 sys=0.01, real=0.01 secs] 
+[GC (Allocation Failure) [PSYoungGen: 35840K->0K(36352K)] 37548K->1708K(122368K), 0.0006962 secs] [Times: user=0.00 sys=0.00, real=0.00 secs] 
+[GC (Allocation Failure) [PSYoungGen: 35328K->0K(35328K)] 37036K->1708K(121344K), 0.0005524 secs] [Times: user=0.03 sys=0.00, real=0.01 secs] 
+[GC (Allocation Failure) [PSYoungGen: 34816K->0K(34816K)] 36524K->1708K(120832K), 0.0007410 secs] [Times: user=0.00 sys=0.00, real=0.01 secs] 
+[GC (Allocation Failure) [PSYoungGen: 34304K->0K(34304K)] 36012K->1708K(120320K), 0.0004811 secs] [Times: user=0.00 sys=0.00, real=0.01 secs] 
+[GC (Allocation Failure) [PSYoungGen: 33792K->0K(33792K)] 35500K->1708K(119808K), 0.0004761 secs] [Times: user=0.00 sys=0.00, real=0.01 secs] 
+1081.759 ops/ms
+Iteration   3: [GC (Allocation Failure) [PSYoungGen: 33280K->96K(33280K)] 34988K->1804K(119296K), 0.0006502 secs] [Times: user=0.00 sys=0.00, real=0.00 secs] 
+[GC (Allocation Failure) [PSYoungGen: 32864K->0K(32768K)] 34572K->1732K(118784K), 0.0006525 secs] [Times: user=0.00 sys=0.00, real=0.01 secs] 
+[GC (Allocation Failure) [PSYoungGen: 32256K->0K(32256K)] 33988K->1732K(118272K), 0.0004836 secs] [Times: user=0.00 sys=0.00, real=0.00 secs] 
+[GC (Allocation Failure) [PSYoungGen: 31744K->0K(31744K)] 33476K->1732K(117760K), 0.0007376 secs] [Times: user=0.06 sys=0.00, real=0.01 secs] 
+[GC (Allocation Failure) [PSYoungGen: 31232K->0K(31232K)] 32964K->1732K(117248K), 0.0005059 secs] [Times: user=0.00 sys=0.00, real=0.00 secs] 
+[GC (Allocation Failure) [PSYoungGen: 30720K->0K(30720K)] 32452K->1732K(116736K), 0.0007167 secs] [Times: user=0.08 sys=0.00, real=0.02 secs] 
+[GC (Allocation Failure) [PSYoungGen: 30208K->0K(30208K)] 31940K->1732K(116224K), 0.0008093 secs] [Times: user=0.03 sys=0.02, real=0.01 secs] 
+[GC (Allocation Failure) [PSYoungGen: 29696K->0K(29696K)] 31428K->1732K(115712K), 0.0005434 secs] [Times: user=0.00 sys=0.01, real=0.00 secs] 
+[GC (Allocation Failure) [PSYoungGen: 29184K->0K(29184K)] 30916K->1732K(115200K), 0.0004786 secs] [Times: user=0.00 sys=0.02, real=0.01 secs] 
+[GC (Allocation Failure) [PSYoungGen: 28672K->0K(28672K)] 30404K->1732K(114688K), 0.0004396 secs] [Times: user=0.00 sys=0.00, real=0.01 secs] 
+[GC (Allocation Failure) [PSYoungGen: 28160K->0K(28160K)] 29892K->1732K(114176K), 0.0005366 secs] [Times: user=0.00 sys=0.00, real=0.01 secs] 
+[GC (Allocation Failure) [PSYoungGen: 27648K->0K(27648K)] 29380K->1732K(113664K), 0.0004423 secs] [Times: user=0.00 sys=0.02, real=0.01 secs] 
+[GC (Allocation Failure) [PSYoungGen: 27136K->0K(27136K)] 28868K->1732K(113152K), 0.0006649 secs] [Times: user=0.00 sys=0.02, real=0.01 secs] 
+[GC (Allocation Failure) [PSYoungGen: 26624K->0K(26624K)] 28356K->1732K(112640K), 0.0006637 secs] [Times: user=0.00 sys=0.00, real=0.01 secs] 
+[GC (Allocation Failure) [PSYoungGen: 26112K->0K(26112K)] 27844K->1732K(112128K), 0.0006991 secs] [Times: user=0.00 sys=0.00, real=0.01 secs] 
+1136.582 ops/ms
+Iteration   4: [GC (Allocation Failure) [PSYoungGen: 25600K->64K(25600K)] 27332K->1796K(111616K), 0.0006550 secs] [Times: user=0.00 sys=0.00, real=0.00 secs] 
+[GC (Allocation Failure) [PSYoungGen: 25152K->0K(25088K)] 26884K->1756K(111104K), 0.0005894 secs] [Times: user=0.00 sys=0.00, real=0.01 secs] 
+[GC (Allocation Failure) [PSYoungGen: 24576K->0K(30208K)] 26332K->1756K(116224K), 0.0008374 secs] [Times: user=0.00 sys=0.00, real=0.00 secs] 
+[GC (Allocation Failure) [PSYoungGen: 29696K->0K(36352K)] 31452K->1756K(122368K), 0.0006500 secs] [Times: user=0.00 sys=0.00, real=0.01 secs] 
+[GC (Allocation Failure) [PSYoungGen: 35840K->0K(35840K)] 37596K->1756K(121856K), 0.0006084 secs] [Times: user=0.00 sys=0.00, real=0.01 secs] 
+[GC (Allocation Failure) [PSYoungGen: 35328K->0K(35328K)] 37084K->1756K(121344K), 0.0004474 secs] [Times: user=0.00 sys=0.00, real=0.01 secs] 
+[GC (Allocation Failure) [PSYoungGen: 34816K->0K(34816K)] 36572K->1756K(120832K), 0.0009045 secs] [Times: user=0.06 sys=0.02, real=0.01 secs] 
+[GC (Allocation Failure) [PSYoungGen: 34304K->0K(34304K)] 36060K->1756K(120320K), 0.0007449 secs] [Times: user=0.00 sys=0.00, real=0.01 secs] 
+[GC (Allocation Failure) [PSYoungGen: 33792K->0K(33792K)] 35548K->1756K(119808K), 0.0005266 secs] [Times: user=0.00 sys=0.02, real=0.01 secs] 
+[GC (Allocation Failure) [PSYoungGen: 33280K->0K(33280K)] 35036K->1756K(119296K), 0.0005979 secs] [Times: user=0.00 sys=0.01, real=0.02 secs] 
+[GC (Allocation Failure) [PSYoungGen: 32768K->0K(32768K)] 34524K->1756K(118784K), 0.0005136 secs] [Times: user=0.00 sys=0.00, real=0.01 secs] 
+[GC (Allocation Failure) [PSYoungGen: 32256K->0K(32256K)] 34012K->1756K(118272K), 0.0004618 secs] [Times: user=0.00 sys=0.00, real=0.01 secs] 
+[GC (Allocation Failure) [PSYoungGen: 31744K->0K(31744K)] 33500K->1756K(117760K), 0.0005594 secs] [Times: user=0.00 sys=0.00, real=0.02 secs] 
+[GC (Allocation Failure) [PSYoungGen: 31232K->0K(31232K)] 32988K->1756K(117248K), 0.0007215 secs] [Times: user=0.00 sys=0.00, real=0.00 secs] 
+[GC (Allocation Failure) [PSYoungGen: 30720K->0K(30720K)] 32476K->1756K(116736K), 0.0004809 secs] [Times: user=0.00 sys=0.00, real=0.00 secs] 
+1175.979 ops/ms
+Iteration   5: [GC (Allocation Failure) [PSYoungGen: 30208K->96K(30208K)] 31964K->1852K(116224K), 0.0005294 secs] [Times: user=0.00 sys=0.00, real=0.01 secs] 
+[GC (Allocation Failure) [PSYoungGen: 29792K->0K(29696K)] 31548K->1780K(115712K), 0.0004851 secs] [Times: user=0.03 sys=0.02, real=0.01 secs] 
+[GC (Allocation Failure) [PSYoungGen: 29184K->0K(29184K)] 30964K->1780K(115200K), 0.0008552 secs] [Times: user=0.00 sys=0.00, real=0.01 secs] 
+[GC (Allocation Failure) [PSYoungGen: 28672K->0K(28672K)] 30452K->1780K(114688K), 0.0006913 secs] [Times: user=0.00 sys=0.00, real=0.01 secs] 
+[GC (Allocation Failure) [PSYoungGen: 28160K->0K(28160K)] 29940K->1780K(114176K), 0.0005863 secs] [Times: user=0.00 sys=0.00, real=0.00 secs] 
+[GC (Allocation Failure) [PSYoungGen: 27648K->0K(27648K)] 29428K->1780K(113664K), 0.0004742 secs] [Times: user=0.02 sys=0.01, real=0.01 secs] 
+[GC (Allocation Failure) [PSYoungGen: 27136K->0K(27136K)] 28916K->1780K(113152K), 0.0006678 secs] [Times: user=0.00 sys=0.00, real=0.01 secs] 
+[GC (Allocation Failure) [PSYoungGen: 26624K->0K(26624K)] 28404K->1780K(112640K), 0.0004641 secs] [Times: user=0.00 sys=0.00, real=0.00 secs] 
+[GC (Allocation Failure) [PSYoungGen: 26112K->0K(26112K)] 27892K->1780K(112128K), 0.0006890 secs] [Times: user=0.02 sys=0.00, real=0.00 secs] 
+[GC (Allocation Failure) [PSYoungGen: 25600K->0K(31232K)] 27380K->1780K(117248K), 0.0009129 secs] [Times: user=0.02 sys=0.00, real=0.01 secs] 
+[GC (Allocation Failure) [PSYoungGen: 30720K->0K(37376K)] 32500K->1780K(123392K), 0.0007910 secs] [Times: user=0.03 sys=0.00, real=0.01 secs] 
+[GC (Allocation Failure) [PSYoungGen: 36864K->0K(45056K)] 38644K->1780K(131072K), 0.0008158 secs] [Times: user=0.01 sys=0.00, real=0.00 secs] 
+[GC (Allocation Failure) [PSYoungGen: 44544K->0K(44032K)] 46324K->1780K(130048K), 0.0004679 secs] [Times: user=0.02 sys=0.00, real=0.01 secs] 
+[GC (Allocation Failure) [PSYoungGen: 43520K->0K(43008K)] 45300K->1780K(129024K), 0.0006574 secs] [Times: user=0.00 sys=0.00, real=0.01 secs] 
+[GC (Allocation Failure) [PSYoungGen: 42496K->0K(41984K)] 44276K->1780K(128000K), 0.0004449 secs] [Times: user=0.00 sys=0.00, real=0.01 secs] 
+1196.904 ops/ms
+Iteration   6: [GC (Allocation Failure) [PSYoungGen: 41472K->64K(40960K)] 43252K->1844K(126976K), 0.0006795 secs] [Times: user=0.00 sys=0.00, real=0.01 secs] 
+[GC (Allocation Failure) [PSYoungGen: 40512K->0K(39936K)] 42292K->1812K(125952K), 0.0004872 secs] [Times: user=0.00 sys=0.00, real=0.01 secs] 
+[GC (Allocation Failure) [PSYoungGen: 39424K->0K(38912K)] 41236K->1812K(124928K), 0.0008651 secs] [Times: user=0.00 sys=0.02, real=0.01 secs] 
+[GC (Allocation Failure) [PSYoungGen: 38400K->0K(37888K)] 40212K->1812K(123904K), 0.0007062 secs] [Times: user=0.00 sys=0.00, real=0.00 secs] 
+[GC (Allocation Failure) [PSYoungGen: 37376K->0K(37376K)] 39188K->1812K(123392K), 0.0004186 secs] [Times: user=0.02 sys=0.02, real=0.01 secs] 
+[GC (Allocation Failure) [PSYoungGen: 36864K->0K(36864K)] 38676K->1812K(122880K), 0.0005949 secs] [Times: user=0.00 sys=0.02, real=0.01 secs] 
+[GC (Allocation Failure) [PSYoungGen: 36352K->0K(36352K)] 38164K->1812K(122368K), 0.0006243 secs] [Times: user=0.00 sys=0.00, real=0.01 secs] 
+[GC (Allocation Failure) [PSYoungGen: 35840K->0K(35840K)] 37652K->1812K(121856K), 0.0007745 secs] [Times: user=0.00 sys=0.02, real=0.00 secs] 
+[GC (Allocation Failure) [PSYoungGen: 35328K->0K(35328K)] 37140K->1812K(121344K), 0.0006049 secs] [Times: user=0.03 sys=0.00, real=0.01 secs] 
+[GC (Allocation Failure) [PSYoungGen: 34816K->0K(34816K)] 36628K->1812K(120832K), 0.0004805 secs] [Times: user=0.00 sys=0.02, real=0.02 secs] 
+[GC (Allocation Failure) [PSYoungGen: 34304K->0K(34304K)] 36116K->1812K(120320K), 0.0004855 secs] [Times: user=0.00 sys=0.00, real=0.01 secs] 
+[GC (Allocation Failure) [PSYoungGen: 33792K->0K(33792K)] 35604K->1812K(119808K), 0.0005065 secs] [Times: user=0.00 sys=0.00, real=0.01 secs] 
+[GC (Allocation Failure) [PSYoungGen: 33280K->0K(33280K)] 35092K->1812K(119296K), 0.0006808 secs] [Times: user=0.00 sys=0.01, real=0.01 secs] 
+1198.796 ops/ms
+Iteration   7: [GC (Allocation Failure) [PSYoungGen: 32768K->96K(32768K)] 34580K->1908K(118784K), 0.0007138 secs] [Times: user=0.02 sys=0.00, real=0.02 secs] 
+[GC (Allocation Failure) [PSYoungGen: 32352K->0K(32256K)] 34164K->1836K(118272K), 0.0008274 secs] [Times: user=0.00 sys=0.00, real=0.01 secs] 
+[GC (Allocation Failure) [PSYoungGen: 31744K->0K(31744K)] 33580K->1836K(117760K), 0.0004818 secs] [Times: user=0.00 sys=0.00, real=0.02 secs] 
+[GC (Allocation Failure) [PSYoungGen: 31232K->0K(31232K)] 33068K->1836K(117248K), 0.0007382 secs] [Times: user=0.00 sys=0.00, real=0.01 secs] 
+[GC (Allocation Failure) [PSYoungGen: 30720K->0K(30720K)] 32556K->1836K(116736K), 0.0004442 secs] [Times: user=0.00 sys=0.02, real=0.01 secs] 
+[GC (Allocation Failure) [PSYoungGen: 30208K->0K(30208K)] 32044K->1836K(116224K), 0.0004864 secs] [Times: user=0.00 sys=0.00, real=0.01 secs] 
+[GC (Allocation Failure) [PSYoungGen: 29696K->0K(29696K)] 31532K->1836K(115712K), 0.0004454 secs] [Times: user=0.00 sys=0.01, real=0.00 secs] 
+[GC (Allocation Failure) [PSYoungGen: 29184K->0K(29184K)] 31020K->1836K(115200K), 0.0004429 secs] [Times: user=0.00 sys=0.02, real=0.01 secs] 
+[GC (Allocation Failure) [PSYoungGen: 28672K->0K(28672K)] 30508K->1836K(114688K), 0.0007450 secs] [Times: user=0.00 sys=0.00, real=0.00 secs] 
+[GC (Allocation Failure) [PSYoungGen: 28160K->0K(28160K)] 29996K->1836K(114176K), 0.0009223 secs] [Times: user=0.00 sys=0.00, real=0.01 secs] 
+[GC (Allocation Failure) [PSYoungGen: 27648K->0K(27648K)] 29484K->1836K(113664K), 0.0006075 secs] [Times: user=0.00 sys=0.00, real=0.00 secs] 
+[GC (Allocation Failure) [PSYoungGen: 27136K->0K(27136K)] 28972K->1836K(113152K), 0.0004864 secs] [Times: user=0.02 sys=0.00, real=0.01 secs] 
+[GC (Allocation Failure) [PSYoungGen: 26624K->0K(26624K)] 28460K->1836K(112640K), 0.0006932 secs] [Times: user=0.02 sys=0.00, real=0.01 secs] 
+[GC (Allocation Failure) [PSYoungGen: 26112K->0K(26112K)] 27948K->1836K(112128K), 0.0006250 secs] [Times: user=0.00 sys=0.00, real=0.00 secs] 
+[GC (Allocation Failure) [PSYoungGen: 25600K->0K(25600K)] 27436K->1836K(111616K), 0.0005015 secs] [Times: user=0.02 sys=0.02, real=0.01 secs] 
+1141.015 ops/ms
+Iteration   8: [GC (Allocation Failure) [PSYoungGen: 25088K->64K(25088K)] 26924K->1900K(111104K), 0.0006762 secs] [Times: user=0.00 sys=0.00, real=0.01 secs] 
+[GC (Allocation Failure) [PSYoungGen: 24640K->0K(24576K)] 26476K->1852K(110592K), 0.0006414 secs] [Times: user=0.00 sys=0.00, real=0.01 secs] 
+[GC (Allocation Failure) [PSYoungGen: 24064K->0K(29696K)] 25916K->1852K(115712K), 0.0007442 secs] [Times: user=0.00 sys=0.00, real=0.00 secs] 
+[GC (Allocation Failure) [PSYoungGen: 29184K->0K(29184K)] 31036K->1852K(115200K), 0.0005966 secs] [Times: user=0.00 sys=0.00, real=0.01 secs] 
+[GC (Allocation Failure) [PSYoungGen: 28672K->0K(28672K)] 30524K->1852K(114688K), 0.0006175 secs] [Times: user=0.00 sys=0.00, real=0.01 secs] 
+[GC (Allocation Failure) [PSYoungGen: 28160K->0K(28160K)] 30012K->1852K(114176K), 0.0004244 secs] [Times: user=0.00 sys=0.02, real=0.01 secs] 
+[GC (Allocation Failure) [PSYoungGen: 27648K->0K(27648K)] 29500K->1852K(113664K), 0.0005925 secs] [Times: user=0.00 sys=0.00, real=0.00 secs] 
+[GC (Allocation Failure) [PSYoungGen: 27136K->0K(27136K)] 28988K->1852K(113152K), 0.0006413 secs] [Times: user=0.00 sys=0.00, real=0.01 secs] 
+[GC (Allocation Failure) [PSYoungGen: 26624K->0K(26624K)] 28476K->1852K(112640K), 0.0005303 secs] [Times: user=0.00 sys=0.00, real=0.00 secs] 
+[GC (Allocation Failure) [PSYoungGen: 26112K->0K(26112K)] 27964K->1852K(112128K), 0.0004905 secs] [Times: user=0.00 sys=0.00, real=0.00 secs] 
+[GC (Allocation Failure) [PSYoungGen: 25600K->0K(25600K)] 27452K->1852K(111616K), 0.0008831 secs] [Times: user=0.00 sys=0.00, real=0.01 secs] 
+[GC (Allocation Failure) [PSYoungGen: 25088K->0K(25088K)] 26940K->1852K(111104K), 0.0005590 secs] [Times: user=0.00 sys=0.02, real=0.01 secs] 
+[GC (Allocation Failure) [PSYoungGen: 24576K->0K(24576K)] 26428K->1852K(110592K), 0.0004910 secs] [Times: user=0.00 sys=0.00, real=0.02 secs] 
+[GC (Allocation Failure) [PSYoungGen: 24064K->0K(24576K)] 25916K->1852K(110592K), 0.0008991 secs] [Times: user=0.00 sys=0.00, real=0.01 secs] 
+[GC (Allocation Failure) [PSYoungGen: 24064K->0K(29696K)] 25916K->1852K(115712K), 0.0006456 secs] [Times: user=0.00 sys=0.00, real=0.01 secs] 
+[GC (Allocation Failure) [PSYoungGen: 29184K->0K(35840K)] 31036K->1852K(121856K), 0.0006851 secs] [Times: user=0.00 sys=0.00, real=0.00 secs] 
+[GC (Allocation Failure) [PSYoungGen: 35328K->0K(35328K)] 37180K->1852K(121344K), 0.0005873 secs] [Times: user=0.00 sys=0.00, real=0.02 secs] 
+1097.711 ops/ms
+Iteration   9: [GC (Allocation Failure) [PSYoungGen: 34816K->128K(42496K)] 36668K->1980K(128512K), 0.0008346 secs] [Times: user=0.00 sys=0.00, real=0.00 secs] 
+[GC (Allocation Failure) [PSYoungGen: 42112K->0K(41472K)] 43964K->1884K(127488K), 0.0007467 secs] [Times: user=0.00 sys=0.00, real=0.01 secs] 
+[GC (Allocation Failure) [PSYoungGen: 40960K->0K(40448K)] 42844K->1884K(126464K), 0.0005979 secs] [Times: user=0.00 sys=0.00, real=0.00 secs] 
+[GC (Allocation Failure) [PSYoungGen: 39936K->0K(39424K)] 41820K->1884K(125440K), 0.0007227 secs] [Times: user=0.00 sys=0.00, real=0.00 secs] 
+[GC (Allocation Failure) [PSYoungGen: 38912K->0K(38400K)] 40796K->1884K(124416K), 0.0004294 secs] [Times: user=0.00 sys=0.00, real=0.00 secs] 
+[GC (Allocation Failure) [PSYoungGen: 37888K->0K(37888K)] 39772K->1884K(123904K), 0.0006454 secs] [Times: user=0.05 sys=0.00, real=0.02 secs] 
+[GC (Allocation Failure) [PSYoungGen: 37376K->0K(37376K)] 39260K->1884K(123392K), 0.0004875 secs] [Times: user=0.00 sys=0.00, real=0.01 secs] 
+[GC (Allocation Failure) [PSYoungGen: 36864K->0K(36864K)] 38748K->1884K(122880K), 0.0007995 secs] [Times: user=0.00 sys=0.00, real=0.00 secs] 
+[GC (Allocation Failure) [PSYoungGen: 36352K->0K(36352K)] 38236K->1884K(122368K), 0.0005521 secs] [Times: user=0.00 sys=0.00, real=0.01 secs] 
+[GC (Allocation Failure) [PSYoungGen: 35840K->0K(35840K)] 37724K->1884K(121856K), 0.0008410 secs] [Times: user=0.00 sys=0.00, real=0.01 secs] 
+[GC (Allocation Failure) [PSYoungGen: 35328K->0K(35328K)] 37212K->1884K(121344K), 0.0004192 secs] [Times: user=0.00 sys=0.00, real=0.00 secs] 
+[GC (Allocation Failure) [PSYoungGen: 34816K->0K(34816K)] 36700K->1884K(120832K), 0.0006770 secs] [Times: user=0.00 sys=0.00, real=0.01 secs] 
+[GC (Allocation Failure) [PSYoungGen: 34304K->0K(34304K)] 36188K->1884K(120320K), 0.0005696 secs] [Times: user=0.00 sys=0.00, real=0.01 secs] 
+1251.680 ops/ms
+Iteration  10: [GC (Allocation Failure) [PSYoungGen: 33792K->64K(33792K)] 35676K->1948K(119808K), 0.0005485 secs] [Times: user=0.00 sys=0.00, real=0.01 secs] 
+[GC (Allocation Failure) [PSYoungGen: 33344K->0K(33280K)] 35228K->1924K(119296K), 0.0008277 secs] [Times: user=0.09 sys=0.00, real=0.01 secs] 
+[GC (Allocation Failure) [PSYoungGen: 32768K->0K(32768K)] 34692K->1924K(118784K), 0.0004387 secs] [Times: user=0.00 sys=0.00, real=0.00 secs] 
+[GC (Allocation Failure) [PSYoungGen: 32256K->0K(32256K)] 34180K->1924K(118272K), 0.0005728 secs] [Times: user=0.00 sys=0.00, real=0.01 secs] 
+[GC (Allocation Failure) [PSYoungGen: 31744K->0K(31744K)] 33668K->1924K(117760K), 0.0005059 secs] [Times: user=0.00 sys=0.00, real=0.01 secs] 
+[GC (Allocation Failure) [PSYoungGen: 31232K->0K(31232K)] 33156K->1924K(117248K), 0.0005218 secs] [Times: user=0.00 sys=0.00, real=0.01 secs] 
+[GC (Allocation Failure) [PSYoungGen: 30720K->0K(30720K)] 32644K->1924K(116736K), 0.0006592 secs] [Times: user=0.00 sys=0.00, real=0.01 secs] 
+[GC (Allocation Failure) [PSYoungGen: 30208K->0K(30208K)] 32132K->1924K(116224K), 0.0011692 secs] [Times: user=0.00 sys=0.00, real=0.01 secs] 
+[GC (Allocation Failure) [PSYoungGen: 29696K->0K(29696K)] 31620K->1924K(115712K), 0.0008333 secs] [Times: user=0.00 sys=0.00, real=0.01 secs] 
+[GC (Allocation Failure) [PSYoungGen: 29184K->0K(29184K)] 31108K->1924K(115200K), 0.0005234 secs] [Times: user=0.12 sys=0.00, real=0.02 secs] 
+[GC (Allocation Failure) [PSYoungGen: 28672K->0K(28672K)] 30596K->1924K(114688K), 0.0008167 secs] [Times: user=0.00 sys=0.00, real=0.01 secs] 
+[GC (Allocation Failure) [PSYoungGen: 28160K->0K(28160K)] 30084K->1924K(114176K), 0.0006560 secs] [Times: user=0.00 sys=0.00, real=0.00 secs] 
+[GC (Allocation Failure) [PSYoungGen: 27648K->0K(33792K)] 29572K->1924K(119808K), 0.0008228 secs] [Times: user=0.00 sys=0.00, real=0.01 secs] 
+[GC (Allocation Failure) [PSYoungGen: 33280K->0K(40448K)] 35204K->1924K(126464K), 0.0007600 secs] [Times: user=0.00 sys=0.00, real=0.00 secs] 
+1090.149 ops/ms
+Heap
+ PSYoungGen      total 40448K, used 10863K [0x00000000fab00000, 0x00000000fe580000, 0x0000000100000000)
+  eden space 39936K, 27% used [0x00000000fab00000,0x00000000fb59bc60,0x00000000fd200000)
+  from space 512K, 0% used [0x00000000fe500000,0x00000000fe500000,0x00000000fe580000)
+  to   space 512K, 0% used [0x00000000fe480000,0x00000000fe480000,0x00000000fe500000)
+ ParOldGen       total 86016K, used 1924K [0x00000000f0000000, 0x00000000f5400000, 0x00000000fab00000)
+  object space 86016K, 2% used [0x00000000f0000000,0x00000000f01e10a0,0x00000000f5400000)
+ Metaspace       used 6370K, capacity 6594K, committed 6784K, reserved 1056768K
+  class space    used 752K, capacity 839K, committed 896K, reserved 1048576K
+
+
+Result "com.cib.fix.benchmarks.FixParserBenchMark.allocationTestMediumMessage":
+  1157.247 ±(99.9%) 85.815 ops/ms [Average]
+  (min, avg, max) = (1081.759, 1157.247, 1251.680), stdev = 56.761
+  CI (99.9%): [1071.432, 1243.063] (assumes normal distribution)
 
 
 # JMH version: 1.21
@@ -167,167 +404,566 @@ Result "com.cib.fix.benchmarks.FixParserBenchMark.allocationTestHugeMessage":
 # Benchmark mode: Throughput, ops/time
 # Benchmark: com.cib.fix.benchmarks.FixParserBenchMark.allocationTestSmallMessage
 
-# Run progress: 8.02% complete, ETA 00:02:35
+# Run progress: 12.75% complete, ETA 00:03:05
 # Fork: 1 of 1
-# Warmup Iteration   1: [GC (Allocation Failure) [PSYoungGen: 32768K->2315K(37888K)] 32768K->2323K(123904K), 0.0022689 secs] [Times: user=0.00 sys=0.00, real=0.00 secs] 
-[GC (Allocation Failure) [PSYoungGen: 35083K->1696K(37888K)] 35091K->1712K(123904K), 0.0015669 secs] [Times: user=0.12 sys=0.00, real=0.01 secs] 
-[GC (Allocation Failure) [PSYoungGen: 34464K->1600K(37888K)] 34480K->1624K(123904K), 0.0018895 secs] [Times: user=0.00 sys=0.00, real=0.00 secs] 
-[GC (Allocation Failure) [PSYoungGen: 34368K->1600K(70656K)] 34392K->1624K(156672K), 0.0016294 secs] [Times: user=0.00 sys=0.00, real=0.00 secs] 
-[GC (Allocation Failure) [PSYoungGen: 67136K->1616K(70656K)] 67160K->1640K(156672K), 0.0021289 secs] [Times: user=0.00 sys=0.02, real=0.01 secs] 
-[GC (Allocation Failure) [PSYoungGen: 67152K->1616K(79360K)] 67176K->1640K(165376K), 0.0014114 secs] [Times: user=0.00 sys=0.01, real=0.01 secs] 
-[GC (Allocation Failure) [PSYoungGen: 78416K->0K(79360K)] 78440K->1564K(165376K), 0.0014518 secs] [Times: user=0.00 sys=0.00, real=0.01 secs] 
-3401.045 ops/ms
-# Warmup Iteration   2: [GC (Allocation Failure) [PSYoungGen: 76800K->256K(74752K)] 78364K->1820K(160768K), 0.0006371 secs] [Times: user=0.00 sys=0.00, real=0.00 secs] 
-[GC (Allocation Failure) [PSYoungGen: 74496K->256K(74752K)] 76060K->1820K(160768K), 0.0007396 secs] [Times: user=0.00 sys=0.00, real=0.00 secs] 
-[GC (Allocation Failure) [PSYoungGen: 71936K->0K(70144K)] 73500K->1636K(156160K), 0.0007106 secs] [Times: user=0.00 sys=0.00, real=0.00 secs] 
-[GC (Allocation Failure) [PSYoungGen: 69632K->0K(70656K)] 71268K->1636K(156672K), 0.0006422 secs] [Times: user=0.00 sys=0.00, real=0.00 secs] 
-[GC (Allocation Failure) [PSYoungGen: 67584K->0K(66048K)] 69220K->1636K(152064K), 0.0007144 secs] [Times: user=0.00 sys=0.00, real=0.00 secs] 
-3490.265 ops/ms
-# Warmup Iteration   3: [GC (Allocation Failure) [PSYoungGen: 65536K->128K(66560K)] 67172K->1764K(152576K), 0.0005562 secs] [Times: user=0.00 sys=0.00, real=0.00 secs] 
-[GC (Allocation Failure) [PSYoungGen: 63616K->0K(61952K)] 65252K->1644K(147968K), 0.0005861 secs] [Times: user=0.00 sys=0.00, real=0.00 secs] 
-[GC (Allocation Failure) [PSYoungGen: 61440K->0K(62976K)] 63084K->1644K(148992K), 0.0005266 secs] [Times: user=0.03 sys=0.00, real=0.00 secs] 
-[GC (Allocation Failure) [PSYoungGen: 59904K->0K(58880K)] 61548K->1644K(144896K), 0.0006165 secs] [Times: user=0.00 sys=0.00, real=0.00 secs] 
-[GC (Allocation Failure) [PSYoungGen: 58368K->0K(59392K)] 60012K->1644K(145408K), 0.0008076 secs] [Times: user=0.00 sys=0.00, real=0.01 secs] 
-[GC (Allocation Failure) [PSYoungGen: 56832K->0K(55808K)] 58476K->1644K(141824K), 0.0007788 secs] [Times: user=0.00 sys=0.00, real=0.01 secs] 
-3599.925 ops/ms
-Iteration   1: [GC (Allocation Failure) [PSYoungGen: 55296K->64K(56320K)] 56940K->1708K(142336K), 0.0006460 secs] [Times: user=0.00 sys=0.00, real=0.00 secs] 
-[GC (Allocation Failure) [PSYoungGen: 53824K->0K(52736K)] 55468K->1676K(138752K), 0.0009216 secs] [Times: user=0.03 sys=0.02, real=0.00 secs] 
-[GC (Allocation Failure) [PSYoungGen: 52224K->0K(53248K)] 53900K->1676K(139264K), 0.0006383 secs] [Times: user=0.00 sys=0.00, real=0.00 secs] 
-[GC (Allocation Failure) [PSYoungGen: 50688K->0K(49664K)] 52364K->1676K(135680K), 0.0007192 secs] [Times: user=0.00 sys=0.00, real=0.00 secs] 
-[GC (Allocation Failure) [PSYoungGen: 49152K->0K(50176K)] 50828K->1676K(136192K), 0.0009162 secs] [Times: user=0.00 sys=0.00, real=0.01 secs] 
-[GC (Allocation Failure) [PSYoungGen: 48128K->0K(47616K)] 49804K->1676K(133632K), 0.0005199 secs] [Times: user=0.00 sys=0.00, real=0.00 secs] 
-[GC (Allocation Failure) [PSYoungGen: 47104K->0K(48128K)] 48780K->1676K(134144K), 0.0005296 secs] [Times: user=0.00 sys=0.00, real=0.00 secs] 
-3349.732 ops/ms
-Iteration   2: [GC (Allocation Failure) [PSYoungGen: 46080K->224K(45568K)] 47756K->1900K(131584K), 0.0009645 secs] [Times: user=0.00 sys=0.00, real=0.00 secs] 
-[GC (Allocation Failure) [PSYoungGen: 45280K->0K(45568K)] 46956K->1700K(131584K), 0.0007137 secs] [Times: user=0.00 sys=0.00, real=0.00 secs] 
-[GC (Allocation Failure) [PSYoungGen: 44032K->0K(43520K)] 45732K->1700K(129536K), 0.0005871 secs] [Times: user=0.00 sys=0.00, real=0.00 secs] 
-[GC (Allocation Failure) [PSYoungGen: 43008K->0K(43520K)] 44708K->1700K(129536K), 0.0008473 secs] [Times: user=0.00 sys=0.00, real=0.01 secs] 
-[GC (Allocation Failure) [PSYoungGen: 41984K->0K(41472K)] 43684K->1700K(127488K), 0.0007925 secs] [Times: user=0.00 sys=0.00, real=0.00 secs] 
-[GC (Allocation Failure) [PSYoungGen: 40960K->0K(41472K)] 42660K->1700K(127488K), 0.0006681 secs] [Times: user=0.00 sys=0.00, real=0.00 secs] 
-[GC (Allocation Failure) [PSYoungGen: 39936K->0K(39424K)] 41636K->1700K(125440K), 0.0007017 secs] [Times: user=0.00 sys=0.00, real=0.00 secs] 
-[GC (Allocation Failure) [PSYoungGen: 38912K->0K(38912K)] 40612K->1700K(124928K), 0.0005444 secs] [Times: user=0.00 sys=0.00, real=0.00 secs] 
-[GC (Allocation Failure) [PSYoungGen: 37888K->0K(37888K)] 39588K->1700K(123904K), 0.0007509 secs] [Times: user=0.00 sys=0.00, real=0.00 secs] 
-3934.660 ops/ms
-Iteration   3: [GC (Allocation Failure) [PSYoungGen: 37376K->64K(37888K)] 39076K->1764K(123904K), 0.0006974 secs] [Times: user=0.00 sys=0.02, real=0.00 secs] 
-[GC (Allocation Failure) [PSYoungGen: 36928K->0K(36864K)] 38628K->1724K(122880K), 0.0005603 secs] [Times: user=0.00 sys=0.00, real=0.00 secs] 
-[GC (Allocation Failure) [PSYoungGen: 36352K->0K(36864K)] 38076K->1724K(122880K), 0.0005740 secs] [Times: user=0.00 sys=0.00, real=0.00 secs] 
-[GC (Allocation Failure) [PSYoungGen: 35840K->0K(35840K)] 37564K->1724K(121856K), 0.0007413 secs] [Times: user=0.00 sys=0.00, real=0.00 secs] 
-[GC (Allocation Failure) [PSYoungGen: 35328K->0K(35840K)] 37052K->1724K(121856K), 0.0007166 secs] [Times: user=0.00 sys=0.00, real=0.00 secs] 
-[GC (Allocation Failure) [PSYoungGen: 34816K->0K(34816K)] 36540K->1724K(120832K), 0.0005543 secs] [Times: user=0.00 sys=0.00, real=0.00 secs] 
-[GC (Allocation Failure) [PSYoungGen: 34304K->0K(34816K)] 36028K->1724K(120832K), 0.0009009 secs] [Times: user=0.00 sys=0.00, real=0.00 secs] 
-[GC (Allocation Failure) [PSYoungGen: 33792K->0K(33792K)] 35516K->1724K(119808K), 0.0006272 secs] [Times: user=0.00 sys=0.00, real=0.00 secs] 
-[GC (Allocation Failure) [PSYoungGen: 33280K->0K(33280K)] 35004K->1724K(119296K), 0.0006685 secs] [Times: user=0.00 sys=0.00, real=0.00 secs] 
-[GC (Allocation Failure) [PSYoungGen: 32768K->0K(32768K)] 34492K->1724K(118784K), 0.0006418 secs] [Times: user=0.00 sys=0.00, real=0.00 secs] 
-[GC (Allocation Failure) [PSYoungGen: 32256K->0K(32256K)] 33980K->1724K(118272K), 0.0005459 secs] [Times: user=0.00 sys=0.00, real=0.00 secs] 
-3567.991 ops/ms
-Iteration   4: [GC (Allocation Failure) [PSYoungGen: 31744K->160K(31744K)] 33468K->1884K(117760K), 0.0004808 secs] [Times: user=0.00 sys=0.00, real=0.00 secs] 
-[GC (Allocation Failure) [PSYoungGen: 31392K->0K(31232K)] 33116K->1756K(117248K), 0.0004372 secs] [Times: user=0.00 sys=0.00, real=0.00 secs] 
-[GC (Allocation Failure) [PSYoungGen: 30720K->0K(30720K)] 32476K->1756K(116736K), 0.0003835 secs] [Times: user=0.00 sys=0.00, real=0.00 secs] 
-[GC (Allocation Failure) [PSYoungGen: 30208K->0K(30208K)] 31964K->1756K(116224K), 0.0005608 secs] [Times: user=0.00 sys=0.00, real=0.01 secs] 
-[GC (Allocation Failure) [PSYoungGen: 29696K->0K(29696K)] 31452K->1756K(115712K), 0.0006754 secs] [Times: user=0.00 sys=0.00, real=0.00 secs] 
-[GC (Allocation Failure) [PSYoungGen: 29184K->0K(29184K)] 30940K->1756K(115200K), 0.0007532 secs] [Times: user=0.00 sys=0.00, real=0.01 secs] 
-[GC (Allocation Failure) [PSYoungGen: 28672K->0K(28672K)] 30428K->1756K(114688K), 0.0006801 secs] [Times: user=0.00 sys=0.00, real=0.00 secs] 
-[GC (Allocation Failure) [PSYoungGen: 28160K->0K(28160K)] 29916K->1756K(114176K), 0.0006320 secs] [Times: user=0.00 sys=0.00, real=0.00 secs] 
-[GC (Allocation Failure) [PSYoungGen: 27648K->0K(27648K)] 29404K->1756K(113664K), 0.0004785 secs] [Times: user=0.00 sys=0.00, real=0.01 secs] 
-[GC (Allocation Failure) [PSYoungGen: 27136K->0K(27136K)] 28892K->1756K(113152K), 0.0004644 secs] [Times: user=0.00 sys=0.00, real=0.00 secs] 
-[GC (Allocation Failure) [PSYoungGen: 26623K->0K(26624K)] 28380K->1756K(112640K), 0.0008385 secs] [Times: user=0.00 sys=0.02, real=0.01 secs] 
-[GC (Allocation Failure) [PSYoungGen: 26112K->0K(26112K)] 27868K->1756K(112128K), 0.0006822 secs] [Times: user=0.00 sys=0.00, real=0.00 secs] 
-3406.381 ops/ms
-Iteration   5: [GC (Allocation Failure) [PSYoungGen: 25600K->96K(25600K)] 27356K->1852K(111616K), 0.0006000 secs] [Times: user=0.00 sys=0.00, real=0.00 secs] 
-[GC (Allocation Failure) [PSYoungGen: 25184K->0K(25088K)] 26940K->1780K(111104K), 0.0007082 secs] [Times: user=0.00 sys=0.00, real=0.00 secs] 
-[GC (Allocation Failure) [PSYoungGen: 24576K->0K(24576K)] 26356K->1780K(110592K), 0.0007316 secs] [Times: user=0.00 sys=0.00, real=0.00 secs] 
-[GC (Allocation Failure) [PSYoungGen: 24064K->0K(24576K)] 25844K->1780K(110592K), 0.0007305 secs] [Times: user=0.00 sys=0.00, real=0.00 secs] 
-[GC (Allocation Failure) [PSYoungGen: 24064K->0K(24576K)] 25844K->1780K(110592K), 0.0006529 secs] [Times: user=0.00 sys=0.00, real=0.01 secs] 
-[GC (Allocation Failure) [PSYoungGen: 24064K->0K(24576K)] 25844K->1780K(110592K), 0.0004680 secs] [Times: user=0.00 sys=0.00, real=0.00 secs] 
-[GC (Allocation Failure) [PSYoungGen: 24064K->0K(24576K)] 25844K->1780K(110592K), 0.0007088 secs] [Times: user=0.00 sys=0.00, real=0.00 secs] 
-[GC (Allocation Failure) [PSYoungGen: 24064K->0K(29696K)] 25844K->1780K(115712K), 0.0010242 secs] [Times: user=0.01 sys=0.00, real=0.01 secs] 
-[GC (Allocation Failure) [PSYoungGen: 29184K->0K(29184K)] 30964K->1780K(115200K), 0.0006081 secs] [Times: user=0.00 sys=0.00, real=0.01 secs] 
-[GC (Allocation Failure) [PSYoungGen: 28672K->0K(28672K)] 30452K->1780K(114688K), 0.0004249 secs] [Times: user=0.00 sys=0.00, real=0.00 secs] 
-[GC (Allocation Failure) [PSYoungGen: 28160K->0K(28160K)] 29940K->1780K(114176K), 0.0005793 secs] [Times: user=0.00 sys=0.00, real=0.01 secs] 
-[GC (Allocation Failure) [PSYoungGen: 27648K->0K(27648K)] 29428K->1780K(113664K), 0.0006262 secs] [Times: user=0.00 sys=0.02, real=0.01 secs] 
-[GC (Allocation Failure) [PSYoungGen: 27136K->0K(27136K)] 28916K->1780K(113152K), 0.0011640 secs] [Times: user=0.00 sys=0.00, real=0.00 secs] 
-3403.484 ops/ms
-Iteration   6: [GC (Allocation Failure) [PSYoungGen: 26624K->128K(26624K)] 28404K->1908K(112640K), 0.0006459 secs] [Times: user=0.00 sys=0.00, real=0.00 secs] 
-[GC (Allocation Failure) [PSYoungGen: 26240K->0K(26112K)] 28020K->1796K(112128K), 0.0005613 secs] [Times: user=0.00 sys=0.01, real=0.01 secs] 
-[GC (Allocation Failure) [PSYoungGen: 25600K->0K(25600K)] 27396K->1796K(111616K), 0.0008478 secs] [Times: user=0.00 sys=0.00, real=0.00 secs] 
-[GC (Allocation Failure) [PSYoungGen: 25088K->0K(25088K)] 26884K->1796K(111104K), 0.0004467 secs] [Times: user=0.00 sys=0.00, real=0.00 secs] 
-[GC (Allocation Failure) [PSYoungGen: 24576K->0K(24576K)] 26372K->1796K(110592K), 0.0007009 secs] [Times: user=0.00 sys=0.00, real=0.00 secs] 
-[GC (Allocation Failure) [PSYoungGen: 24064K->0K(24576K)] 25860K->1796K(110592K), 0.0008460 secs] [Times: user=0.00 sys=0.00, real=0.00 secs] 
-[GC (Allocation Failure) [PSYoungGen: 24064K->0K(24576K)] 25860K->1796K(110592K), 0.0013737 secs] [Times: user=0.00 sys=0.00, real=0.00 secs] 
-[GC (Allocation Failure) [PSYoungGen: 24064K->0K(29696K)] 25860K->1796K(115712K), 0.0013572 secs] [Times: user=0.00 sys=0.00, real=0.00 secs] 
-[GC (Allocation Failure) [PSYoungGen: 29184K->0K(35840K)] 30980K->1796K(121856K), 0.0006366 secs] [Times: user=0.00 sys=0.00, real=0.00 secs] 
-[GC (Allocation Failure) [PSYoungGen: 35328K->0K(35328K)] 37124K->1796K(121344K), 0.0008304 secs] [Times: user=0.00 sys=0.00, real=0.00 secs] 
-[GC (Allocation Failure) [PSYoungGen: 34816K->0K(34816K)] 36612K->1796K(120832K), 0.0008990 secs] [Times: user=0.00 sys=0.00, real=0.00 secs] 
-[GC (Allocation Failure) [PSYoungGen: 34304K->0K(34304K)] 36100K->1796K(120320K), 0.0007218 secs] [Times: user=0.00 sys=0.00, real=0.00 secs] 
-3141.022 ops/ms
-Iteration   7: [GC (Allocation Failure) [PSYoungGen: 33792K->64K(33792K)] 35588K->1860K(119808K), 0.0006889 secs] [Times: user=0.00 sys=0.00, real=0.01 secs] 
-[GC (Allocation Failure) [PSYoungGen: 33344K->0K(33280K)] 35140K->1812K(119296K), 0.0005672 secs] [Times: user=0.00 sys=0.00, real=0.00 secs] 
-[GC (Allocation Failure) [PSYoungGen: 32768K->0K(32768K)] 34580K->1812K(118784K), 0.0010064 secs] [Times: user=0.00 sys=0.00, real=0.01 secs] 
-[GC (Allocation Failure) [PSYoungGen: 32256K->0K(32256K)] 34068K->1812K(118272K), 0.0009471 secs] [Times: user=0.00 sys=0.00, real=0.00 secs] 
-[GC (Allocation Failure) [PSYoungGen: 31744K->0K(31744K)] 33556K->1812K(117760K), 0.0008390 secs] [Times: user=0.00 sys=0.00, real=0.01 secs] 
-[GC (Allocation Failure) [PSYoungGen: 31232K->0K(31232K)] 33044K->1812K(117248K), 0.0008248 secs] [Times: user=0.00 sys=0.00, real=0.01 secs] 
-[GC (Allocation Failure) [PSYoungGen: 30720K->0K(30720K)] 32532K->1812K(116736K), 0.0006221 secs] [Times: user=0.00 sys=0.00, real=0.00 secs] 
-[GC (Allocation Failure) [PSYoungGen: 30208K->0K(30208K)] 32020K->1812K(116224K), 0.0005533 secs] [Times: user=0.00 sys=0.00, real=0.00 secs] 
-[GC (Allocation Failure) [PSYoungGen: 29696K->0K(29696K)] 31508K->1812K(115712K), 0.0005621 secs] [Times: user=0.00 sys=0.00, real=0.00 secs] 
-[GC (Allocation Failure) [PSYoungGen: 29184K->0K(29184K)] 30996K->1812K(115200K), 0.0004471 secs] [Times: user=0.00 sys=0.00, real=0.00 secs] 
-[GC (Allocation Failure) [PSYoungGen: 28672K->0K(28672K)] 30484K->1812K(114688K), 0.0006559 secs] [Times: user=0.00 sys=0.00, real=0.00 secs] 
-3355.549 ops/ms
-Iteration   8: [GC (Allocation Failure) [PSYoungGen: 28160K->96K(28160K)] 29972K->1908K(114176K), 0.0005324 secs] [Times: user=0.00 sys=0.00, real=0.00 secs] 
-[GC (Allocation Failure) [PSYoungGen: 27744K->0K(27648K)] 29556K->1836K(113664K), 0.0006676 secs] [Times: user=0.00 sys=0.00, real=0.00 secs] 
-[GC (Allocation Failure) [PSYoungGen: 27136K->0K(27136K)] 28972K->1836K(113152K), 0.0004349 secs] [Times: user=0.00 sys=0.00, real=0.00 secs] 
-[GC (Allocation Failure) [PSYoungGen: 26624K->0K(26624K)] 28460K->1836K(112640K), 0.0008604 secs] [Times: user=0.00 sys=0.00, real=0.00 secs] 
-[GC (Allocation Failure) [PSYoungGen: 26112K->0K(26112K)] 27948K->1836K(112128K), 0.0005846 secs] [Times: user=0.00 sys=0.00, real=0.00 secs] 
-[GC (Allocation Failure) [PSYoungGen: 25600K->0K(25600K)] 27436K->1836K(111616K), 0.0006976 secs] [Times: user=0.00 sys=0.00, real=0.00 secs] 
-[GC (Allocation Failure) [PSYoungGen: 25088K->0K(25088K)] 26924K->1836K(111104K), 0.0007520 secs] [Times: user=0.00 sys=0.00, real=0.00 secs] 
-[GC (Allocation Failure) [PSYoungGen: 24576K->0K(24576K)] 26412K->1836K(110592K), 0.0008649 secs] [Times: user=0.00 sys=0.00, real=0.00 secs] 
-[GC (Allocation Failure) [PSYoungGen: 24064K->0K(24576K)] 25900K->1836K(110592K), 0.0004806 secs] [Times: user=0.00 sys=0.00, real=0.00 secs] 
-[GC (Allocation Failure) [PSYoungGen: 24064K->0K(24576K)] 25900K->1836K(110592K), 0.0004727 secs] [Times: user=0.00 sys=0.00, real=0.00 secs] 
-[GC (Allocation Failure) [PSYoungGen: 24064K->0K(24576K)] 25900K->1836K(110592K), 0.0010020 secs] [Times: user=0.00 sys=0.00, real=0.00 secs] 
-[GC (Allocation Failure) [PSYoungGen: 24064K->0K(24576K)] 25900K->1836K(110592K), 0.0007887 secs] [Times: user=0.00 sys=0.00, real=0.00 secs] 
-[GC (Allocation Failure) [PSYoungGen: 24064K->0K(24576K)] 25900K->1836K(110592K), 0.0007115 secs] [Times: user=0.00 sys=0.00, real=0.00 secs] 
-[GC (Allocation Failure) [PSYoungGen: 24064K->0K(24576K)] 25900K->1836K(110592K), 0.0004474 secs] [Times: user=0.00 sys=0.00, real=0.00 secs] 
-3536.086 ops/ms
-Iteration   9: [GC (Allocation Failure) [PSYoungGen: 24064K->64K(29696K)] 25900K->1900K(115712K), 0.0009442 secs] [Times: user=0.00 sys=0.00, real=0.00 secs] 
-[GC (Allocation Failure) [PSYoungGen: 29248K->0K(29184K)] 31084K->1868K(115200K), 0.0007916 secs] [Times: user=0.00 sys=0.00, real=0.00 secs] 
-[GC (Allocation Failure) [PSYoungGen: 28672K->0K(28672K)] 30540K->1868K(114688K), 0.0005978 secs] [Times: user=0.00 sys=0.00, real=0.01 secs] 
-[GC (Allocation Failure) [PSYoungGen: 28160K->0K(28160K)] 30028K->1868K(114176K), 0.0006457 secs] [Times: user=0.00 sys=0.00, real=0.00 secs] 
-[GC (Allocation Failure) [PSYoungGen: 27648K->0K(27648K)] 29516K->1868K(113664K), 0.0005464 secs] [Times: user=0.00 sys=0.00, real=0.00 secs] 
-[GC (Allocation Failure) [PSYoungGen: 27136K->0K(27136K)] 29004K->1868K(113152K), 0.0006905 secs] [Times: user=0.00 sys=0.00, real=0.00 secs] 
-[GC (Allocation Failure) [PSYoungGen: 26623K->0K(26624K)] 28492K->1868K(112640K), 0.0008583 secs] [Times: user=0.00 sys=0.00, real=0.00 secs] 
-[GC (Allocation Failure) [PSYoungGen: 26112K->0K(26112K)] 27980K->1868K(112128K), 0.0004837 secs] [Times: user=0.00 sys=0.00, real=0.00 secs] 
-[GC (Allocation Failure) [PSYoungGen: 25600K->0K(25600K)] 27468K->1868K(111616K), 0.0006704 secs] [Times: user=0.02 sys=0.00, real=0.01 secs] 
-[GC (Allocation Failure) [PSYoungGen: 25088K->0K(25088K)] 26956K->1868K(111104K), 0.0008951 secs] [Times: user=0.00 sys=0.00, real=0.00 secs] 
-[GC (Allocation Failure) [PSYoungGen: 24576K->32K(24576K)] 26444K->1900K(110592K), 0.0007035 secs] [Times: user=0.00 sys=0.00, real=0.00 secs] 
-2676.598 ops/ms
-Iteration  10: [GC (Allocation Failure) [PSYoungGen: 24096K->96K(24576K)] 25964K->1964K(110592K), 0.0006542 secs] [Times: user=0.00 sys=0.00, real=0.00 secs] 
-[GC (Allocation Failure) [PSYoungGen: 24160K->0K(24576K)] 26028K->1892K(110592K), 0.0004436 secs] [Times: user=0.00 sys=0.00, real=0.00 secs] 
-[GC (Allocation Failure) [PSYoungGen: 24064K->0K(24576K)] 25956K->1892K(110592K), 0.0006424 secs] [Times: user=0.00 sys=0.00, real=0.00 secs] 
-[GC (Allocation Failure) [PSYoungGen: 24064K->0K(24576K)] 25956K->1892K(110592K), 0.0004553 secs] [Times: user=0.00 sys=0.00, real=0.00 secs] 
-[GC (Allocation Failure) [PSYoungGen: 24064K->0K(24576K)] 25956K->1892K(110592K), 0.0005113 secs] [Times: user=0.00 sys=0.00, real=0.00 secs] 
-[GC (Allocation Failure) [PSYoungGen: 24064K->0K(24576K)] 25956K->1892K(110592K), 0.0010994 secs] [Times: user=0.00 sys=0.00, real=0.00 secs] 
-[GC (Allocation Failure) [PSYoungGen: 24064K->0K(24576K)] 25956K->1892K(110592K), 0.0005276 secs] [Times: user=0.00 sys=0.00, real=0.00 secs] 
-[GC (Allocation Failure) [PSYoungGen: 24064K->0K(24576K)] 25956K->1892K(110592K), 0.0007247 secs] [Times: user=0.00 sys=0.00, real=0.01 secs] 
-[GC (Allocation Failure) [PSYoungGen: 24064K->0K(24576K)] 25956K->1892K(110592K), 0.0006824 secs] [Times: user=0.00 sys=0.00, real=0.00 secs] 
-[GC (Allocation Failure) [PSYoungGen: 24064K->0K(24576K)] 25956K->1892K(110592K), 0.0007890 secs] [Times: user=0.03 sys=0.01, real=0.00 secs] 
-[GC (Allocation Failure) [PSYoungGen: 24064K->0K(24576K)] 25956K->1892K(110592K), 0.0005006 secs] [Times: user=0.00 sys=0.00, real=0.00 secs] 
-[GC (Allocation Failure) [PSYoungGen: 24064K->0K(24576K)] 25956K->1892K(110592K), 0.0006069 secs] [Times: user=0.00 sys=0.00, real=0.00 secs] 
-[GC (Allocation Failure) [PSYoungGen: 24064K->0K(24576K)] 25956K->1892K(110592K), 0.0008953 secs] [Times: user=0.08 sys=0.02, real=0.01 secs] 
-3298.126 ops/ms
+# Warmup Iteration   1: [GC (Allocation Failure) [PSYoungGen: 32768K->2273K(37888K)] 32768K->2281K(123904K), 0.0023715 secs] [Times: user=0.00 sys=0.00, real=0.01 secs] 
+[GC (Allocation Failure) [PSYoungGen: 35041K->1632K(37888K)] 35049K->1648K(123904K), 0.0017271 secs] [Times: user=0.05 sys=0.00, real=0.01 secs] 
+[GC (Allocation Failure) [PSYoungGen: 34400K->1616K(37888K)] 34416K->1632K(123904K), 0.0015593 secs] [Times: user=0.00 sys=0.00, real=0.01 secs] 
+[GC (Allocation Failure) [PSYoungGen: 34384K->1632K(70656K)] 34400K->1648K(156672K), 0.0016634 secs] [Times: user=0.00 sys=0.00, real=0.01 secs] 
+[GC (Allocation Failure) [PSYoungGen: 67168K->1648K(70656K)] 67184K->1664K(156672K), 0.0016794 secs] [Times: user=0.00 sys=0.00, real=0.00 secs] 
+[GC (Allocation Failure) [PSYoungGen: 67184K->1664K(79360K)] 67200K->1680K(165376K), 0.0014274 secs] [Times: user=0.00 sys=0.00, real=0.01 secs] 
+[GC (Allocation Failure) [PSYoungGen: 78464K->0K(79360K)] 78480K->1552K(165376K), 0.0019044 secs] [Times: user=0.00 sys=0.00, real=0.00 secs] 
+[GC (Allocation Failure) [PSYoungGen: 76800K->0K(83456K)] 78352K->1552K(169472K), 0.0007454 secs] [Times: user=0.00 sys=0.00, real=0.01 secs] 
+4537.762 ops/ms
+# Warmup Iteration   2: [GC (Allocation Failure) [PSYoungGen: 80896K->224K(78848K)] 82448K->1776K(164864K), 0.0005463 secs] [Times: user=0.02 sys=0.00, real=0.01 secs] 
+[GC (Allocation Failure) [PSYoungGen: 78560K->192K(76288K)] 80112K->1744K(162304K), 0.0008465 secs] [Times: user=0.00 sys=0.00, real=0.01 secs] 
+[GC (Allocation Failure) [PSYoungGen: 75968K->0K(76288K)] 77520K->1624K(162304K), 0.0008161 secs] [Times: user=0.00 sys=0.00, real=0.01 secs] 
+[GC (Allocation Failure) [PSYoungGen: 73216K->0K(71680K)] 74840K->1624K(157696K), 0.0007529 secs] [Times: user=0.00 sys=0.00, real=0.00 secs] 
+[GC (Allocation Failure) [PSYoungGen: 71168K->0K(72192K)] 72792K->1624K(158208K), 0.0007567 secs] [Times: user=0.01 sys=0.00, real=0.01 secs] 
+[GC (Allocation Failure) [PSYoungGen: 69120K->0K(67584K)] 70744K->1624K(153600K), 0.0007928 secs] [Times: user=0.00 sys=0.02, real=0.01 secs] 
+[GC (Allocation Failure) [PSYoungGen: 67072K->0K(68096K)] 68696K->1624K(154112K), 0.0004713 secs] [Times: user=0.00 sys=0.00, real=0.01 secs] 
+4720.381 ops/ms
+# Warmup Iteration   3: [GC (Allocation Failure) [PSYoungGen: 65024K->96K(63488K)] 66648K->1720K(149504K), 0.0008033 secs] [Times: user=0.00 sys=0.02, real=0.01 secs] 
+[GC (Allocation Failure) [PSYoungGen: 63072K->0K(63488K)] 64696K->1632K(149504K), 0.0004707 secs] [Times: user=0.00 sys=0.00, real=0.01 secs] 
+[GC (Allocation Failure) [PSYoungGen: 60928K->0K(59904K)] 62560K->1632K(145920K), 0.0007810 secs] [Times: user=0.00 sys=0.00, real=0.00 secs] 
+[GC (Allocation Failure) [PSYoungGen: 59392K->0K(60416K)] 61024K->1632K(146432K), 0.0006654 secs] [Times: user=0.03 sys=0.00, real=0.02 secs] 
+[GC (Allocation Failure) [PSYoungGen: 57856K->0K(56832K)] 59488K->1632K(142848K), 0.0005674 secs] [Times: user=0.00 sys=0.02, real=0.00 secs] 
+[GC (Allocation Failure) [PSYoungGen: 56320K->0K(57344K)] 57952K->1632K(143360K), 0.0009842 secs] [Times: user=0.00 sys=0.00, real=0.01 secs] 
+[GC (Allocation Failure) [PSYoungGen: 54784K->0K(53760K)] 56416K->1632K(139776K), 0.0008882 secs] [Times: user=0.00 sys=0.01, real=0.01 secs] 
+[GC (Allocation Failure) [PSYoungGen: 53248K->0K(53760K)] 54880K->1632K(139776K), 0.0004296 secs] [Times: user=0.00 sys=0.00, real=0.00 secs] 
+4733.546 ops/ms
+Iteration   1: [GC (Allocation Failure) [PSYoungGen: 51712K->64K(50688K)] 53344K->1696K(136704K), 0.0008441 secs] [Times: user=0.00 sys=0.00, real=0.00 secs] 
+[GC (Allocation Failure) [PSYoungGen: 50240K->0K(51200K)] 51872K->1648K(137216K), 0.0007730 secs] [Times: user=0.00 sys=0.00, real=0.01 secs] 
+[GC (Allocation Failure) [PSYoungGen: 49152K->0K(48640K)] 50800K->1648K(134656K), 0.0006059 secs] [Times: user=0.01 sys=0.02, real=0.01 secs] 
+[GC (Allocation Failure) [PSYoungGen: 48128K->0K(48640K)] 49776K->1648K(134656K), 0.0005971 secs] [Times: user=0.00 sys=0.00, real=0.00 secs] 
+[GC (Allocation Failure) [PSYoungGen: 47104K->0K(46592K)] 48752K->1648K(132608K), 0.0007475 secs] [Times: user=0.03 sys=0.00, real=0.01 secs] 
+[GC (Allocation Failure) [PSYoungGen: 46080K->0K(46592K)] 47728K->1648K(132608K), 0.0004402 secs] [Times: user=0.00 sys=0.01, real=0.01 secs] 
+[GC (Allocation Failure) [PSYoungGen: 45056K->0K(44544K)] 46704K->1648K(130560K), 0.0006795 secs] [Times: user=0.03 sys=0.00, real=0.01 secs] 
+[GC (Allocation Failure) [PSYoungGen: 44032K->0K(44544K)] 45680K->1648K(130560K), 0.0005067 secs] [Times: user=0.00 sys=0.00, real=0.01 secs] 
+[GC (Allocation Failure) [PSYoungGen: 43008K->0K(42496K)] 44656K->1648K(128512K), 0.0006614 secs] [Times: user=0.09 sys=0.00, real=0.02 secs] 
+[GC (Allocation Failure) [PSYoungGen: 41984K->0K(41984K)] 43632K->1648K(128000K), 0.0007979 secs] [Times: user=0.00 sys=0.02, real=0.01 secs] 
+[GC (Allocation Failure) [PSYoungGen: 40960K->0K(40448K)] 42608K->1648K(126464K), 0.0005925 secs] [Times: user=0.03 sys=0.02, real=0.01 secs] 
+4847.468 ops/ms
+Iteration   2: [GC (Allocation Failure) [PSYoungGen: 39936K->128K(39936K)] 41584K->1776K(125952K), 0.0009132 secs] [Times: user=0.00 sys=0.00, real=0.01 secs] 
+[GC (Allocation Failure) [PSYoungGen: 39040K->0K(38400K)] 40688K->1672K(124416K), 0.0008790 secs] [Times: user=0.00 sys=0.00, real=0.00 secs] 
+[GC (Allocation Failure) [PSYoungGen: 37888K->0K(38400K)] 39560K->1672K(124416K), 0.0004793 secs] [Times: user=0.03 sys=0.02, real=0.01 secs] 
+[GC (Allocation Failure) [PSYoungGen: 37376K->0K(37376K)] 39048K->1672K(123392K), 0.0005971 secs] [Times: user=0.00 sys=0.00, real=0.01 secs] 
+[GC (Allocation Failure) [PSYoungGen: 36864K->0K(37376K)] 38536K->1672K(123392K), 0.0006054 secs] [Times: user=0.00 sys=0.00, real=0.01 secs] 
+[GC (Allocation Failure) [PSYoungGen: 36352K->0K(36352K)] 38024K->1672K(122368K), 0.0007775 secs] [Times: user=0.00 sys=0.02, real=0.01 secs] 
+[GC (Allocation Failure) [PSYoungGen: 35840K->0K(36352K)] 37512K->1672K(122368K), 0.0004706 secs] [Times: user=0.00 sys=0.00, real=0.00 secs] 
+[GC (Allocation Failure) [PSYoungGen: 35328K->0K(35328K)] 37000K->1672K(121344K), 0.0006384 secs] [Times: user=0.00 sys=0.00, real=0.01 secs] 
+[GC (Allocation Failure) [PSYoungGen: 34816K->0K(34816K)] 36488K->1672K(120832K), 0.0007582 secs] [Times: user=0.00 sys=0.00, real=0.01 secs] 
+[GC (Allocation Failure) [PSYoungGen: 34304K->0K(34304K)] 35976K->1672K(120320K), 0.0006094 secs] [Times: user=0.03 sys=0.00, real=0.01 secs] 
+[GC (Allocation Failure) [PSYoungGen: 33792K->0K(33792K)] 35464K->1672K(119808K), 0.0004274 secs] [Times: user=0.00 sys=0.00, real=0.00 secs] 
+[GC (Allocation Failure) [PSYoungGen: 33280K->0K(33280K)] 34952K->1672K(119296K), 0.0006851 secs] [Times: user=0.00 sys=0.00, real=0.01 secs] 
+[GC (Allocation Failure) [PSYoungGen: 32768K->0K(32768K)] 34440K->1672K(118784K), 0.0004971 secs] [Times: user=0.00 sys=0.00, real=0.00 secs] 
+4471.308 ops/ms
+Iteration   3: [GC (Allocation Failure) [PSYoungGen: 32256K->96K(32256K)] 33928K->1768K(118272K), 0.0004388 secs] [Times: user=0.00 sys=0.00, real=0.01 secs] 
+[GC (Allocation Failure) [PSYoungGen: 31840K->0K(31744K)] 33512K->1696K(117760K), 0.0008347 secs] [Times: user=0.00 sys=0.00, real=0.00 secs] 
+[GC (Allocation Failure) [PSYoungGen: 31232K->0K(31232K)] 32928K->1696K(117248K), 0.0003790 secs] [Times: user=0.00 sys=0.02, real=0.00 secs] 
+[GC (Allocation Failure) [PSYoungGen: 30720K->0K(30720K)] 32416K->1696K(116736K), 0.0007508 secs] [Times: user=0.02 sys=0.00, real=0.01 secs] 
+[GC (Allocation Failure) [PSYoungGen: 30208K->0K(30208K)] 31904K->1696K(116224K), 0.0005474 secs] [Times: user=0.00 sys=0.00, real=0.01 secs] 
+[GC (Allocation Failure) [PSYoungGen: 29696K->0K(29696K)] 31392K->1696K(115712K), 0.0006650 secs] [Times: user=0.00 sys=0.00, real=0.01 secs] 
+[GC (Allocation Failure) [PSYoungGen: 29184K->0K(29184K)] 30880K->1696K(115200K), 0.0004148 secs] [Times: user=0.00 sys=0.00, real=0.00 secs] 
+[GC (Allocation Failure) [PSYoungGen: 28672K->0K(28672K)] 30368K->1696K(114688K), 0.0006009 secs] [Times: user=0.02 sys=0.00, real=0.02 secs] 
+[GC (Allocation Failure) [PSYoungGen: 28160K->0K(28160K)] 29856K->1696K(114176K), 0.0006314 secs] [Times: user=0.03 sys=0.01, real=0.01 secs] 
+[GC (Allocation Failure) [PSYoungGen: 27648K->0K(27648K)] 29344K->1696K(113664K), 0.0009532 secs] [Times: user=0.00 sys=0.00, real=0.01 secs] 
+[GC (Allocation Failure) [PSYoungGen: 27136K->0K(33280K)] 28832K->1696K(119296K), 0.0008658 secs] [Times: user=0.00 sys=0.02, real=0.00 secs] 
+[GC (Allocation Failure) [PSYoungGen: 32768K->0K(32768K)] 34464K->1696K(118784K), 0.0004287 secs] [Times: user=0.05 sys=0.01, real=0.01 secs] 
+[GC (Allocation Failure) [PSYoungGen: 32256K->0K(32256K)] 33952K->1696K(118272K), 0.0008394 secs] [Times: user=0.00 sys=0.00, real=0.01 secs] 
+[GC (Allocation Failure) [PSYoungGen: 31744K->0K(31744K)] 33440K->1696K(117760K), 0.0008443 secs] [Times: user=0.00 sys=0.00, real=0.00 secs] 
+4211.185 ops/ms
+Iteration   4: [GC (Allocation Failure) [PSYoungGen: 31232K->32K(31232K)] 32928K->1728K(117248K), 0.0005370 secs] [Times: user=0.02 sys=0.02, real=0.01 secs] 
+[GC (Allocation Failure) [PSYoungGen: 30752K->0K(37376K)] 32448K->1720K(123392K), 0.0009682 secs] [Times: user=0.00 sys=0.00, real=0.00 secs] 
+[GC (Allocation Failure) [PSYoungGen: 36864K->0K(45056K)] 38584K->1720K(131072K), 0.0008592 secs] [Times: user=0.00 sys=0.00, real=0.01 secs] 
+[GC (Allocation Failure) [PSYoungGen: 44544K->0K(44032K)] 46264K->1720K(130048K), 0.0004336 secs] [Times: user=0.02 sys=0.00, real=0.01 secs] 
+[GC (Allocation Failure) [PSYoungGen: 43520K->0K(43008K)] 45240K->1720K(129024K), 0.0004595 secs] [Times: user=0.03 sys=0.00, real=0.00 secs] 
+[GC (Allocation Failure) [PSYoungGen: 42496K->0K(41984K)] 44216K->1720K(128000K), 0.0004853 secs] [Times: user=0.03 sys=0.00, real=0.01 secs] 
+[GC (Allocation Failure) [PSYoungGen: 41472K->0K(40960K)] 43192K->1720K(126976K), 0.0004412 secs] [Times: user=0.00 sys=0.02, real=0.01 secs] 
+[GC (Allocation Failure) [PSYoungGen: 40448K->0K(39936K)] 42168K->1720K(125952K), 0.0004696 secs] [Times: user=0.02 sys=0.00, real=0.01 secs] 
+[GC (Allocation Failure) [PSYoungGen: 39424K->0K(38912K)] 41144K->1720K(124928K), 0.0005224 secs] [Times: user=0.00 sys=0.02, real=0.01 secs] 
+[GC (Allocation Failure) [PSYoungGen: 38400K->0K(37888K)] 40120K->1720K(123904K), 0.0005477 secs] [Times: user=0.00 sys=0.00, real=0.01 secs] 
+[GC (Allocation Failure) [PSYoungGen: 37376K->0K(37376K)] 39096K->1720K(123392K), 0.0007564 secs] [Times: user=0.05 sys=0.00, real=0.01 secs] 
+[GC (Allocation Failure) [PSYoungGen: 36864K->0K(36864K)] 38584K->1720K(122880K), 0.0006154 secs] [Times: user=0.06 sys=0.00, real=0.01 secs] 
+[GC (Allocation Failure) [PSYoungGen: 36352K->0K(36352K)] 38072K->1720K(122368K), 0.0007537 secs] [Times: user=0.00 sys=0.00, real=0.01 secs] 
+4812.696 ops/ms
+Iteration   5: [GC (Allocation Failure) [PSYoungGen: 35840K->64K(35840K)] 37560K->1784K(121856K), 0.0004971 secs] [Times: user=0.00 sys=0.00, real=0.00 secs] 
+[GC (Allocation Failure) [PSYoungGen: 35392K->0K(35328K)] 37112K->1752K(121344K), 0.0007660 secs] [Times: user=0.01 sys=0.00, real=0.01 secs] 
+[GC (Allocation Failure) [PSYoungGen: 34816K->0K(34816K)] 36568K->1752K(120832K), 0.0005776 secs] [Times: user=0.02 sys=0.00, real=0.00 secs] 
+[GC (Allocation Failure) [PSYoungGen: 34304K->0K(34304K)] 36056K->1752K(120320K), 0.0004445 secs] [Times: user=0.00 sys=0.00, real=0.00 secs] 
+[GC (Allocation Failure) [PSYoungGen: 33792K->0K(33792K)] 35544K->1752K(119808K), 0.0005487 secs] [Times: user=0.00 sys=0.00, real=0.00 secs] 
+[GC (Allocation Failure) [PSYoungGen: 33280K->0K(33280K)] 35032K->1752K(119296K), 0.0006738 secs] [Times: user=0.03 sys=0.00, real=0.00 secs] 
+[GC (Allocation Failure) [PSYoungGen: 32768K->0K(32768K)] 34520K->1752K(118784K), 0.0006397 secs] [Times: user=0.00 sys=0.02, real=0.01 secs] 
+[GC (Allocation Failure) [PSYoungGen: 32256K->0K(32256K)] 34008K->1752K(118272K), 0.0004045 secs] [Times: user=0.00 sys=0.00, real=0.00 secs] 
+[GC (Allocation Failure) [PSYoungGen: 31744K->0K(31744K)] 33496K->1752K(117760K), 0.0006276 secs] [Times: user=0.00 sys=0.00, real=0.01 secs] 
+[GC (Allocation Failure) [PSYoungGen: 31232K->0K(31232K)] 32984K->1752K(117248K), 0.0005669 secs] [Times: user=0.00 sys=0.02, real=0.01 secs] 
+[GC (Allocation Failure) [PSYoungGen: 30720K->0K(30720K)] 32472K->1752K(116736K), 0.0004263 secs] [Times: user=0.00 sys=0.00, real=0.01 secs] 
+[GC (Allocation Failure) [PSYoungGen: 30208K->0K(30208K)] 31960K->1752K(116224K), 0.0007551 secs] [Times: user=0.00 sys=0.00, real=0.00 secs] 
+[GC (Allocation Failure) [PSYoungGen: 29696K->0K(29696K)] 31448K->1752K(115712K), 0.0006751 secs] [Times: user=0.00 sys=0.00, real=0.00 secs] 
+[GC (Allocation Failure) [PSYoungGen: 29184K->0K(29184K)] 30936K->1752K(115200K), 0.0005246 secs] [Times: user=0.00 sys=0.01, real=0.01 secs] 
+[GC (Allocation Failure) [PSYoungGen: 28672K->0K(28672K)] 30424K->1752K(114688K), 0.0006129 secs] [Times: user=0.03 sys=0.02, real=0.01 secs] 
+4612.644 ops/ms
+Iteration   6: [GC (Allocation Failure) [PSYoungGen: 28160K->64K(28160K)] 29912K->1816K(114176K), 0.0007168 secs] [Times: user=0.00 sys=0.00, real=0.00 secs] 
+[GC (Allocation Failure) [PSYoungGen: 27712K->0K(27648K)] 29464K->1768K(113664K), 0.0006613 secs] [Times: user=0.00 sys=0.00, real=0.01 secs] 
+[GC (Allocation Failure) [PSYoungGen: 27136K->0K(27136K)] 28904K->1768K(113152K), 0.0006227 secs] [Times: user=0.00 sys=0.00, real=0.01 secs] 
+[GC (Allocation Failure) [PSYoungGen: 26624K->0K(26624K)] 28392K->1768K(112640K), 0.0009774 secs] [Times: user=0.00 sys=0.00, real=0.00 secs] 
+[GC (Allocation Failure) [PSYoungGen: 26112K->0K(32256K)] 27880K->1768K(118272K), 0.0007586 secs] [Times: user=0.00 sys=0.00, real=0.00 secs] 
+[GC (Allocation Failure) [PSYoungGen: 31744K->0K(31744K)] 33512K->1768K(117760K), 0.0004925 secs] [Times: user=0.02 sys=0.00, real=0.01 secs] 
+[GC (Allocation Failure) [PSYoungGen: 31232K->0K(31232K)] 33000K->1768K(117248K), 0.0007397 secs] [Times: user=0.00 sys=0.00, real=0.01 secs] 
+[GC (Allocation Failure) [PSYoungGen: 30720K->0K(30720K)] 32488K->1768K(116736K), 0.0004842 secs] [Times: user=0.00 sys=0.00, real=0.01 secs] 
+[GC (Allocation Failure) [PSYoungGen: 30208K->0K(30208K)] 31976K->1768K(116224K), 0.0004719 secs] [Times: user=0.00 sys=0.00, real=0.01 secs] 
+[GC (Allocation Failure) [PSYoungGen: 29696K->0K(29696K)] 31464K->1768K(115712K), 0.0005817 secs] [Times: user=0.00 sys=0.00, real=0.00 secs] 
+[GC (Allocation Failure) [PSYoungGen: 29184K->0K(29184K)] 30952K->1768K(115200K), 0.0008447 secs] [Times: user=0.09 sys=0.00, real=0.01 secs] 
+[GC (Allocation Failure) [PSYoungGen: 28672K->0K(35328K)] 30440K->1768K(121344K), 0.0009057 secs] [Times: user=0.00 sys=0.00, real=0.01 secs] 
+[GC (Allocation Failure) [PSYoungGen: 34816K->0K(34816K)] 36584K->1768K(120832K), 0.0003941 secs] [Times: user=0.03 sys=0.00, real=0.00 secs] 
+[GC (Allocation Failure) [PSYoungGen: 34304K->0K(34304K)] 36072K->1768K(120320K), 0.0007857 secs] [Times: user=0.00 sys=0.01, real=0.02 secs] 
+4057.654 ops/ms
+Iteration   7: [GC (Allocation Failure) [PSYoungGen: 33792K->96K(33792K)] 35560K->1864K(119808K), 0.0005771 secs] [Times: user=0.00 sys=0.00, real=0.01 secs] 
+[GC (Allocation Failure) [PSYoungGen: 33376K->0K(33280K)] 35144K->1792K(119296K), 0.0007206 secs] [Times: user=0.00 sys=0.02, real=0.01 secs] 
+[GC (Allocation Failure) [PSYoungGen: 32768K->0K(32768K)] 34560K->1792K(118784K), 0.0005975 secs] [Times: user=0.03 sys=0.00, real=0.01 secs] 
+[GC (Allocation Failure) [PSYoungGen: 32256K->0K(32256K)] 34048K->1792K(118272K), 0.0005084 secs] [Times: user=0.00 sys=0.00, real=0.00 secs] 
+[GC (Allocation Failure) [PSYoungGen: 31744K->0K(31744K)] 33536K->1792K(117760K), 0.0006644 secs] [Times: user=0.00 sys=0.00, real=0.00 secs] 
+[GC (Allocation Failure) [PSYoungGen: 31232K->0K(31232K)] 33024K->1792K(117248K), 0.0004949 secs] [Times: user=0.00 sys=0.00, real=0.00 secs] 
+[GC (Allocation Failure) [PSYoungGen: 30720K->0K(30720K)] 32512K->1792K(116736K), 0.0010051 secs] [Times: user=0.00 sys=0.00, real=0.00 secs] 
+[GC (Allocation Failure) [PSYoungGen: 30208K->0K(30208K)] 32000K->1792K(116224K), 0.0004667 secs] [Times: user=0.00 sys=0.00, real=0.01 secs] 
+[GC (Allocation Failure) [PSYoungGen: 29696K->0K(29696K)] 31488K->1792K(115712K), 0.0005941 secs] [Times: user=0.00 sys=0.00, real=0.01 secs] 
+[GC (Allocation Failure) [PSYoungGen: 29184K->0K(29184K)] 30976K->1792K(115200K), 0.0005755 secs] [Times: user=0.00 sys=0.00, real=0.00 secs] 
+[GC (Allocation Failure) [PSYoungGen: 28672K->0K(28672K)] 30464K->1792K(114688K), 0.0004897 secs] [Times: user=0.00 sys=0.00, real=0.01 secs] 
+[GC (Allocation Failure) [PSYoungGen: 28160K->0K(28160K)] 29952K->1792K(114176K), 0.0005137 secs] [Times: user=0.00 sys=0.00, real=0.00 secs] 
+[GC (Allocation Failure) [PSYoungGen: 27648K->0K(27648K)] 29440K->1792K(113664K), 0.0007725 secs] [Times: user=0.06 sys=0.00, real=0.01 secs] 
+[GC (Allocation Failure) [PSYoungGen: 27136K->0K(27136K)] 28928K->1792K(113152K), 0.0005486 secs] [Times: user=0.00 sys=0.00, real=0.00 secs] 
+4050.775 ops/ms
+Iteration   8: [GC (Allocation Failure) [PSYoungGen: 26624K->64K(26624K)] 28416K->1856K(112640K), 0.0005246 secs] [Times: user=0.00 sys=0.00, real=0.00 secs] 
+[GC (Allocation Failure) [PSYoungGen: 26176K->0K(26112K)] 27968K->1808K(112128K), 0.0005433 secs] [Times: user=0.00 sys=0.00, real=0.01 secs] 
+[GC (Allocation Failure) [PSYoungGen: 25600K->0K(25600K)] 27408K->1808K(111616K), 0.0007633 secs] [Times: user=0.00 sys=0.02, real=0.01 secs] 
+[GC (Allocation Failure) [PSYoungGen: 25088K->0K(25088K)] 26896K->1808K(111104K), 0.0005225 secs] [Times: user=0.00 sys=0.00, real=0.00 secs] 
+[GC (Allocation Failure) [PSYoungGen: 24576K->0K(24576K)] 26384K->1808K(110592K), 0.0005948 secs] [Times: user=0.00 sys=0.02, real=0.02 secs] 
+[GC (Allocation Failure) [PSYoungGen: 24064K->0K(29696K)] 25872K->1808K(115712K), 0.0006413 secs] [Times: user=0.03 sys=0.00, real=0.01 secs] 
+[GC (Allocation Failure) [PSYoungGen: 29184K->0K(29184K)] 30992K->1808K(115200K), 0.0004789 secs] [Times: user=0.00 sys=0.00, real=0.00 secs] 
+[GC (Allocation Failure) [PSYoungGen: 28672K->0K(35328K)] 30480K->1808K(121344K), 0.0007951 secs] [Times: user=0.00 sys=0.00, real=0.01 secs] 
+[GC (Allocation Failure) [PSYoungGen: 34816K->0K(42496K)] 36624K->1808K(128512K), 0.0008015 secs] [Times: user=0.00 sys=0.00, real=0.01 secs] 
+[GC (Allocation Failure) [PSYoungGen: 41984K->0K(41472K)] 43792K->1808K(127488K), 0.0004276 secs] [Times: user=0.00 sys=0.00, real=0.01 secs] 
+[GC (Allocation Failure) [PSYoungGen: 40960K->0K(40448K)] 42768K->1808K(126464K), 0.0007633 secs] [Times: user=0.06 sys=0.02, real=0.02 secs] 
+[GC (Allocation Failure) [PSYoungGen: 39936K->0K(39424K)] 41744K->1808K(125440K), 0.0005246 secs] [Times: user=0.00 sys=0.00, real=0.00 secs] 
+[GC (Allocation Failure) [PSYoungGen: 38912K->0K(38400K)] 40720K->1808K(124416K), 0.0006181 secs] [Times: user=0.05 sys=0.02, real=0.02 secs] 
+[GC (Allocation Failure) [PSYoungGen: 37888K->0K(37888K)] 39696K->1808K(123904K), 0.0006480 secs] [Times: user=0.00 sys=0.01, real=0.01 secs] 
+4553.655 ops/ms
+Iteration   9: [GC (Allocation Failure) [PSYoungGen: 37376K->64K(37376K)] 39184K->1872K(123392K), 0.0005573 secs] [Times: user=0.00 sys=0.00, real=0.01 secs] 
+[GC (Allocation Failure) [PSYoungGen: 36928K->0K(36864K)] 38736K->1832K(122880K), 0.0004566 secs] [Times: user=0.00 sys=0.02, real=0.01 secs] 
+[GC (Allocation Failure) [PSYoungGen: 36352K->0K(36352K)] 38184K->1832K(122368K), 0.0005652 secs] [Times: user=0.05 sys=0.00, real=0.00 secs] 
+[GC (Allocation Failure) [PSYoungGen: 35840K->0K(35840K)] 37672K->1832K(121856K), 0.0006150 secs] [Times: user=0.00 sys=0.00, real=0.01 secs] 
+[GC (Allocation Failure) [PSYoungGen: 35328K->0K(35328K)] 37160K->1832K(121344K), 0.0004299 secs] [Times: user=0.00 sys=0.00, real=0.00 secs] 
+[GC (Allocation Failure) [PSYoungGen: 34816K->0K(34816K)] 36648K->1832K(120832K), 0.0005275 secs] [Times: user=0.08 sys=0.03, real=0.02 secs] 
+[GC (Allocation Failure) [PSYoungGen: 34304K->0K(34304K)] 36136K->1832K(120320K), 0.0008292 secs] [Times: user=0.00 sys=0.00, real=0.01 secs] 
+[GC (Allocation Failure) [PSYoungGen: 33792K->0K(33792K)] 35624K->1832K(119808K), 0.0004406 secs] [Times: user=0.02 sys=0.00, real=0.01 secs] 
+[GC (Allocation Failure) [PSYoungGen: 33280K->0K(33280K)] 35112K->1832K(119296K), 0.0006811 secs] [Times: user=0.00 sys=0.00, real=0.00 secs] 
+[GC (Allocation Failure) [PSYoungGen: 32767K->0K(32768K)] 34600K->1832K(118784K), 0.0004999 secs] [Times: user=0.09 sys=0.00, real=0.01 secs] 
+[GC (Allocation Failure) [PSYoungGen: 32255K->0K(32256K)] 34088K->1832K(118272K), 0.0005930 secs] [Times: user=0.08 sys=0.00, real=0.01 secs] 
+[GC (Allocation Failure) [PSYoungGen: 31744K->0K(31744K)] 33576K->1832K(117760K), 0.0009036 secs] [Times: user=0.00 sys=0.00, real=0.01 secs] 
+[GC (Allocation Failure) [PSYoungGen: 31232K->0K(31232K)] 33064K->1832K(117248K), 0.0006362 secs] [Times: user=0.00 sys=0.00, real=0.01 secs] 
+[GC (Allocation Failure) [PSYoungGen: 30720K->0K(30720K)] 32552K->1832K(116736K), 0.0005802 secs] [Times: user=0.00 sys=0.00, real=0.00 secs] 
+4635.989 ops/ms
+Iteration  10: [GC (Allocation Failure) [PSYoungGen: 30208K->64K(30208K)] 32040K->1896K(116224K), 0.0004914 secs] [Times: user=0.00 sys=0.00, real=0.01 secs] 
+[GC (Allocation Failure) [PSYoungGen: 29760K->0K(29696K)] 31592K->1864K(115712K), 0.0004911 secs] [Times: user=0.00 sys=0.02, real=0.00 secs] 
+[GC (Allocation Failure) [PSYoungGen: 29184K->0K(29184K)] 31048K->1864K(115200K), 0.0005605 secs] [Times: user=0.00 sys=0.00, real=0.02 secs] 
+[GC (Allocation Failure) [PSYoungGen: 28672K->0K(28672K)] 30536K->1864K(114688K), 0.0007562 secs] [Times: user=0.00 sys=0.00, real=0.01 secs] 
+[GC (Allocation Failure) [PSYoungGen: 28160K->0K(28160K)] 30024K->1864K(114176K), 0.0007239 secs] [Times: user=0.00 sys=0.00, real=0.01 secs] 
+[GC (Allocation Failure) [PSYoungGen: 27648K->0K(33792K)] 29512K->1864K(119808K), 0.0007508 secs] [Times: user=0.00 sys=0.00, real=0.01 secs] 
+[GC (Allocation Failure) [PSYoungGen: 33280K->0K(33280K)] 35144K->1864K(119296K), 0.0005017 secs] [Times: user=0.00 sys=0.00, real=0.01 secs] 
+[GC (Allocation Failure) [PSYoungGen: 32768K->0K(39936K)] 34632K->1864K(125952K), 0.0007637 secs] [Times: user=0.00 sys=0.00, real=0.01 secs] 
+[GC (Allocation Failure) [PSYoungGen: 39424K->0K(38912K)] 41288K->1864K(124928K), 0.0004488 secs] [Times: user=0.00 sys=0.00, real=0.01 secs] 
+[GC (Allocation Failure) [PSYoungGen: 38400K->0K(37888K)] 40264K->1864K(123904K), 0.0005488 secs] [Times: user=0.00 sys=0.00, real=0.02 secs] 
+[GC (Allocation Failure) [PSYoungGen: 37376K->0K(37376K)] 39240K->1864K(123392K), 0.0008096 secs] [Times: user=0.06 sys=0.00, real=0.01 secs] 
+[GC (Allocation Failure) [PSYoungGen: 36864K->0K(36864K)] 38728K->1864K(122880K), 0.0005444 secs] [Times: user=0.00 sys=0.00, real=0.01 secs] 
+[GC (Allocation Failure) [PSYoungGen: 36352K->0K(36352K)] 38216K->1864K(122368K), 0.0006568 secs] [Times: user=0.00 sys=0.00, real=0.00 secs] 
+[GC (Allocation Failure) [PSYoungGen: 35840K->0K(35840K)] 37704K->1864K(121856K), 0.0004425 secs] [Times: user=0.00 sys=0.00, real=0.01 secs] 
+4617.157 ops/ms
+[GC (Allocation Failure) [PSYoungGen: 35328K->160K(35328K)] 37192K->2024K(121344K), 0.0005485 secs] [Times: user=0.00 sys=0.00, real=0.00 secs] 
 Heap
- PSYoungGen      total 24576K, used 23902K [0x00000000fab00000, 0x00000000fe580000, 0x0000000100000000)
-  eden space 24064K, 99% used [0x00000000fab00000,0x00000000fc257800,0x00000000fc280000)
-  from space 512K, 0% used [0x00000000fe480000,0x00000000fe480000,0x00000000fe500000)
+ PSYoungGen      total 35328K, used 1082K [0x00000000fab00000, 0x00000000fe600000, 0x0000000100000000)
+  eden space 34816K, 2% used [0x00000000fab00000,0x00000000fabe6af0,0x00000000fcd00000)
+  from space 512K, 31% used [0x00000000fe580000,0x00000000fe5a8000,0x00000000fe600000)
   to   space 512K, 0% used [0x00000000fe500000,0x00000000fe500000,0x00000000fe580000)
- ParOldGen       total 86016K, used 1892K [0x00000000f0000000, 0x00000000f5400000, 0x00000000fab00000)
-  object space 86016K, 2% used [0x00000000f0000000,0x00000000f01d90a0,0x00000000f5400000)
- Metaspace       used 6369K, capacity 6590K, committed 6784K, reserved 1056768K
+ ParOldGen       total 86016K, used 1864K [0x00000000f0000000, 0x00000000f5400000, 0x00000000fab00000)
+  object space 86016K, 2% used [0x00000000f0000000,0x00000000f01d2090,0x00000000f5400000)
+ Metaspace       used 6372K, capacity 6594K, committed 6784K, reserved 1056768K
   class space    used 752K, capacity 839K, committed 896K, reserved 1048576K
 
 
 Result "com.cib.fix.benchmarks.FixParserBenchMark.allocationTestSmallMessage":
-  3366.963 ±(99.9%) 485.210 ops/ms [Average]
-  (min, avg, max) = (2676.598, 3366.963, 3934.660), stdev = 320.936
-  CI (99.9%): [2881.753, 3852.173] (assumes normal distribution)
+  4487.053 ±(99.9%) 435.367 ops/ms [Average]
+  (min, avg, max) = (4050.775, 4487.053, 4847.468), stdev = 287.969
+  CI (99.9%): [4051.686, 4922.421] (assumes normal distribution)
+
+
+# JMH version: 1.21
+# VM version: JDK 1.8.0_441, Java HotSpot(TM) 64-Bit Server VM, 25.441-b07
+# VM invoker: C:\Program Files\Java\jre1.8.0_441\bin\java.exe
+# VM options: -Xmx256m -XX:+PrintGCDetails
+# Warmup: 3 iterations, 1 s each
+# Measurement: 10 iterations, 1 s each
+# Timeout: 10 min per iteration
+# Threads: 1 thread, will synchronize iterations
+# Benchmark mode: Throughput, ops/time
+# Benchmark: com.cib.fix.benchmarks.FixParserBenchMark.benchMarkParserAllocationTestMediumMessage
+
+# Run progress: 19.12% complete, ETA 00:02:52
+# Fork: 1 of 1
+# Warmup Iteration   1: [GC (Allocation Failure) [PSYoungGen: 32768K->2321K(37888K)] 32768K->2329K(123904K), 0.0027482 secs] [Times: user=0.00 sys=0.00, real=0.00 secs] 
+[GC (Allocation Failure) [PSYoungGen: 35089K->1664K(37888K)] 35097K->1680K(123904K), 0.0020112 secs] [Times: user=0.00 sys=0.02, real=0.01 secs] 
+[GC (Allocation Failure) [PSYoungGen: 34432K->1648K(37888K)] 34448K->1672K(123904K), 0.0014717 secs] [Times: user=0.00 sys=0.01, real=0.02 secs] 
+[GC (Allocation Failure) [PSYoungGen: 34416K->1648K(70656K)] 34440K->1680K(156672K), 0.0015803 secs] [Times: user=0.00 sys=0.00, real=0.01 secs] 
+[GC (Allocation Failure) [PSYoungGen: 67184K->1616K(70656K)] 67216K->1648K(156672K), 0.0016880 secs] [Times: user=0.00 sys=0.00, real=0.00 secs] 
+[GC (Allocation Failure) [PSYoungGen: 67152K->1632K(79360K)] 67184K->1672K(165376K), 0.0017814 secs] [Times: user=0.08 sys=0.02, real=0.02 secs] 
+[GC (Allocation Failure) [PSYoungGen: 78432K->32K(79360K)] 78472K->1604K(165376K), 0.0016809 secs] [Times: user=0.00 sys=0.00, real=0.00 secs] 
+[GC (Allocation Failure) [PSYoungGen: 76832K->32K(83968K)] 78404K->1604K(169984K), 0.0005019 secs] [Times: user=0.00 sys=0.00, real=0.00 secs] 
+[GC (Allocation Failure) [PSYoungGen: 80928K->160K(83968K)] 82500K->1732K(169984K), 0.0005354 secs] [Times: user=0.00 sys=0.00, real=0.00 secs] 
+[GC (Allocation Failure) [PSYoungGen: 81056K->32K(83968K)] 82628K->1628K(169984K), 0.0004748 secs] [Times: user=0.00 sys=0.00, real=0.01 secs] 
+[GC (Allocation Failure) [PSYoungGen: 80928K->64K(83968K)] 82524K->1660K(169984K), 0.0007050 secs] [Times: user=0.00 sys=0.00, real=0.00 secs] 
+[GC (Allocation Failure) [PSYoungGen: 80960K->32K(83968K)] 82556K->1628K(169984K), 0.0007211 secs] [Times: user=0.00 sys=0.00, real=0.00 secs] 
+[GC (Allocation Failure) [PSYoungGen: 80928K->64K(83968K)] 82524K->1660K(169984K), 0.0006788 secs] [Times: user=0.00 sys=0.02, real=0.01 secs] 
+[GC (Allocation Failure) [PSYoungGen: 80960K->96K(83968K)] 82556K->1692K(169984K), 0.0006351 secs] [Times: user=0.03 sys=0.02, real=0.02 secs] 
+[GC (Allocation Failure) [PSYoungGen: 80992K->64K(83968K)] 82588K->1660K(169984K), 0.0007759 secs] [Times: user=0.00 sys=0.01, real=0.01 secs] 
+[GC (Allocation Failure) [PSYoungGen: 80960K->32K(82944K)] 82556K->1628K(168960K), 0.0007358 secs] [Times: user=0.00 sys=0.00, real=0.01 secs] 
+[GC (Allocation Failure) [PSYoungGen: 80928K->96K(83456K)] 82524K->1692K(169472K), 0.0007170 secs] [Times: user=0.00 sys=0.00, real=0.01 secs] 
+[GC (Allocation Failure) [PSYoungGen: 80992K->32K(84480K)] 82588K->1628K(170496K), 0.0004740 secs] [Times: user=0.03 sys=0.00, real=0.00 secs] 
+[GC (Allocation Failure) [PSYoungGen: 81952K->96K(84480K)] 83548K->1692K(170496K), 0.0004292 secs] [Times: user=0.00 sys=0.00, real=0.01 secs] 
+[GC (Allocation Failure) [PSYoungGen: 82016K->96K(84480K)] 83612K->1692K(170496K), 0.0007676 secs] [Times: user=0.00 sys=0.00, real=0.01 secs] 
+[GC (Allocation Failure) [PSYoungGen: 82016K->32K(82432K)] 83612K->1628K(168448K), 0.0007370 secs] [Times: user=0.00 sys=0.02, real=0.01 secs] 
+[GC (Allocation Failure) [PSYoungGen: 81952K->32K(83968K)] 83548K->1628K(169984K), 0.0004506 secs] [Times: user=0.00 sys=0.00, real=0.01 secs] 
+[GC (Allocation Failure) [PSYoungGen: 81952K->32K(83968K)] 83548K->1628K(169984K), 0.0006932 secs] [Times: user=0.00 sys=0.00, real=0.00 secs] 
+474.966 ops/ms
+# Warmup Iteration   2: [GC (Allocation Failure) [PSYoungGen: 81952K->288K(84992K)] 83548K->1884K(171008K), 0.0006551 secs] [Times: user=0.00 sys=0.00, real=0.00 secs] 
+[GC (Allocation Failure) [PSYoungGen: 83232K->32K(84992K)] 84828K->1700K(171008K), 0.0006225 secs] [Times: user=0.02 sys=0.01, real=0.01 secs] 
+[GC (Allocation Failure) [PSYoungGen: 82976K->32K(83968K)] 84644K->1700K(169984K), 0.0009384 secs] [Times: user=0.00 sys=0.00, real=0.00 secs] 
+[GC (Allocation Failure) [PSYoungGen: 82976K->32K(84480K)] 84644K->1700K(170496K), 0.0007476 secs] [Times: user=0.00 sys=0.02, real=0.01 secs] 
+[GC (Allocation Failure) [PSYoungGen: 82976K->64K(85504K)] 84644K->1732K(171520K), 0.0006067 secs] [Times: user=0.00 sys=0.00, real=0.01 secs] 
+[GC (Allocation Failure) [PSYoungGen: 84032K->96K(85504K)] 85700K->1764K(171520K), 0.0005028 secs] [Times: user=0.00 sys=0.00, real=0.00 secs] 
+[GC (Allocation Failure) [PSYoungGen: 84064K->64K(85504K)] 85732K->1732K(171520K), 0.0008374 secs] [Times: user=0.09 sys=0.00, real=0.01 secs] 
+[GC (Allocation Failure) [PSYoungGen: 84032K->32K(85504K)] 85700K->1700K(171520K), 0.0004700 secs] [Times: user=0.00 sys=0.00, real=0.01 secs] 
+[GC (Allocation Failure) [PSYoungGen: 84000K->32K(84480K)] 85668K->1700K(170496K), 0.0007877 secs] [Times: user=0.00 sys=0.00, real=0.01 secs] 
+[GC (Allocation Failure) [PSYoungGen: 84000K->32K(84992K)] 85668K->1700K(171008K), 0.0007234 secs] [Times: user=0.00 sys=0.00, real=0.01 secs] 
+[GC (Allocation Failure) [PSYoungGen: 84000K->96K(86016K)] 85668K->1764K(172032K), 0.0005657 secs] [Times: user=0.00 sys=0.00, real=0.00 secs] 
+[GC (Allocation Failure) [PSYoungGen: 85088K->64K(86016K)] 86756K->1732K(172032K), 0.0006519 secs] [Times: user=0.00 sys=0.00, real=0.01 secs] 
+[GC (Allocation Failure) [PSYoungGen: 85056K->32K(86016K)] 86724K->1700K(172032K), 0.0005393 secs] [Times: user=0.03 sys=0.00, real=0.01 secs] 
+[GC (Allocation Failure) [PSYoungGen: 85024K->64K(86016K)] 86692K->1732K(172032K), 0.0006621 secs] [Times: user=0.00 sys=0.00, real=0.00 secs] 
+[GC (Allocation Failure) [PSYoungGen: 85056K->96K(86016K)] 86724K->1764K(172032K), 0.0007280 secs] [Times: user=0.00 sys=0.02, real=0.01 secs] 
+[GC (Allocation Failure) [PSYoungGen: 85088K->0K(86016K)] 86756K->1668K(172032K), 0.0006003 secs] [Times: user=0.00 sys=0.00, real=0.01 secs] 
+[GC (Allocation Failure) [PSYoungGen: 84992K->32K(86016K)] 86660K->1700K(172032K), 0.0004665 secs] [Times: user=0.00 sys=0.00, real=0.01 secs] 
+[GC (Allocation Failure) [PSYoungGen: 85024K->32K(86016K)] 86692K->1700K(172032K), 0.0008632 secs] [Times: user=0.00 sys=0.00, real=0.01 secs] 
+[GC (Allocation Failure) [PSYoungGen: 85024K->96K(85504K)] 86692K->1764K(171520K), 0.0005501 secs] [Times: user=0.00 sys=0.00, real=0.01 secs] 
+[GC (Allocation Failure) [PSYoungGen: 85088K->32K(86016K)] 86756K->1700K(172032K), 0.0005688 secs] [Times: user=0.00 sys=0.00, real=0.00 secs] 
+[GC (Allocation Failure) [PSYoungGen: 85536K->96K(86528K)] 87204K->1764K(172544K), 0.0005734 secs] [Times: user=0.00 sys=0.00, real=0.01 secs] 
+[GC (Allocation Failure) [PSYoungGen: 86112K->64K(86528K)] 87780K->1732K(172544K), 0.0007318 secs] [Times: user=0.00 sys=0.00, real=0.00 secs] 
+508.480 ops/ms
+# Warmup Iteration   3: [GC (Allocation Failure) [PSYoungGen: 86080K->64K(86528K)] 87748K->1732K(172544K), 0.0004010 secs] [Times: user=0.00 sys=0.00, real=0.00 secs] 
+[GC (Allocation Failure) [PSYoungGen: 86080K->96K(86528K)] 87748K->1788K(172544K), 0.0006981 secs] [Times: user=0.00 sys=0.00, real=0.01 secs] 
+[GC (Allocation Failure) [PSYoungGen: 86112K->96K(86528K)] 87804K->1788K(172544K), 0.0006368 secs] [Times: user=0.00 sys=0.00, real=0.02 secs] 
+[GC (Allocation Failure) [PSYoungGen: 86112K->96K(86528K)] 87804K->1788K(172544K), 0.0006227 secs] [Times: user=0.03 sys=0.00, real=0.01 secs] 
+[GC (Allocation Failure) [PSYoungGen: 86112K->96K(86528K)] 87804K->1788K(172544K), 0.0005508 secs] [Times: user=0.00 sys=0.00, real=0.00 secs] 
+[GC (Allocation Failure) [PSYoungGen: 86112K->128K(86528K)] 87804K->1820K(172544K), 0.0005718 secs] [Times: user=0.00 sys=0.00, real=0.01 secs] 
+[GC (Allocation Failure) [PSYoungGen: 86144K->96K(86528K)] 87836K->1788K(172544K), 0.0005291 secs] [Times: user=0.00 sys=0.02, real=0.01 secs] 
+[GC (Allocation Failure) [PSYoungGen: 86112K->64K(86528K)] 87804K->1756K(172544K), 0.0008798 secs] [Times: user=0.02 sys=0.00, real=0.01 secs] 
+[GC (Allocation Failure) [PSYoungGen: 86080K->64K(86528K)] 87772K->1756K(172544K), 0.0005822 secs] [Times: user=0.00 sys=0.02, real=0.01 secs] 
+[GC (Allocation Failure) [PSYoungGen: 86080K->64K(86528K)] 87772K->1756K(172544K), 0.0005553 secs] [Times: user=0.00 sys=0.00, real=0.01 secs] 
+[GC (Allocation Failure) [PSYoungGen: 86080K->32K(86528K)] 87772K->1724K(172544K), 0.0005302 secs] [Times: user=0.00 sys=0.00, real=0.01 secs] 
+[GC (Allocation Failure) [PSYoungGen: 86048K->64K(86528K)] 87740K->1756K(172544K), 0.0004799 secs] [Times: user=0.00 sys=0.00, real=0.00 secs] 
+[GC (Allocation Failure) [PSYoungGen: 86080K->32K(86528K)] 87772K->1724K(172544K), 0.0008382 secs] [Times: user=0.00 sys=0.00, real=0.01 secs] 
+[GC (Allocation Failure) [PSYoungGen: 86048K->64K(86528K)] 87740K->1756K(172544K), 0.0004506 secs] [Times: user=0.02 sys=0.00, real=0.01 secs] 
+[GC (Allocation Failure) [PSYoungGen: 86080K->96K(86528K)] 87772K->1788K(172544K), 0.0004466 secs] [Times: user=0.00 sys=0.02, real=0.01 secs] 
+[GC (Allocation Failure) [PSYoungGen: 86112K->32K(86528K)] 87804K->1724K(172544K), 0.0008082 secs] [Times: user=0.03 sys=0.00, real=0.01 secs] 
+[GC (Allocation Failure) [PSYoungGen: 86048K->32K(86528K)] 87740K->1724K(172544K), 0.0007662 secs] [Times: user=0.00 sys=0.00, real=0.01 secs] 
+[GC (Allocation Failure) [PSYoungGen: 86048K->64K(86528K)] 87740K->1756K(172544K), 0.0005435 secs] [Times: user=0.00 sys=0.00, real=0.01 secs] 
+[GC (Allocation Failure) [PSYoungGen: 86080K->64K(86528K)] 87772K->1756K(172544K), 0.0006652 secs] [Times: user=0.00 sys=0.00, real=0.00 secs] 
+[GC (Allocation Failure) [PSYoungGen: 86080K->32K(86528K)] 87772K->1724K(172544K), 0.0008594 secs] [Times: user=0.00 sys=0.00, real=0.01 secs] 
+[GC (Allocation Failure) [PSYoungGen: 86048K->64K(86528K)] 87740K->1756K(172544K), 0.0007001 secs] [Times: user=0.00 sys=0.00, real=0.01 secs] 
+496.872 ops/ms
+Iteration   1: [GC (Allocation Failure) [PSYoungGen: 86080K->64K(86528K)] 87772K->1756K(172544K), 0.0004895 secs] [Times: user=0.00 sys=0.00, real=0.01 secs] 
+[GC (Allocation Failure) [PSYoungGen: 86080K->32K(86528K)] 87772K->1740K(172544K), 0.0005721 secs] [Times: user=0.02 sys=0.00, real=0.01 secs] 
+[GC (Allocation Failure) [PSYoungGen: 86048K->32K(86528K)] 87756K->1740K(172544K), 0.0004239 secs] [Times: user=0.00 sys=0.00, real=0.00 secs] 
+[GC (Allocation Failure) [PSYoungGen: 86048K->32K(86528K)] 87756K->1740K(172544K), 0.0006277 secs] [Times: user=0.00 sys=0.00, real=0.01 secs] 
+[GC (Allocation Failure) [PSYoungGen: 86048K->64K(86528K)] 87756K->1772K(172544K), 0.0004555 secs] [Times: user=0.06 sys=0.00, real=0.01 secs] 
+[GC (Allocation Failure) [PSYoungGen: 86080K->96K(86528K)] 87788K->1804K(172544K), 0.0007242 secs] [Times: user=0.00 sys=0.00, real=0.01 secs] 
+[GC (Allocation Failure) [PSYoungGen: 86112K->0K(86528K)] 87820K->1708K(172544K), 0.0006729 secs] [Times: user=0.05 sys=0.00, real=0.01 secs] 
+[GC (Allocation Failure) [PSYoungGen: 86016K->128K(86528K)] 87724K->1836K(172544K), 0.0007158 secs] [Times: user=0.00 sys=0.00, real=0.01 secs] 
+[GC (Allocation Failure) [PSYoungGen: 86144K->32K(86528K)] 87852K->1740K(172544K), 0.0007631 secs] [Times: user=0.00 sys=0.00, real=0.02 secs] 
+[GC (Allocation Failure) [PSYoungGen: 86048K->64K(86528K)] 87756K->1772K(172544K), 0.0003935 secs] [Times: user=0.00 sys=0.00, real=0.01 secs] 
+[GC (Allocation Failure) [PSYoungGen: 86080K->64K(86528K)] 87788K->1772K(172544K), 0.0007777 secs] [Times: user=0.00 sys=0.00, real=0.00 secs] 
+[GC (Allocation Failure) [PSYoungGen: 86080K->32K(86528K)] 87788K->1740K(172544K), 0.0004524 secs] [Times: user=0.00 sys=0.00, real=0.00 secs] 
+[GC (Allocation Failure) [PSYoungGen: 86048K->32K(86528K)] 87756K->1740K(172544K), 0.0005466 secs] [Times: user=0.00 sys=0.01, real=0.01 secs] 
+[GC (Allocation Failure) [PSYoungGen: 86048K->96K(86528K)] 87756K->1804K(172544K), 0.0004587 secs] [Times: user=0.00 sys=0.02, real=0.01 secs] 
+[GC (Allocation Failure) [PSYoungGen: 86112K->64K(86528K)] 87820K->1772K(172544K), 0.0006356 secs] [Times: user=0.00 sys=0.00, real=0.01 secs] 
+[GC (Allocation Failure) [PSYoungGen: 86080K->32K(86528K)] 87788K->1740K(172544K), 0.0004508 secs] [Times: user=0.00 sys=0.00, real=0.02 secs] 
+[GC (Allocation Failure) [PSYoungGen: 86048K->64K(86528K)] 87756K->1772K(172544K), 0.0006003 secs] [Times: user=0.00 sys=0.00, real=0.01 secs] 
+[GC (Allocation Failure) [PSYoungGen: 86080K->64K(86528K)] 87788K->1772K(172544K), 0.0007034 secs] [Times: user=0.00 sys=0.00, real=0.01 secs] 
+[GC (Allocation Failure) [PSYoungGen: 86080K->32K(86528K)] 87788K->1740K(172544K), 0.0004530 secs] [Times: user=0.00 sys=0.00, real=0.01 secs] 
+[GC (Allocation Failure) [PSYoungGen: 86048K->64K(86528K)] 87756K->1772K(172544K), 0.0010574 secs] [Times: user=0.00 sys=0.01, real=0.01 secs] 
+484.013 ops/ms
+Iteration   2: [GC (Allocation Failure) [PSYoungGen: 86080K->128K(86528K)] 87788K->1836K(172544K), 0.0005944 secs] [Times: user=0.00 sys=0.00, real=0.01 secs] 
+[GC (Allocation Failure) [PSYoungGen: 86144K->0K(86528K)] 87852K->1732K(172544K), 0.0004600 secs] [Times: user=0.00 sys=0.00, real=0.01 secs] 
+[GC (Allocation Failure) [PSYoungGen: 86016K->96K(83456K)] 87748K->1828K(169472K), 0.0004402 secs] [Times: user=0.00 sys=0.00, real=0.00 secs] 
+[GC (Allocation Failure) [PSYoungGen: 83040K->32K(80896K)] 84772K->1764K(166912K), 0.0004705 secs] [Times: user=0.00 sys=0.00, real=0.00 secs] 
+[GC (Allocation Failure) [PSYoungGen: 80416K->96K(86528K)] 82148K->1828K(172544K), 0.0004825 secs] [Times: user=0.00 sys=0.00, real=0.00 secs] 
+[GC (Allocation Failure) [PSYoungGen: 86112K->32K(86528K)] 87844K->1764K(172544K), 0.0006770 secs] [Times: user=0.05 sys=0.02, real=0.01 secs] 
+[GC (Allocation Failure) [PSYoungGen: 86048K->32K(86528K)] 87780K->1764K(172544K), 0.0006985 secs] [Times: user=0.00 sys=0.00, real=0.01 secs] 
+[GC (Allocation Failure) [PSYoungGen: 86048K->96K(86528K)] 87780K->1828K(172544K), 0.0006563 secs] [Times: user=0.06 sys=0.00, real=0.01 secs] 
+[GC (Allocation Failure) [PSYoungGen: 86112K->32K(86528K)] 87844K->1764K(172544K), 0.0004432 secs] [Times: user=0.00 sys=0.02, real=0.01 secs] 
+[GC (Allocation Failure) [PSYoungGen: 86048K->64K(86528K)] 87780K->1796K(172544K), 0.0004143 secs] [Times: user=0.03 sys=0.00, real=0.01 secs] 
+[GC (Allocation Failure) [PSYoungGen: 86080K->64K(86528K)] 87812K->1796K(172544K), 0.0005749 secs] [Times: user=0.03 sys=0.02, real=0.02 secs] 
+[GC (Allocation Failure) [PSYoungGen: 86080K->32K(86528K)] 87812K->1764K(172544K), 0.0004859 secs] [Times: user=0.03 sys=0.00, real=0.00 secs] 
+[GC (Allocation Failure) [PSYoungGen: 86048K->64K(86528K)] 87780K->1796K(172544K), 0.0006070 secs] [Times: user=0.02 sys=0.00, real=0.01 secs] 
+[GC (Allocation Failure) [PSYoungGen: 86080K->128K(86528K)] 87812K->1860K(172544K), 0.0007373 secs] [Times: user=0.00 sys=0.00, real=0.01 secs] 
+[GC (Allocation Failure) [PSYoungGen: 86144K->32K(86528K)] 87876K->1764K(172544K), 0.0005137 secs] [Times: user=0.00 sys=0.00, real=0.01 secs] 
+[GC (Allocation Failure) [PSYoungGen: 86048K->32K(86528K)] 87780K->1764K(172544K), 0.0007186 secs] [Times: user=0.03 sys=0.00, real=0.01 secs] 
+[GC (Allocation Failure) [PSYoungGen: 86048K->32K(86528K)] 87780K->1764K(172544K), 0.0005630 secs] [Times: user=0.00 sys=0.00, real=0.01 secs] 
+[GC (Allocation Failure) [PSYoungGen: 86048K->96K(86528K)] 87780K->1828K(172544K), 0.0008145 secs] [Times: user=0.00 sys=0.00, real=0.01 secs] 
+[GC (Allocation Failure) [PSYoungGen: 86112K->64K(86528K)] 87844K->1796K(172544K), 0.0008388 secs] [Times: user=0.00 sys=0.00, real=0.00 secs] 
+[GC (Allocation Failure) [PSYoungGen: 86080K->32K(86528K)] 87812K->1764K(172544K), 0.0006335 secs] [Times: user=0.00 sys=0.00, real=0.00 secs] 
+[GC (Allocation Failure) [PSYoungGen: 86048K->32K(86528K)] 87780K->1764K(172544K), 0.0005782 secs] [Times: user=0.06 sys=0.00, real=0.01 secs] 
+[GC (Allocation Failure) [PSYoungGen: 86048K->32K(86528K)] 87780K->1764K(172544K), 0.0005071 secs] [Times: user=0.00 sys=0.00, real=0.02 secs] 
+507.260 ops/ms
+Iteration   3: [GC (Allocation Failure) [PSYoungGen: 86048K->96K(86528K)] 87780K->1828K(172544K), 0.0006827 secs] [Times: user=0.00 sys=0.00, real=0.01 secs] 
+[GC (Allocation Failure) [PSYoungGen: 86112K->96K(86528K)] 87844K->1852K(172544K), 0.0005281 secs] [Times: user=0.06 sys=0.00, real=0.01 secs] 
+[GC (Allocation Failure) [PSYoungGen: 86112K->32K(86528K)] 87868K->1788K(172544K), 0.0007204 secs] [Times: user=0.00 sys=0.00, real=0.01 secs] 
+[GC (Allocation Failure) [PSYoungGen: 86048K->96K(86528K)] 87804K->1852K(172544K), 0.0006452 secs] [Times: user=0.00 sys=0.00, real=0.00 secs] 
+[GC (Allocation Failure) [PSYoungGen: 86112K->32K(86528K)] 87868K->1788K(172544K), 0.0005169 secs] [Times: user=0.00 sys=0.00, real=0.00 secs] 
+[GC (Allocation Failure) [PSYoungGen: 86048K->64K(86528K)] 87804K->1820K(172544K), 0.0006717 secs] [Times: user=0.00 sys=0.00, real=0.00 secs] 
+[GC (Allocation Failure) [PSYoungGen: 86080K->32K(86528K)] 87836K->1788K(172544K), 0.0005322 secs] [Times: user=0.00 sys=0.00, real=0.00 secs] 
+[GC (Allocation Failure) [PSYoungGen: 86048K->64K(86528K)] 87804K->1820K(172544K), 0.0006206 secs] [Times: user=0.00 sys=0.00, real=0.00 secs] 
+[GC (Allocation Failure) [PSYoungGen: 86080K->96K(86528K)] 87836K->1852K(172544K), 0.0006280 secs] [Times: user=0.00 sys=0.00, real=0.00 secs] 
+[GC (Allocation Failure) [PSYoungGen: 86112K->64K(86528K)] 87868K->1820K(172544K), 0.0005675 secs] [Times: user=0.00 sys=0.02, real=0.01 secs] 
+[GC (Allocation Failure) [PSYoungGen: 86080K->64K(86528K)] 87836K->1820K(172544K), 0.0004683 secs] [Times: user=0.00 sys=0.00, real=0.01 secs] 
+[GC (Allocation Failure) [PSYoungGen: 86080K->64K(86528K)] 87836K->1820K(172544K), 0.0004681 secs] [Times: user=0.00 sys=0.00, real=0.01 secs] 
+[GC (Allocation Failure) [PSYoungGen: 86080K->96K(86528K)] 87836K->1852K(172544K), 0.0004794 secs] [Times: user=0.00 sys=0.00, real=0.00 secs] 
+[GC (Allocation Failure) [PSYoungGen: 86112K->96K(86528K)] 87868K->1852K(172544K), 0.0007789 secs] [Times: user=0.00 sys=0.00, real=0.00 secs] 
+[GC (Allocation Failure) [PSYoungGen: 86112K->32K(86528K)] 87868K->1788K(172544K), 0.0006822 secs] [Times: user=0.00 sys=0.02, real=0.01 secs] 
+[GC (Allocation Failure) [PSYoungGen: 86048K->64K(86528K)] 87804K->1820K(172544K), 0.0006441 secs] [Times: user=0.00 sys=0.00, real=0.00 secs] 
+[GC (Allocation Failure) [PSYoungGen: 86080K->64K(86528K)] 87836K->1820K(172544K), 0.0004353 secs] [Times: user=0.00 sys=0.00, real=0.01 secs] 
+[GC (Allocation Failure) [PSYoungGen: 86080K->32K(86528K)] 87836K->1788K(172544K), 0.0007030 secs] [Times: user=0.00 sys=0.00, real=0.01 secs] 
+[GC (Allocation Failure) [PSYoungGen: 86048K->64K(86528K)] 87804K->1820K(172544K), 0.0005276 secs] [Times: user=0.00 sys=0.00, real=0.01 secs] 
+[GC (Allocation Failure) [PSYoungGen: 86080K->64K(86528K)] 87836K->1820K(172544K), 0.0004656 secs] [Times: user=0.00 sys=0.01, real=0.01 secs] 
+[GC (Allocation Failure) [PSYoungGen: 86080K->64K(86528K)] 87836K->1820K(172544K), 0.0006311 secs] [Times: user=0.00 sys=0.00, real=0.00 secs] 
+508.015 ops/ms
+Iteration   4: [GC (Allocation Failure) [PSYoungGen: 86080K->64K(86528K)] 87836K->1820K(172544K), 0.0009275 secs] [Times: user=0.00 sys=0.00, real=0.00 secs] 
+[GC (Allocation Failure) [PSYoungGen: 86080K->64K(86528K)] 87836K->1844K(172544K), 0.0006416 secs] [Times: user=0.00 sys=0.00, real=0.01 secs] 
+[GC (Allocation Failure) [PSYoungGen: 86080K->64K(86528K)] 87860K->1844K(172544K), 0.0005345 secs] [Times: user=0.01 sys=0.00, real=0.01 secs] 
+[GC (Allocation Failure) [PSYoungGen: 86080K->64K(86528K)] 87860K->1844K(172544K), 0.0006763 secs] [Times: user=0.00 sys=0.00, real=0.00 secs] 
+[GC (Allocation Failure) [PSYoungGen: 86080K->96K(86528K)] 87860K->1876K(172544K), 0.0009134 secs] [Times: user=0.00 sys=0.00, real=0.01 secs] 
+[GC (Allocation Failure) [PSYoungGen: 86112K->32K(86528K)] 87892K->1812K(172544K), 0.0006526 secs] [Times: user=0.00 sys=0.00, real=0.00 secs] 
+[GC (Allocation Failure) [PSYoungGen: 86048K->128K(86528K)] 87828K->1908K(172544K), 0.0004555 secs] [Times: user=0.00 sys=0.00, real=0.01 secs] 
+[GC (Allocation Failure) [PSYoungGen: 86144K->32K(86528K)] 87924K->1812K(172544K), 0.0008537 secs] [Times: user=0.00 sys=0.00, real=0.01 secs] 
+[GC (Allocation Failure) [PSYoungGen: 86048K->96K(86528K)] 87828K->1876K(172544K), 0.0006176 secs] [Times: user=0.00 sys=0.02, real=0.00 secs] 
+[GC (Allocation Failure) [PSYoungGen: 86112K->32K(86528K)] 87892K->1812K(172544K), 0.0009356 secs] [Times: user=0.00 sys=0.00, real=0.01 secs] 
+[GC (Allocation Failure) [PSYoungGen: 86048K->32K(86528K)] 87828K->1812K(172544K), 0.0005204 secs] [Times: user=0.00 sys=0.00, real=0.02 secs] 
+[GC (Allocation Failure) [PSYoungGen: 86048K->32K(86528K)] 87828K->1812K(172544K), 0.0005306 secs] [Times: user=0.01 sys=0.00, real=0.02 secs] 
+[GC (Allocation Failure) [PSYoungGen: 86048K->96K(86528K)] 87828K->1876K(172544K), 0.0008637 secs] [Times: user=0.00 sys=0.00, real=0.01 secs] 
+[GC (Allocation Failure) [PSYoungGen: 86112K->32K(86528K)] 87892K->1812K(172544K), 0.0004556 secs] [Times: user=0.00 sys=0.01, real=0.01 secs] 
+[GC (Allocation Failure) [PSYoungGen: 86048K->64K(86528K)] 87828K->1844K(172544K), 0.0007860 secs] [Times: user=0.00 sys=0.00, real=0.01 secs] 
+[GC (Allocation Failure) [PSYoungGen: 86080K->64K(86528K)] 87860K->1844K(172544K), 0.0005897 secs] [Times: user=0.03 sys=0.00, real=0.01 secs] 
+[GC (Allocation Failure) [PSYoungGen: 86080K->64K(86528K)] 87860K->1844K(172544K), 0.0005766 secs] [Times: user=0.00 sys=0.02, real=0.01 secs] 
+[GC (Allocation Failure) [PSYoungGen: 86080K->32K(86528K)] 87860K->1812K(172544K), 0.0008234 secs] [Times: user=0.03 sys=0.00, real=0.01 secs] 
+[GC (Allocation Failure) [PSYoungGen: 86048K->64K(86528K)] 87828K->1844K(172544K), 0.0007728 secs] [Times: user=0.00 sys=0.00, real=0.00 secs] 
+[GC (Allocation Failure) [PSYoungGen: 86080K->64K(86528K)] 87860K->1844K(172544K), 0.0005975 secs] [Times: user=0.00 sys=0.00, real=0.01 secs] 
+[GC (Allocation Failure) [PSYoungGen: 86080K->64K(86528K)] 87860K->1844K(172544K), 0.0006293 secs] [Times: user=0.00 sys=0.00, real=0.01 secs] 
+501.116 ops/ms
+Iteration   5: [GC (Allocation Failure) [PSYoungGen: 86080K->96K(86528K)] 87860K->1876K(172544K), 0.0005453 secs] [Times: user=0.00 sys=0.02, real=0.01 secs] 
+[GC (Allocation Failure) [PSYoungGen: 86112K->32K(86528K)] 87892K->1828K(172544K), 0.0006917 secs] [Times: user=0.03 sys=0.00, real=0.01 secs] 
+[GC (Allocation Failure) [PSYoungGen: 86048K->64K(86528K)] 87844K->1860K(172544K), 0.0005594 secs] [Times: user=0.00 sys=0.00, real=0.00 secs] 
+[GC (Allocation Failure) [PSYoungGen: 86080K->32K(86528K)] 87876K->1828K(172544K), 0.0006336 secs] [Times: user=0.01 sys=0.00, real=0.01 secs] 
+[GC (Allocation Failure) [PSYoungGen: 86048K->96K(86528K)] 87844K->1892K(172544K), 0.0006236 secs] [Times: user=0.00 sys=0.00, real=0.00 secs] 
+[GC (Allocation Failure) [PSYoungGen: 86112K->64K(86528K)] 87908K->1860K(172544K), 0.0009362 secs] [Times: user=0.02 sys=0.00, real=0.01 secs] 
+[GC (Allocation Failure) [PSYoungGen: 86080K->128K(86528K)] 87876K->1924K(172544K), 0.0007147 secs] [Times: user=0.00 sys=0.00, real=0.00 secs] 
+[GC (Allocation Failure) [PSYoungGen: 86144K->32K(86528K)] 87940K->1828K(172544K), 0.0006401 secs] [Times: user=0.00 sys=0.00, real=0.00 secs] 
+[GC (Allocation Failure) [PSYoungGen: 86048K->32K(86528K)] 87844K->1828K(172544K), 0.0006534 secs] [Times: user=0.06 sys=0.00, real=0.01 secs] 
+[GC (Allocation Failure) [PSYoungGen: 86048K->0K(86528K)] 87844K->1796K(172544K), 0.0009688 secs] [Times: user=0.00 sys=0.00, real=0.00 secs] 
+[GC (Allocation Failure) [PSYoungGen: 86016K->64K(86528K)] 87812K->1860K(172544K), 0.0005854 secs] [Times: user=0.00 sys=0.00, real=0.01 secs] 
+[GC (Allocation Failure) [PSYoungGen: 86080K->64K(86528K)] 87876K->1860K(172544K), 0.0008327 secs] [Times: user=0.00 sys=0.00, real=0.00 secs] 
+[GC (Allocation Failure) [PSYoungGen: 86080K->96K(86528K)] 87876K->1892K(172544K), 0.0005986 secs] [Times: user=0.06 sys=0.00, real=0.01 secs] 
+[GC (Allocation Failure) [PSYoungGen: 86112K->32K(86528K)] 87908K->1828K(172544K), 0.0007088 secs] [Times: user=0.00 sys=0.00, real=0.02 secs] 
+[GC (Allocation Failure) [PSYoungGen: 86048K->64K(86528K)] 87844K->1860K(172544K), 0.0004644 secs] [Times: user=0.02 sys=0.02, real=0.01 secs] 
+[GC (Allocation Failure) [PSYoungGen: 86080K->32K(86528K)] 87876K->1828K(172544K), 0.0004560 secs] [Times: user=0.00 sys=0.02, real=0.01 secs] 
+[GC (Allocation Failure) [PSYoungGen: 86048K->96K(86528K)] 87844K->1892K(172544K), 0.0006876 secs] [Times: user=0.00 sys=0.00, real=0.01 secs] 
+[GC (Allocation Failure) [PSYoungGen: 86112K->32K(86528K)] 87908K->1828K(172544K), 0.0006719 secs] [Times: user=0.00 sys=0.00, real=0.00 secs] 
+[GC (Allocation Failure) [PSYoungGen: 86048K->64K(86528K)] 87844K->1860K(172544K), 0.0006095 secs] [Times: user=0.00 sys=0.00, real=0.01 secs] 
+[GC (Allocation Failure) [PSYoungGen: 86080K->96K(86528K)] 87876K->1892K(172544K), 0.0004272 secs] [Times: user=0.00 sys=0.00, real=0.01 secs] 
+[GC (Allocation Failure) [PSYoungGen: 86112K->64K(86528K)] 87908K->1860K(172544K), 0.0004861 secs] [Times: user=0.03 sys=0.00, real=0.01 secs] 
+507.762 ops/ms
+Iteration   6: [GC (Allocation Failure) [PSYoungGen: 86080K->64K(86528K)] 87876K->1860K(172544K), 0.0008368 secs] [Times: user=0.01 sys=0.00, real=0.01 secs] 
+[GC (Allocation Failure) [PSYoungGen: 86080K->96K(86528K)] 87876K->1908K(172544K), 0.0004616 secs] [Times: user=0.00 sys=0.00, real=0.01 secs] 
+[GC (Allocation Failure) [PSYoungGen: 86112K->64K(86528K)] 87924K->1876K(172544K), 0.0004428 secs] [Times: user=0.00 sys=0.00, real=0.00 secs] 
+[GC (Allocation Failure) [PSYoungGen: 86080K->64K(86528K)] 87892K->1876K(172544K), 0.0004920 secs] [Times: user=0.05 sys=0.02, real=0.01 secs] 
+[GC (Allocation Failure) [PSYoungGen: 86080K->64K(86528K)] 87892K->1876K(172544K), 0.0004644 secs] [Times: user=0.00 sys=0.00, real=0.01 secs] 
+[GC (Allocation Failure) [PSYoungGen: 86080K->64K(83456K)] 87892K->1876K(169472K), 0.0004086 secs] [Times: user=0.00 sys=0.00, real=0.00 secs] 
+[GC (Allocation Failure) [PSYoungGen: 83008K->64K(86528K)] 84820K->1876K(172544K), 0.0006629 secs] [Times: user=0.00 sys=0.00, real=0.01 secs] 
+[GC (Allocation Failure) [PSYoungGen: 86080K->96K(86528K)] 87892K->1908K(172544K), 0.0007819 secs] [Times: user=0.00 sys=0.00, real=0.01 secs] 
+[GC (Allocation Failure) [PSYoungGen: 86112K->64K(86528K)] 87924K->1876K(172544K), 0.0005220 secs] [Times: user=0.00 sys=0.00, real=0.00 secs] 
+[GC (Allocation Failure) [PSYoungGen: 86080K->64K(86528K)] 87892K->1876K(172544K), 0.0008640 secs] [Times: user=0.00 sys=0.00, real=0.01 secs] 
+[GC (Allocation Failure) [PSYoungGen: 86080K->96K(86528K)] 87892K->1908K(172544K), 0.0004436 secs] [Times: user=0.00 sys=0.00, real=0.00 secs] 
+[GC (Allocation Failure) [PSYoungGen: 86112K->32K(86528K)] 87924K->1844K(172544K), 0.0006229 secs] [Times: user=0.00 sys=0.00, real=0.01 secs] 
+[GC (Allocation Failure) [PSYoungGen: 86048K->32K(86528K)] 87860K->1844K(172544K), 0.0006596 secs] [Times: user=0.00 sys=0.01, real=0.01 secs] 
+[GC (Allocation Failure) [PSYoungGen: 86048K->64K(86528K)] 87860K->1876K(172544K), 0.0006667 secs] [Times: user=0.00 sys=0.00, real=0.01 secs] 
+[GC (Allocation Failure) [PSYoungGen: 86080K->64K(86528K)] 87892K->1876K(172544K), 0.0005564 secs] [Times: user=0.00 sys=0.00, real=0.01 secs] 
+[GC (Allocation Failure) [PSYoungGen: 86080K->96K(86528K)] 87892K->1908K(172544K), 0.0009499 secs] [Times: user=0.00 sys=0.00, real=0.01 secs] 
+[GC (Allocation Failure) [PSYoungGen: 86112K->32K(86528K)] 87924K->1844K(172544K), 0.0008022 secs] [Times: user=0.00 sys=0.00, real=0.01 secs] 
+[GC (Allocation Failure) [PSYoungGen: 86048K->32K(86528K)] 87860K->1844K(172544K), 0.0009467 secs] [Times: user=0.03 sys=0.00, real=0.01 secs] 
+[GC (Allocation Failure) [PSYoungGen: 86048K->64K(86528K)] 87860K->1876K(172544K), 0.0004532 secs] [Times: user=0.03 sys=0.00, real=0.01 secs] 
+[GC (Allocation Failure) [PSYoungGen: 86080K->64K(86528K)] 87892K->1876K(172544K), 0.0004761 secs] [Times: user=0.02 sys=0.00, real=0.01 secs] 
+[GC (Allocation Failure) [PSYoungGen: 86080K->96K(86528K)] 87892K->1908K(172544K), 0.0006474 secs] [Times: user=0.00 sys=0.00, real=0.01 secs] 
+517.558 ops/ms
+Iteration   7: [GC (Allocation Failure) [PSYoungGen: 86112K->96K(86528K)] 87924K->1908K(172544K), 0.0006622 secs] [Times: user=0.00 sys=0.00, real=0.00 secs] 
+[GC (Allocation Failure) [PSYoungGen: 86112K->32K(86528K)] 87924K->1860K(172544K), 0.0005687 secs] [Times: user=0.00 sys=0.00, real=0.01 secs] 
+[GC (Allocation Failure) [PSYoungGen: 86048K->32K(86528K)] 87876K->1860K(172544K), 0.0005218 secs] [Times: user=0.00 sys=0.00, real=0.00 secs] 
+[GC (Allocation Failure) [PSYoungGen: 86048K->128K(86528K)] 87876K->1956K(172544K), 0.0007367 secs] [Times: user=0.00 sys=0.00, real=0.00 secs] 
+[GC (Allocation Failure) [PSYoungGen: 86144K->64K(86528K)] 87972K->1892K(172544K), 0.0005766 secs] [Times: user=0.09 sys=0.00, real=0.01 secs] 
+[GC (Allocation Failure) [PSYoungGen: 86080K->32K(86528K)] 87908K->1860K(172544K), 0.0004744 secs] [Times: user=0.00 sys=0.00, real=0.01 secs] 
+[GC (Allocation Failure) [PSYoungGen: 86048K->32K(86528K)] 87876K->1860K(172544K), 0.0007328 secs] [Times: user=0.00 sys=0.00, real=0.00 secs] 
+[GC (Allocation Failure) [PSYoungGen: 86048K->32K(86528K)] 87876K->1860K(172544K), 0.0006445 secs] [Times: user=0.06 sys=0.00, real=0.01 secs] 
+[GC (Allocation Failure) [PSYoungGen: 86048K->128K(86528K)] 87876K->1956K(172544K), 0.0007283 secs] [Times: user=0.09 sys=0.00, real=0.01 secs] 
+[GC (Allocation Failure) [PSYoungGen: 86144K->96K(86528K)] 87972K->1924K(172544K), 0.0007302 secs] [Times: user=0.02 sys=0.00, real=0.01 secs] 
+[GC (Allocation Failure) [PSYoungGen: 86112K->64K(86528K)] 87940K->1892K(172544K), 0.0006538 secs] [Times: user=0.00 sys=0.00, real=0.00 secs] 
+[GC (Allocation Failure) [PSYoungGen: 86080K->64K(86528K)] 87908K->1892K(172544K), 0.0004833 secs] [Times: user=0.00 sys=0.02, real=0.01 secs] 
+[GC (Allocation Failure) [PSYoungGen: 86080K->64K(86528K)] 87908K->1892K(172544K), 0.0008617 secs] [Times: user=0.00 sys=0.00, real=0.00 secs] 
+[GC (Allocation Failure) [PSYoungGen: 86080K->64K(86528K)] 87908K->1892K(172544K), 0.0004901 secs] [Times: user=0.00 sys=0.01, real=0.01 secs] 
+[GC (Allocation Failure) [PSYoungGen: 86080K->32K(86528K)] 87908K->1860K(172544K), 0.0005404 secs] [Times: user=0.00 sys=0.00, real=0.01 secs] 
+[GC (Allocation Failure) [PSYoungGen: 86048K->64K(86528K)] 87876K->1892K(172544K), 0.0007015 secs] [Times: user=0.00 sys=0.00, real=0.01 secs] 
+[GC (Allocation Failure) [PSYoungGen: 86080K->64K(86528K)] 87908K->1892K(172544K), 0.0004370 secs] [Times: user=0.00 sys=0.00, real=0.01 secs] 
+[GC (Allocation Failure) [PSYoungGen: 86080K->64K(86528K)] 87908K->1892K(172544K), 0.0007392 secs] [Times: user=0.00 sys=0.02, real=0.01 secs] 
+[GC (Allocation Failure) [PSYoungGen: 86080K->64K(86528K)] 87908K->1892K(172544K), 0.0007730 secs] [Times: user=0.00 sys=0.00, real=0.00 secs] 
+[GC (Allocation Failure) [PSYoungGen: 86080K->128K(86528K)] 87908K->1956K(172544K), 0.0004555 secs] [Times: user=0.00 sys=0.00, real=0.00 secs] 
+[GC (Allocation Failure) [PSYoungGen: 86144K->32K(86528K)] 87972K->1860K(172544K), 0.0009221 secs] [Times: user=0.00 sys=0.02, real=0.01 secs] 
+[GC (Allocation Failure) [PSYoungGen: 86048K->32K(86528K)] 87876K->1860K(172544K), 0.0004184 secs] [Times: user=0.00 sys=0.00, real=0.00 secs] 
+508.230 ops/ms
+Iteration   8: [GC (Allocation Failure) [PSYoungGen: 86048K->128K(86528K)] 87876K->1956K(172544K), 0.0007049 secs] [Times: user=0.00 sys=0.00, real=0.01 secs] 
+[GC (Allocation Failure) [PSYoungGen: 86144K->64K(86528K)] 87972K->1932K(172544K), 0.0006240 secs] [Times: user=0.02 sys=0.00, real=0.01 secs] 
+[GC (Allocation Failure) [PSYoungGen: 86080K->64K(86528K)] 87948K->1932K(172544K), 0.0007581 secs] [Times: user=0.00 sys=0.02, real=0.01 secs] 
+[GC (Allocation Failure) [PSYoungGen: 86080K->96K(86528K)] 87948K->1964K(172544K), 0.0004738 secs] [Times: user=0.06 sys=0.00, real=0.01 secs] 
+[GC (Allocation Failure) [PSYoungGen: 86112K->96K(86528K)] 87980K->1964K(172544K), 0.0008589 secs] [Times: user=0.00 sys=0.02, real=0.01 secs] 
+[GC (Allocation Failure) [PSYoungGen: 86112K->96K(86528K)] 87980K->1964K(172544K), 0.0004703 secs] [Times: user=0.00 sys=0.02, real=0.01 secs] 
+[GC (Allocation Failure) [PSYoungGen: 86112K->128K(86528K)] 87980K->1996K(172544K), 0.0008002 secs] [Times: user=0.00 sys=0.00, real=0.00 secs] 
+[GC (Allocation Failure) [PSYoungGen: 86144K->32K(86528K)] 88012K->1900K(172544K), 0.0005767 secs] [Times: user=0.00 sys=0.00, real=0.01 secs] 
+[GC (Allocation Failure) [PSYoungGen: 86048K->96K(86528K)] 87916K->1964K(172544K), 0.0006548 secs] [Times: user=0.00 sys=0.00, real=0.01 secs] 
+[GC (Allocation Failure) [PSYoungGen: 86112K->64K(86528K)] 87980K->1932K(172544K), 0.0006477 secs] [Times: user=0.00 sys=0.00, real=0.00 secs] 
+[GC (Allocation Failure) [PSYoungGen: 86080K->32K(86528K)] 87948K->1900K(172544K), 0.0006776 secs] [Times: user=0.00 sys=0.00, real=0.01 secs] 
+[GC (Allocation Failure) [PSYoungGen: 86048K->96K(86528K)] 87916K->1964K(172544K), 0.0006907 secs] [Times: user=0.06 sys=0.00, real=0.01 secs] 
+[GC (Allocation Failure) [PSYoungGen: 86112K->96K(86528K)] 87980K->1964K(172544K), 0.0005527 secs] [Times: user=0.00 sys=0.00, real=0.01 secs] 
+[GC (Allocation Failure) [PSYoungGen: 86112K->96K(86528K)] 87980K->1964K(172544K), 0.0004911 secs] [Times: user=0.00 sys=0.00, real=0.00 secs] 
+[GC (Allocation Failure) [PSYoungGen: 86112K->32K(86528K)] 87980K->1900K(172544K), 0.0007331 secs] [Times: user=0.00 sys=0.00, real=0.01 secs] 
+[GC (Allocation Failure) [PSYoungGen: 86048K->96K(86528K)] 87916K->1964K(172544K), 0.0007046 secs] [Times: user=0.03 sys=0.00, real=0.01 secs] 
+[GC (Allocation Failure) [PSYoungGen: 86112K->64K(86528K)] 87980K->1932K(172544K), 0.0006117 secs] [Times: user=0.00 sys=0.00, real=0.00 secs] 
+[GC (Allocation Failure) [PSYoungGen: 86080K->96K(86528K)] 87948K->1964K(172544K), 0.0004694 secs] [Times: user=0.00 sys=0.00, real=0.01 secs] 
+[GC (Allocation Failure) [PSYoungGen: 86112K->32K(86528K)] 87980K->1900K(172544K), 0.0005500 secs] [Times: user=0.00 sys=0.00, real=0.00 secs] 
+[GC (Allocation Failure) [PSYoungGen: 86048K->32K(86528K)] 87916K->1900K(172544K), 0.0004732 secs] [Times: user=0.00 sys=0.01, real=0.01 secs] 
+484.582 ops/ms
+Iteration   9: [GC (Allocation Failure) [PSYoungGen: 86048K->96K(86528K)] 87916K->1964K(172544K), 0.0008450 secs] [Times: user=0.02 sys=0.00, real=0.01 secs] 
+[GC (Allocation Failure) [PSYoungGen: 86112K->192K(86528K)] 87980K->2108K(172544K), 0.0007140 secs] [Times: user=0.00 sys=0.00, real=0.00 secs] 
+[GC (Allocation Failure) [PSYoungGen: 86208K->32K(86528K)] 88124K->1948K(172544K), 0.0007219 secs] [Times: user=0.00 sys=0.00, real=0.01 secs] 
+[GC (Allocation Failure) [PSYoungGen: 86048K->96K(86528K)] 87964K->2012K(172544K), 0.0005707 secs] [Times: user=0.00 sys=0.00, real=0.01 secs] 
+[GC (Allocation Failure) [PSYoungGen: 86112K->64K(86528K)] 88028K->1980K(172544K), 0.0007559 secs] [Times: user=0.00 sys=0.00, real=0.00 secs] 
+[GC (Allocation Failure) [PSYoungGen: 86080K->64K(86528K)] 87996K->1980K(172544K), 0.0006298 secs] [Times: user=0.00 sys=0.00, real=0.00 secs] 
+[GC (Allocation Failure) [PSYoungGen: 86080K->96K(86528K)] 87996K->2012K(172544K), 0.0004414 secs] [Times: user=0.00 sys=0.00, real=0.01 secs] 
+[GC (Allocation Failure) [PSYoungGen: 86112K->96K(86528K)] 88028K->2012K(172544K), 0.0006243 secs] [Times: user=0.00 sys=0.00, real=0.01 secs] 
+[GC (Allocation Failure) [PSYoungGen: 86112K->32K(86528K)] 88028K->1948K(172544K), 0.0004624 secs] [Times: user=0.00 sys=0.00, real=0.01 secs] 
+[GC (Allocation Failure) [PSYoungGen: 86048K->32K(86528K)] 87964K->1948K(172544K), 0.0007844 secs] [Times: user=0.03 sys=0.00, real=0.01 secs] 
+[GC (Allocation Failure) [PSYoungGen: 86048K->64K(86528K)] 87964K->1980K(172544K), 0.0004554 secs] [Times: user=0.00 sys=0.00, real=0.01 secs] 
+[GC (Allocation Failure) [PSYoungGen: 86080K->96K(86528K)] 87996K->2012K(172544K), 0.0005879 secs] [Times: user=0.02 sys=0.02, real=0.01 secs] 
+[GC (Allocation Failure) [PSYoungGen: 86112K->32K(86528K)] 88028K->1948K(172544K), 0.0007303 secs] [Times: user=0.02 sys=0.00, real=0.01 secs] 
+[GC (Allocation Failure) [PSYoungGen: 86048K->64K(86528K)] 87964K->1980K(172544K), 0.0007724 secs] [Times: user=0.00 sys=0.01, real=0.01 secs] 
+[GC (Allocation Failure) [PSYoungGen: 86080K->64K(86528K)] 87996K->1980K(172544K), 0.0004651 secs] [Times: user=0.00 sys=0.02, real=0.01 secs] 
+[GC (Allocation Failure) [PSYoungGen: 86080K->96K(86528K)] 87996K->2012K(172544K), 0.0006218 secs] [Times: user=0.00 sys=0.02, real=0.01 secs] 
+[GC (Allocation Failure) [PSYoungGen: 86112K->32K(86528K)] 88028K->1948K(172544K), 0.0009208 secs] [Times: user=0.00 sys=0.00, real=0.01 secs] 
+[GC (Allocation Failure) [PSYoungGen: 86048K->64K(86528K)] 87964K->1980K(172544K), 0.0008564 secs] [Times: user=0.00 sys=0.00, real=0.01 secs] 
+[GC (Allocation Failure) [PSYoungGen: 86080K->64K(86528K)] 87996K->1980K(172544K), 0.0006531 secs] [Times: user=0.00 sys=0.02, real=0.01 secs] 
+[GC (Allocation Failure) [PSYoungGen: 86080K->64K(86528K)] 87996K->1980K(172544K), 0.0005079 secs] [Times: user=0.00 sys=0.00, real=0.00 secs] 
+502.900 ops/ms
+Iteration  10: [GC (Allocation Failure) [PSYoungGen: 86080K->128K(86528K)] 87996K->2044K(172544K), 0.0007688 secs] [Times: user=0.00 sys=0.02, real=0.00 secs] 
+[GC (Allocation Failure) [PSYoungGen: 86144K->64K(86528K)] 88060K->1996K(172544K), 0.0006807 secs] [Times: user=0.00 sys=0.00, real=0.01 secs] 
+[GC (Allocation Failure) [PSYoungGen: 86080K->64K(86528K)] 88012K->1996K(172544K), 0.0005615 secs] [Times: user=0.00 sys=0.00, real=0.00 secs] 
+[GC (Allocation Failure) [PSYoungGen: 86080K->96K(86528K)] 88012K->2028K(172544K), 0.0009116 secs] [Times: user=0.01 sys=0.00, real=0.02 secs] 
+[GC (Allocation Failure) [PSYoungGen: 86112K->32K(86528K)] 88044K->1964K(172544K), 0.0005541 secs] [Times: user=0.00 sys=0.02, real=0.01 secs] 
+[GC (Allocation Failure) [PSYoungGen: 86048K->64K(86528K)] 87980K->1996K(172544K), 0.0008943 secs] [Times: user=0.00 sys=0.00, real=0.02 secs] 
+[GC (Allocation Failure) [PSYoungGen: 86080K->64K(86528K)] 88012K->1996K(172544K), 0.0006091 secs] [Times: user=0.00 sys=0.00, real=0.01 secs] 
+[GC (Allocation Failure) [PSYoungGen: 86080K->96K(86528K)] 88012K->2028K(172544K), 0.0005278 secs] [Times: user=0.00 sys=0.00, real=0.01 secs] 
+[GC (Allocation Failure) [PSYoungGen: 86112K->32K(86528K)] 88044K->1964K(172544K), 0.0007318 secs] [Times: user=0.00 sys=0.00, real=0.00 secs] 
+[GC (Allocation Failure) [PSYoungGen: 86048K->64K(86528K)] 87980K->1996K(172544K), 0.0004807 secs] [Times: user=0.00 sys=0.01, real=0.01 secs] 
+[GC (Allocation Failure) [PSYoungGen: 86080K->32K(86528K)] 88012K->1964K(172544K), 0.0006511 secs] [Times: user=0.03 sys=0.00, real=0.00 secs] 
+[GC (Allocation Failure) [PSYoungGen: 86048K->64K(86528K)] 87980K->1996K(172544K), 0.0007978 secs] [Times: user=0.00 sys=0.00, real=0.01 secs] 
+[GC (Allocation Failure) [PSYoungGen: 86080K->32K(86528K)] 88012K->1964K(172544K), 0.0004990 secs] [Times: user=0.00 sys=0.00, real=0.01 secs] 
+[GC (Allocation Failure) [PSYoungGen: 86048K->64K(86528K)] 87980K->1996K(172544K), 0.0007115 secs] [Times: user=0.00 sys=0.00, real=0.01 secs] 
+[GC (Allocation Failure) [PSYoungGen: 86080K->64K(86528K)] 88012K->1996K(172544K), 0.0009777 secs] [Times: user=0.00 sys=0.00, real=0.01 secs] 
+[GC (Allocation Failure) [PSYoungGen: 86080K->96K(86528K)] 88012K->2028K(172544K), 0.0005672 secs] [Times: user=0.00 sys=0.00, real=0.00 secs] 
+[GC (Allocation Failure) [PSYoungGen: 86112K->32K(86528K)] 88044K->1964K(172544K), 0.0004858 secs] [Times: user=0.00 sys=0.00, real=0.01 secs] 
+[GC (Allocation Failure) [PSYoungGen: 86048K->64K(86528K)] 87980K->1996K(172544K), 0.0008651 secs] [Times: user=0.03 sys=0.00, real=0.01 secs] 
+[GC (Allocation Failure) [PSYoungGen: 86080K->64K(86528K)] 88012K->1996K(172544K), 0.0006225 secs] [Times: user=0.03 sys=0.00, real=0.00 secs] 
+[GC (Allocation Failure) [PSYoungGen: 86080K->96K(86528K)] 88012K->2028K(172544K), 0.0005967 secs] [Times: user=0.00 sys=0.00, real=0.00 secs] 
+[GC (Allocation Failure) [PSYoungGen: 86112K->32K(86528K)] 88044K->1964K(172544K), 0.0008005 secs] [Times: user=0.00 sys=0.00, real=0.01 secs] 
+500.612 ops/ms
+Heap
+ PSYoungGen      total 86528K, used 69788K [0x00000000fab00000, 0x0000000100000000, 0x0000000100000000)
+  eden space 86016K, 81% used [0x00000000fab00000,0x00000000fef1f3e0,0x00000000fff00000)
+  from space 512K, 6% used [0x00000000fff00000,0x00000000fff08000,0x00000000fff80000)
+  to   space 512K, 0% used [0x00000000fff80000,0x00000000fff80000,0x0000000100000000)
+ ParOldGen       total 86016K, used 1932K [0x00000000f0000000, 0x00000000f5400000, 0x00000000fab00000)
+  object space 86016K, 2% used [0x00000000f0000000,0x00000000f01e30a0,0x00000000f5400000)
+ Metaspace       used 6404K, capacity 6642K, committed 6784K, reserved 1056768K
+  class space    used 752K, capacity 837K, committed 896K, reserved 1048576K
+
+
+Result "com.cib.fix.benchmarks.FixParserBenchMark.benchMarkParserAllocationTestMediumMessage":
+  502.205 ±(99.9%) 15.999 ops/ms [Average]
+  (min, avg, max) = (484.013, 502.205, 517.558), stdev = 10.583
+  CI (99.9%): [486.205, 518.204] (assumes normal distribution)
+
+
+# JMH version: 1.21
+# VM version: JDK 1.8.0_441, Java HotSpot(TM) 64-Bit Server VM, 25.441-b07
+# VM invoker: C:\Program Files\Java\jre1.8.0_441\bin\java.exe
+# VM options: -Xmx256m -XX:+UnlockDiagnosticVMOptions -XX:+PrintCompilation -XX:+PrintAssembly
+# Warmup: 3 iterations, 1 s each
+# Measurement: 5 iterations, 1 s each
+# Timeout: 10 min per iteration
+# Threads: 1 thread, will synchronize iterations
+# Benchmark mode: Throughput, ops/time
+# Benchmark: com.cib.fix.benchmarks.FixParserBenchMark.benchMarkParserMemoryEfficiencyTest
+
+# Run progress: 25.49% complete, ETA 00:02:38
+# Fork: 1 of 1
+Java HotSpot(TM) 64-Bit Server VM warning: PrintAssembly is enabled; turning on DebugNonSafepoints to gain additional output
+     69    1       3       java.lang.String::charAt (29 bytes)
+<forked VM failed with exit code -1073740791>
+<stdout last='20 lines'>
+     69    1       3       java.lang.String::charAt (29 bytes)
+</stdout>
+<stderr last='20 lines'>
+Java HotSpot(TM) 64-Bit Server VM warning: PrintAssembly is enabled; turning on DebugNonSafepoints to gain additional output
+</stderr>
+
+# JMH version: 1.21
+# VM version: JDK 1.8.0_441, Java HotSpot(TM) 64-Bit Server VM, 25.441-b07
+# VM invoker: C:\Program Files\Java\jre1.8.0_441\bin\java.exe
+# VM options: -Xmx256m -XX:+UseSerialGC
+# Warmup: 3 iterations, 1 s each
+# Measurement: 5 iterations, 1 s each
+# Timeout: 10 min per iteration
+# Threads: 1 thread, will synchronize iterations
+# Benchmark mode: Throughput, ops/time
+# Benchmark: com.cib.fix.benchmarks.FixParserBenchMark.benchMarkParserThroughputMemoryTradeoff
+
+# Run progress: 25.49% complete, ETA 00:02:38
+# Fork: 1 of 1
+# Warmup Iteration   1: 475.588 ops/ms
+# Warmup Iteration   2: 507.938 ops/ms
+# Warmup Iteration   3: 506.507 ops/ms
+Iteration   1: 472.704 ops/ms
+Iteration   2: 451.323 ops/ms
+Iteration   3: 468.204 ops/ms
+Iteration   4: 468.131 ops/ms
+Iteration   5: 479.166 ops/ms
+
+
+Result "com.cib.fix.benchmarks.FixParserBenchMark.benchMarkParserThroughputMemoryTradeoff":
+  467.905 ±(99.9%) 39.689 ops/ms [Average]
+  (min, avg, max) = (451.323, 467.905, 479.166), stdev = 10.307
+  CI (99.9%): [428.216, 507.594] (assumes normal distribution)
 
 
 # JMH version: 1.21
@@ -341,13 +977,13 @@ Result "com.cib.fix.benchmarks.FixParserBenchMark.allocationTestSmallMessage":
 # Benchmark mode: Throughput, ops/time
 # Benchmark: com.cib.fix.benchmarks.FixParserBenchMark.memoryEfficiencyTest
 
-# Run progress: 16.05% complete, ETA 00:02:21
+# Run progress: 29.41% complete, ETA 00:02:32
 # Fork: 1 of 1
 Java HotSpot(TM) 64-Bit Server VM warning: PrintAssembly is enabled; turning on DebugNonSafepoints to gain additional output
-     50    1       3       java.lang.String::charAt (29 bytes)
+     99    1       3       java.lang.String::charAt (29 bytes)
 <forked VM failed with exit code -1073740791>
 <stdout last='20 lines'>
-     50    1       3       java.lang.String::charAt (29 bytes)
+     99    1       3       java.lang.String::charAt (29 bytes)
 </stdout>
 <stderr last='20 lines'>
 Java HotSpot(TM) 64-Bit Server VM warning: PrintAssembly is enabled; turning on DebugNonSafepoints to gain additional output
@@ -364,66 +1000,66 @@ Java HotSpot(TM) 64-Bit Server VM warning: PrintAssembly is enabled; turning on 
 # Benchmark mode: Throughput, ops/time
 # Benchmark: com.cib.fix.benchmarks.FixParserBenchMark.parseLargeMessage
 
-# Run progress: 16.05% complete, ETA 00:02:21
+# Run progress: 29.41% complete, ETA 00:02:32
 # Fork: 1 of 5
-# Warmup Iteration   1: 556.375 ops/ms
-# Warmup Iteration   2: 743.307 ops/ms
-# Warmup Iteration   3: 644.309 ops/ms
-Iteration   1: 778.877 ops/ms
-Iteration   2: 701.571 ops/ms
-Iteration   3: 681.288 ops/ms
-Iteration   4: 683.723 ops/ms
-Iteration   5: 656.032 ops/ms
+# Warmup Iteration   1: 894.923 ops/ms
+# Warmup Iteration   2: 911.347 ops/ms
+# Warmup Iteration   3: 913.405 ops/ms
+Iteration   1: 872.280 ops/ms
+Iteration   2: 915.358 ops/ms
+Iteration   3: 888.105 ops/ms
+Iteration   4: 882.836 ops/ms
+Iteration   5: 849.630 ops/ms
 
-# Run progress: 20.99% complete, ETA 00:02:17
+# Run progress: 33.33% complete, ETA 00:02:26
 # Fork: 2 of 5
-# Warmup Iteration   1: 685.532 ops/ms
-# Warmup Iteration   2: 717.932 ops/ms
-# Warmup Iteration   3: 546.187 ops/ms
-Iteration   1: 662.915 ops/ms
-Iteration   2: 616.852 ops/ms
-Iteration   3: 724.324 ops/ms
-Iteration   4: 588.878 ops/ms
-Iteration   5: 673.144 ops/ms
+# Warmup Iteration   1: 833.248 ops/ms
+# Warmup Iteration   2: 856.455 ops/ms
+# Warmup Iteration   3: 734.502 ops/ms
+Iteration   1: 798.686 ops/ms
+Iteration   2: 873.922 ops/ms
+Iteration   3: 887.707 ops/ms
+Iteration   4: 876.582 ops/ms
+Iteration   5: 891.356 ops/ms
 
-# Run progress: 25.93% complete, ETA 00:02:08
+# Run progress: 37.25% complete, ETA 00:02:17
 # Fork: 3 of 5
-# Warmup Iteration   1: 602.134 ops/ms
-# Warmup Iteration   2: 626.120 ops/ms
-# Warmup Iteration   3: 693.333 ops/ms
-Iteration   1: 682.775 ops/ms
-Iteration   2: 673.962 ops/ms
-Iteration   3: 691.952 ops/ms
-Iteration   4: 614.182 ops/ms
-Iteration   5: 637.901 ops/ms
+# Warmup Iteration   1: 875.409 ops/ms
+# Warmup Iteration   2: 860.087 ops/ms
+# Warmup Iteration   3: 904.410 ops/ms
+Iteration   1: 887.670 ops/ms
+Iteration   2: 899.028 ops/ms
+Iteration   3: 881.756 ops/ms
+Iteration   4: 900.722 ops/ms
+Iteration   5: 879.611 ops/ms
 
-# Run progress: 30.86% complete, ETA 00:01:59
+# Run progress: 41.18% complete, ETA 00:02:08
 # Fork: 4 of 5
-# Warmup Iteration   1: 667.047 ops/ms
-# Warmup Iteration   2: 644.482 ops/ms
-# Warmup Iteration   3: 656.203 ops/ms
-Iteration   1: 523.367 ops/ms
-Iteration   2: 632.484 ops/ms
-Iteration   3: 617.706 ops/ms
-Iteration   4: 678.806 ops/ms
-Iteration   5: 580.368 ops/ms
+# Warmup Iteration   1: 899.831 ops/ms
+# Warmup Iteration   2: 839.957 ops/ms
+# Warmup Iteration   3: 870.820 ops/ms
+Iteration   1: 884.837 ops/ms
+Iteration   2: 866.881 ops/ms
+Iteration   3: 886.963 ops/ms
+Iteration   4: 881.925 ops/ms
+Iteration   5: 853.833 ops/ms
 
-# Run progress: 35.80% complete, ETA 00:01:50
+# Run progress: 45.10% complete, ETA 00:01:59
 # Fork: 5 of 5
-# Warmup Iteration   1: 623.360 ops/ms
-# Warmup Iteration   2: 611.125 ops/ms
-# Warmup Iteration   3: 567.222 ops/ms
-Iteration   1: 556.983 ops/ms
-Iteration   2: 577.679 ops/ms
-Iteration   3: 676.442 ops/ms
-Iteration   4: 716.264 ops/ms
-Iteration   5: 751.559 ops/ms
+# Warmup Iteration   1: 849.914 ops/ms
+# Warmup Iteration   2: 895.935 ops/ms
+# Warmup Iteration   3: 892.407 ops/ms
+Iteration   1: 909.741 ops/ms
+Iteration   2: 865.079 ops/ms
+Iteration   3: 853.610 ops/ms
+Iteration   4: 859.264 ops/ms
+Iteration   5: 831.108 ops/ms
 
 
 Result "com.cib.fix.benchmarks.FixParserBenchMark.parseLargeMessage":
-  655.201 ±(99.9%) 45.615 ops/ms [Average]
-  (min, avg, max) = (523.367, 655.201, 778.877), stdev = 60.894
-  CI (99.9%): [609.587, 700.816] (assumes normal distribution)
+  875.140 ±(99.9%) 18.711 ops/ms [Average]
+  (min, avg, max) = (798.686, 875.140, 915.358), stdev = 24.979
+  CI (99.9%): [856.429, 893.850] (assumes normal distribution)
 
 
 # JMH version: 1.21
@@ -437,66 +1073,66 @@ Result "com.cib.fix.benchmarks.FixParserBenchMark.parseLargeMessage":
 # Benchmark mode: Throughput, ops/time
 # Benchmark: com.cib.fix.benchmarks.FixParserBenchMark.parseMediumMessage
 
-# Run progress: 40.74% complete, ETA 00:01:42
+# Run progress: 49.02% complete, ETA 00:01:51
 # Fork: 1 of 5
-# Warmup Iteration   1: 2899.137 ops/ms
-# Warmup Iteration   2: 3016.192 ops/ms
-# Warmup Iteration   3: 1994.851 ops/ms
-Iteration   1: 2582.202 ops/ms
-Iteration   2: 2334.557 ops/ms
-Iteration   3: 1968.201 ops/ms
-Iteration   4: 2001.748 ops/ms
-Iteration   5: 1934.623 ops/ms
+# Warmup Iteration   1: 3275.200 ops/ms
+# Warmup Iteration   2: 3365.708 ops/ms
+# Warmup Iteration   3: 2870.004 ops/ms
+Iteration   1: 2871.244 ops/ms
+Iteration   2: 2916.275 ops/ms
+Iteration   3: 2865.518 ops/ms
+Iteration   4: 2957.945 ops/ms
+Iteration   5: 2745.755 ops/ms
 
-# Run progress: 45.68% complete, ETA 00:01:33
+# Run progress: 52.94% complete, ETA 00:01:42
 # Fork: 2 of 5
-# Warmup Iteration   1: 2575.334 ops/ms
-# Warmup Iteration   2: 2498.789 ops/ms
-# Warmup Iteration   3: 2198.317 ops/ms
-Iteration   1: 1929.194 ops/ms
-Iteration   2: 2147.186 ops/ms
-Iteration   3: 1991.588 ops/ms
-Iteration   4: 2134.995 ops/ms
-Iteration   5: 2398.825 ops/ms
+# Warmup Iteration   1: 3380.298 ops/ms
+# Warmup Iteration   2: 3266.173 ops/ms
+# Warmup Iteration   3: 2652.701 ops/ms
+Iteration   1: 2726.613 ops/ms
+Iteration   2: 2660.657 ops/ms
+Iteration   3: 2741.745 ops/ms
+Iteration   4: 2603.626 ops/ms
+Iteration   5: 2513.703 ops/ms
 
-# Run progress: 50.62% complete, ETA 00:01:25
+# Run progress: 56.86% complete, ETA 00:01:33
 # Fork: 3 of 5
-# Warmup Iteration   1: 2996.670 ops/ms
-# Warmup Iteration   2: 1993.107 ops/ms
-# Warmup Iteration   3: 2511.064 ops/ms
-Iteration   1: 2776.355 ops/ms
-Iteration   2: 2427.999 ops/ms
-Iteration   3: 2648.823 ops/ms
-Iteration   4: 2266.240 ops/ms
-Iteration   5: 2241.750 ops/ms
+# Warmup Iteration   1: 3440.103 ops/ms
+# Warmup Iteration   2: 3241.679 ops/ms
+# Warmup Iteration   3: 2575.750 ops/ms
+Iteration   1: 2703.548 ops/ms
+Iteration   2: 2623.356 ops/ms
+Iteration   3: 2675.970 ops/ms
+Iteration   4: 2826.306 ops/ms
+Iteration   5: 2763.821 ops/ms
 
-# Run progress: 55.56% complete, ETA 00:01:16
+# Run progress: 60.78% complete, ETA 00:01:25
 # Fork: 4 of 5
-# Warmup Iteration   1: 2379.119 ops/ms
-# Warmup Iteration   2: 2893.784 ops/ms
-# Warmup Iteration   3: 2527.443 ops/ms
-Iteration   1: 2599.539 ops/ms
-Iteration   2: 2779.379 ops/ms
-Iteration   3: 2227.648 ops/ms
-Iteration   4: 2182.830 ops/ms
-Iteration   5: 2319.874 ops/ms
+# Warmup Iteration   1: 3234.490 ops/ms
+# Warmup Iteration   2: 3503.036 ops/ms
+# Warmup Iteration   3: 2733.293 ops/ms
+Iteration   1: 2784.625 ops/ms
+Iteration   2: 2714.112 ops/ms
+Iteration   3: 2681.860 ops/ms
+Iteration   4: 2748.706 ops/ms
+Iteration   5: 2547.022 ops/ms
 
-# Run progress: 60.49% complete, ETA 00:01:07
+# Run progress: 64.71% complete, ETA 00:01:16
 # Fork: 5 of 5
-# Warmup Iteration   1: 2618.328 ops/ms
-# Warmup Iteration   2: 3389.045 ops/ms
-# Warmup Iteration   3: 2770.206 ops/ms
-Iteration   1: 2340.944 ops/ms
-Iteration   2: 2119.168 ops/ms
-Iteration   3: 2528.724 ops/ms
-Iteration   4: 2815.768 ops/ms
-Iteration   5: 2659.824 ops/ms
+# Warmup Iteration   1: 3107.436 ops/ms
+# Warmup Iteration   2: 3114.680 ops/ms
+# Warmup Iteration   3: 2449.096 ops/ms
+Iteration   1: 2640.511 ops/ms
+Iteration   2: 2546.717 ops/ms
+Iteration   3: 2401.342 ops/ms
+Iteration   4: 2335.837 ops/ms
+Iteration   5: 2395.493 ops/ms
 
 
 Result "com.cib.fix.benchmarks.FixParserBenchMark.parseMediumMessage":
-  2334.319 ±(99.9%) 208.953 ops/ms [Average]
-  (min, avg, max) = (1929.194, 2334.319, 2815.768), stdev = 278.946
-  CI (99.9%): [2125.366, 2543.272] (assumes normal distribution)
+  2679.692 ±(99.9%) 119.553 ops/ms [Average]
+  (min, avg, max) = (2335.837, 2679.692, 2957.945), stdev = 159.600
+  CI (99.9%): [2560.139, 2799.246] (assumes normal distribution)
 
 
 # JMH version: 1.21
@@ -510,66 +1146,66 @@ Result "com.cib.fix.benchmarks.FixParserBenchMark.parseMediumMessage":
 # Benchmark mode: Throughput, ops/time
 # Benchmark: com.cib.fix.benchmarks.FixParserBenchMark.parseSmallMessage
 
-# Run progress: 65.43% complete, ETA 00:00:59
+# Run progress: 68.63% complete, ETA 00:01:08
 # Fork: 1 of 5
-# Warmup Iteration   1: 9254.429 ops/ms
-# Warmup Iteration   2: 10125.585 ops/ms
-# Warmup Iteration   3: 9507.216 ops/ms
-Iteration   1: 9616.648 ops/ms
-Iteration   2: 5970.052 ops/ms
-Iteration   3: 5529.817 ops/ms
-Iteration   4: 5516.904 ops/ms
-Iteration   5: 4881.067 ops/ms
+# Warmup Iteration   1: 10121.845 ops/ms
+# Warmup Iteration   2: 10043.345 ops/ms
+# Warmup Iteration   3: 7278.471 ops/ms
+Iteration   1: 8980.496 ops/ms
+Iteration   2: 10027.577 ops/ms
+Iteration   3: 10063.641 ops/ms
+Iteration   4: 10427.935 ops/ms
+Iteration   5: 10273.868 ops/ms
 
-# Run progress: 70.37% complete, ETA 00:00:50
+# Run progress: 72.55% complete, ETA 00:00:59
 # Fork: 2 of 5
-# Warmup Iteration   1: 8416.110 ops/ms
-# Warmup Iteration   2: 8807.058 ops/ms
-# Warmup Iteration   3: 6179.519 ops/ms
-Iteration   1: 4417.008 ops/ms
-Iteration   2: 4521.683 ops/ms
-Iteration   3: 4503.569 ops/ms
-Iteration   4: 4407.915 ops/ms
-Iteration   5: 4448.570 ops/ms
+# Warmup Iteration   1: 11570.410 ops/ms
+# Warmup Iteration   2: 11970.790 ops/ms
+# Warmup Iteration   3: 10351.296 ops/ms
+Iteration   1: 10163.948 ops/ms
+Iteration   2: 10061.801 ops/ms
+Iteration   3: 10540.426 ops/ms
+Iteration   4: 9821.139 ops/ms
+Iteration   5: 10458.925 ops/ms
 
-# Run progress: 75.31% complete, ETA 00:00:42
+# Run progress: 76.47% complete, ETA 00:00:51
 # Fork: 3 of 5
-# Warmup Iteration   1: 10637.365 ops/ms
-# Warmup Iteration   2: 8753.340 ops/ms
-# Warmup Iteration   3: 7302.746 ops/ms
-Iteration   1: 4566.095 ops/ms
-Iteration   2: 4418.688 ops/ms
-Iteration   3: 4821.993 ops/ms
-Iteration   4: 4297.280 ops/ms
-Iteration   5: 4404.997 ops/ms
+# Warmup Iteration   1: 12038.867 ops/ms
+# Warmup Iteration   2: 11988.874 ops/ms
+# Warmup Iteration   3: 10181.778 ops/ms
+Iteration   1: 10207.501 ops/ms
+Iteration   2: 10622.810 ops/ms
+Iteration   3: 10503.331 ops/ms
+Iteration   4: 10385.058 ops/ms
+Iteration   5: 10094.621 ops/ms
 
-# Run progress: 80.25% complete, ETA 00:00:33
+# Run progress: 80.39% complete, ETA 00:00:42
 # Fork: 4 of 5
-# Warmup Iteration   1: 9221.099 ops/ms
-# Warmup Iteration   2: 10117.038 ops/ms
-# Warmup Iteration   3: 7612.986 ops/ms
-Iteration   1: 3974.904 ops/ms
-Iteration   2: 4344.988 ops/ms
-Iteration   3: 4406.163 ops/ms
-Iteration   4: 4377.859 ops/ms
-Iteration   5: 4404.215 ops/ms
+# Warmup Iteration   1: 11472.417 ops/ms
+# Warmup Iteration   2: 11638.572 ops/ms
+# Warmup Iteration   3: 9997.975 ops/ms
+Iteration   1: 9975.884 ops/ms
+Iteration   2: 9745.626 ops/ms
+Iteration   3: 9349.131 ops/ms
+Iteration   4: 9471.311 ops/ms
+Iteration   5: 9704.045 ops/ms
 
-# Run progress: 85.19% complete, ETA 00:00:25
+# Run progress: 84.31% complete, ETA 00:00:34
 # Fork: 5 of 5
-# Warmup Iteration   1: 10812.336 ops/ms
-# Warmup Iteration   2: 11384.490 ops/ms
-# Warmup Iteration   3: 7320.097 ops/ms
-Iteration   1: 4439.474 ops/ms
-Iteration   2: 4444.256 ops/ms
-Iteration   3: 4480.585 ops/ms
-Iteration   4: 4482.592 ops/ms
-Iteration   5: 4406.544 ops/ms
+# Warmup Iteration   1: 11419.263 ops/ms
+# Warmup Iteration   2: 12672.172 ops/ms
+# Warmup Iteration   3: 10019.580 ops/ms
+Iteration   1: 10387.366 ops/ms
+Iteration   2: 10024.847 ops/ms
+Iteration   3: 10067.922 ops/ms
+Iteration   4: 10216.045 ops/ms
+Iteration   5: 9913.765 ops/ms
 
 
 Result "com.cib.fix.benchmarks.FixParserBenchMark.parseSmallMessage":
-  4803.355 ±(99.9%) 820.754 ops/ms [Average]
-  (min, avg, max) = (3974.904, 4803.355, 9616.648), stdev = 1095.683
-  CI (99.9%): [3982.601, 5624.108] (assumes normal distribution)
+  10059.561 ±(99.9%) 293.560 ops/ms [Average]
+  (min, avg, max) = (8980.496, 10059.561, 10622.810), stdev = 391.894
+  CI (99.9%): [9766.001, 10353.120] (assumes normal distribution)
 
 
 # JMH version: 1.21
@@ -583,25 +1219,25 @@ Result "com.cib.fix.benchmarks.FixParserBenchMark.parseSmallMessage":
 # Benchmark mode: Throughput, ops/time
 # Benchmark: com.cib.fix.benchmarks.FixParserBenchMark.throughputMemoryTradeoff
 
-# Run progress: 90.12% complete, ETA 00:00:16
+# Run progress: 88.24% complete, ETA 00:00:25
 # Fork: 1 of 1
-# Warmup Iteration   1: 1346.125 ops/ms
-# Warmup Iteration   2: 1059.896 ops/ms
-# Warmup Iteration   3: 945.095 ops/ms
-Iteration   1: 608.063 ops/ms
-Iteration   2: 628.345 ops/ms
-Iteration   3: 623.566 ops/ms
-Iteration   4: 631.730 ops/ms
-Iteration   5: 617.891 ops/ms
+# Warmup Iteration   1: 1422.700 ops/ms
+# Warmup Iteration   2: 1381.989 ops/ms
+# Warmup Iteration   3: 1451.576 ops/ms
+Iteration   1: 1469.122 ops/ms
+Iteration   2: 1482.395 ops/ms
+Iteration   3: 1469.704 ops/ms
+Iteration   4: 1418.669 ops/ms
+Iteration   5: 1504.468 ops/ms
 
 
 Result "com.cib.fix.benchmarks.FixParserBenchMark.throughputMemoryTradeoff":
-  621.919 ±(99.9%) 35.941 ops/ms [Average]
-  (min, avg, max) = (608.063, 621.919, 631.730), stdev = 9.334
-  CI (99.9%): [585.978, 657.860] (assumes normal distribution)
+  1468.872 ±(99.9%) 121.326 ops/ms [Average]
+  (min, avg, max) = (1418.669, 1468.872, 1504.468), stdev = 31.508
+  CI (99.9%): [1347.545, 1590.198] (assumes normal distribution)
 
 
-# Run complete. Total time: 00:02:43
+# Run complete. Total time: 00:03:19
 
 REMEMBER: The numbers below are just data. To gain reusable insights, you need to follow up on
 why the numbers are the way they are. Use profilers (see -prof, -lprof), design factorial
@@ -609,10 +1245,13 @@ experiments, perform baseline and negative tests that provide experimental contr
 the benchmarking environment is safe on JVM/OS/HW level, ask for reviews from the domain experts.
 Do not assume the numbers tell you what you want them to tell.
 
-Benchmark                                       Mode  Cnt     Score     Error   Units
-FixParserBenchMark.allocationTestHugeMessage   thrpt   10    47.599 ±   7.435  ops/ms
-FixParserBenchMark.allocationTestSmallMessage  thrpt   10  3366.963 ± 485.210  ops/ms
-FixParserBenchMark.parseLargeMessage           thrpt   25   655.201 ±  45.615  ops/ms
-FixParserBenchMark.parseMediumMessage          thrpt   25  2334.319 ± 208.953  ops/ms
-FixParserBenchMark.parseSmallMessage           thrpt   25  4803.355 ± 820.754  ops/ms
-FixParserBenchMark.throughputMemoryTradeoff    thrpt    5   621.919 ±  35.941  ops/ms
+Benchmark                                                       Mode  Cnt      Score     Error   Units
+FixParserBenchMark.allocationTestHugeMessage                   thrpt   10     67.626 ±   5.070  ops/ms
+FixParserBenchMark.allocationTestMediumMessage                 thrpt   10   1157.247 ±  85.815  ops/ms
+FixParserBenchMark.allocationTestSmallMessage                  thrpt   10   4487.053 ± 435.367  ops/ms
+FixParserBenchMark.benchMarkParserAllocationTestMediumMessage  thrpt   10    502.205 ±  15.999  ops/ms
+FixParserBenchMark.benchMarkParserThroughputMemoryTradeoff     thrpt    5    467.905 ±  39.689  ops/ms
+FixParserBenchMark.parseLargeMessage                           thrpt   25    875.140 ±  18.711  ops/ms
+FixParserBenchMark.parseMediumMessage                          thrpt   25   2679.692 ± 119.553  ops/ms
+FixParserBenchMark.parseSmallMessage                           thrpt   25  10059.561 ± 293.560  ops/ms
+FixParserBenchMark.throughputMemoryTradeoff                    thrpt    5   1468.872 ± 121.326  ops/ms
